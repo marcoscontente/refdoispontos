@@ -2,6 +2,16 @@
   "maximoPorLoja": 10,
   "ofertas": [
     {
+      "id": "tg-76",
+      "loja": "amazon",
+      "titulo": "About Vintage Relógio masculino cronógrafo 1815, aço inoxidável, analógico, à prova d'água",
+      "preco": 3870.99,
+      "link": "https://link.amazon/B0hZi8Gn5",
+      "data": "2026-11-14T20:55:00+00:00",
+      "parcelas": "10x de R$ 387,18 sem juros",
+      "imagem": "assets/img/ofertas/tg-76.jpg"
+    },
+    {
       "id": "tg-75",
       "loja": "amazon",
       "titulo": "Cadola Relógio masculino 42 mm Testa Di Toro cronógrafo 917k edição limitada com pulseira",
@@ -96,17 +106,6 @@
       "precoDe": 552.32,
       "parcelas": "9x de R$ 53,75 sem juros",
       "imagem": "assets/img/ofertas/tg-67.jpg"
-    },
-    {
-      "id": "tg-66",
-      "loja": "amazon",
-      "titulo": "Casio MRW200H Series | Unisex Analog Watch | 100M WR | Stainless Steel Case",
-      "preco": 183.2,
-      "link": "https://link.amazon/B09ygBLi1",
-      "data": "2026-11-14T18:18:21+00:00",
-      "precoDe": 238.14,
-      "parcelas": "6x de R$ 30,55 sem juros",
-      "imagem": "assets/img/ofertas/tg-66.jpg"
     },
     {
       "id": "tg-56",
