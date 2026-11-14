@@ -2,53 +2,113 @@
   "maximoPorLoja": 10,
   "ofertas": [
     {
-      "exemplo": true,
-      "loja": "amazon",
-      "titulo": "Exemplo: nome do relógio como aparece na Amazon",
-      "preco": 399.9,
-      "precoDe": 549.9,
-      "imagem": "",
-      "link": "https://www.amazon.com.br/",
-      "data": "2026-11-13"
-    },
-    {
-      "exemplo": true,
-      "loja": "amazon",
-      "titulo": "Exemplo: segunda oferta da Amazon",
-      "preco": 1299,
-      "precoDe": 1599,
-      "imagem": "",
-      "link": "https://www.amazon.com.br/",
-      "data": "2026-11-12"
-    },
-    {
-      "exemplo": true,
-      "loja": "amazon",
-      "titulo": "Exemplo: oferta sem preço antigo",
-      "preco": 219.9,
-      "imagem": "",
-      "link": "https://www.amazon.com.br/",
-      "data": "2026-11-11"
-    },
-    {
-      "exemplo": true,
+      "id": "tg-14",
       "loja": "mercadolivre",
-      "titulo": "Exemplo: nome do relógio como aparece no Mercado Livre",
-      "preco": 899,
-      "precoDe": 1190,
-      "imagem": "",
-      "link": "https://www.mercadolivre.com.br/",
-      "data": "2026-11-13"
+      "titulo": "Seculus Relógio Masculino Spin Master Em Aço Prata",
+      "preco": 1159,
+      "link": "https://meli.la/1b2wSzk",
+      "data": "2026-11-14T12:37:12+00:00",
+      "precoDe": 1199,
+      "parcelas": "10x de R$ 119,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-14.jpg"
     },
     {
-      "exemplo": true,
+      "id": "tg-13",
       "loja": "mercadolivre",
-      "titulo": "Exemplo: segunda oferta do Mercado Livre",
-      "preco": 349.9,
-      "precoDe": 429.9,
-      "imagem": "",
-      "link": "https://www.mercadolivre.com.br/",
-      "data": "2026-11-10"
+      "titulo": "Relógio Masculino Casio Analógico em Aço Inoxidável 46 Milímetros com Fundo Preto Dial Luminescente",
+      "preco": 480,
+      "link": "https://meli.la/1k2Cvdh",
+      "data": "2026-11-14T12:32:58+00:00",
+      "precoDe": 633.5,
+      "parcelas": "12x de R$ 50,28",
+      "imagem": "assets/img/ofertas/tg-13.jpg"
+    },
+    {
+      "id": "tg-12",
+      "loja": "amazon",
+      "titulo": "Casio FT500WC Series | Men's Analog Watch | 100 Meter Water Resistance | LED",
+      "preco": 218,
+      "link": "https://link.amazon/B07RPC7oo",
+      "data": "2026-11-14T12:17:36+00:00",
+      "precoDe": 301.6,
+      "parcelas": "6x de R$ 36,35 sem juros",
+      "imagem": "assets/img/ofertas/tg-12.jpg"
+    },
+    {
+      "id": "tg-11",
+      "loja": "mercadolivre",
+      "titulo": "Relógio de pulso Orient MBSS1155A com correia de aço inoxidável cor prata - fundo",
+      "preco": 332.22,
+      "link": "https://meli.la/1iekKJD",
+      "data": "2026-11-14T12:17:29+00:00",
+      "precoDe": 395.72,
+      "parcelas": "6x de R$ 55,37 sem juros",
+      "imagem": "assets/img/ofertas/tg-11.jpg"
+    },
+    {
+      "id": "tg-10",
+      "loja": "mercadolivre",
+      "titulo": "Seculus Relógio Masculino Spin Master Couro Marrom",
+      "preco": 1259,
+      "link": "https://meli.la/2KDS9wU",
+      "data": "2026-11-14T12:17:17+00:00",
+      "precoDe": 1299,
+      "parcelas": "10x de R$ 129,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-10.jpg"
+    },
+    {
+      "id": "tg-9",
+      "loja": "amazon",
+      "titulo": "Relógio Casio G-Shock DW-5600UE-1DR - Iluminação LED",
+      "preco": 303.99,
+      "link": "https://link.amazon/B0eKI0Lki",
+      "data": "2026-11-14T12:02:27+00:00",
+      "precoDe": 449,
+      "parcelas": "6x de R$ 50,69 sem juros",
+      "imagem": "assets/img/ofertas/tg-9.jpg"
+    },
+    {
+      "id": "tg-8",
+      "loja": "amazon",
+      "titulo": "Timex Expedition Scout 40mm Men’s Analog Watch | Luminous Hands | Durable Comfortable Adjustable",
+      "preco": 316.56,
+      "link": "https://link.amazon/B00ni5HKh",
+      "data": "2026-11-14T11:47:02+00:00",
+      "parcelas": "6x de R$ 52,76 sem juros",
+      "imagem": "assets/img/ofertas/tg-8.jpg"
+    },
+    {
+      "id": "tg-7",
+      "loja": "amazon",
+      "titulo": "Casio Série MRW200H | Relógio analógico masculino | Design esportivo | Resistência à água",
+      "preco": 255.9,
+      "link": "https://link.amazon/B08vscZ1F",
+      "data": "2026-11-14T11:31:15+00:00",
+      "precoDe": 284.4,
+      "parcelas": "6x de R$ 42,65 sem juros",
+      "imagem": "assets/img/ofertas/tg-7.jpg"
+    },
+    {
+      "id": "tg-6",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Expedition Gallatin de 45 mm",
+      "preco": 405.95,
+      "link": "https://link.amazon/B0iF9uewJ",
+      "data": "2026-11-14T11:16:15+00:00",
+      "precoDe": 767.49,
+      "parcelas": "8x de R$ 50,77 sem juros",
+      "imagem": "assets/img/ofertas/tg-6.jpg"
+    },
+    {
+      "id": "tg-5",
+      "loja": "amazon",
+      "titulo": "Casio Illuminator Alarm Chronograph Digital Watch",
+      "preco": 172.98,
+      "link": "https://link.amazon/B0fw0Q3RR",
+      "data": "2026-11-14T11:00:41+00:00",
+      "precoDe": 199,
+      "parcelas": "5x de R$ 34,62 sem juros",
+      "imagem": "assets/img/ofertas/tg-5.jpg"
     }
   ]
 }
