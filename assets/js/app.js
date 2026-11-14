@@ -41,7 +41,7 @@ function montarSite(site) {
   $('abertura-nota').textContent = a.nota;
   if (a.alternativa) {
     $('abertura-alternativa').textContent = a.alternativa;
-    $('abertura-alternativa').hidden = false;
+    $('abertura-telegram').hidden = false;
   }
 
   const h = site.historia;

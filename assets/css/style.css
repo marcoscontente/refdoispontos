@@ -137,15 +137,11 @@ summary:focus-visible,
 .abertura .texto { margin-bottom: 26px; max-width: 34ch; }
 .abertura .nota { margin-top: 12px; color: var(--ref-charcoal); opacity: 0.75; }
 
-.abertura .alternativa {
-  display: inline-block;
-  margin-top: 14px;
-  padding: 10px 0;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--ref-teal);
-  text-underline-offset: 4px;
-}
+/* Cores das próprias plataformas; texto escuro para manter a leitura. */
+.btn-whatsapp { background: #25D366; color: #06301F; }
+.btn-telegram { background: #229ED9; color: #04263A; margin-top: 10px; }
+.btn .icone { flex: 0 0 26px; width: 26px; height: 26px; fill: currentColor; }
+.btn .icone + span { flex: 1; }
 
 /* Ação da vez */
 
