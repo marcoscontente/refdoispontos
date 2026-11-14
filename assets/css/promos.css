@@ -151,3 +151,6 @@ body{padding-bottom:150px}
 /* Texto dos botões sempre em uma linha */
 .cta{white-space:nowrap;padding-left:14px;padding-right:14px;font-size:clamp(12px,4vw,16px)}
 .sticky .cta{font-size:clamp(12px,3.9vw,15px)}
+/* Cores dos aplicativos em todos os temas, iguais às do site principal */
+body .hero .cta:not(.tg),body .sticky .cta:not(.tg){background:#25D366;color:#06301F;box-shadow:0 10px 24px rgba(37,211,102,.22)}
+body .hero .cta.tg,body .sticky .cta.tg{color:#04263A}
