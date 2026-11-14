@@ -16,16 +16,6 @@
       "texto": "Achados e cupons de relógios de R$ 100 a R$ 3.000 — do primeiro Casio ao grail.",
       "itens": [
         {
-          "marca": "ORIENT · SOLARTECH",
-          "modelo": "MBSS1492",
-          "fato": "O “strap monster” da Orient, movido a luz.",
-          "preco": "262",
-          "imagem": "assets/img/promos/orient-solartech.webp",
-          "anuncios": [
-            "1f"
-          ]
-        },
-        {
           "marca": "CASIO · G-SHOCK",
           "modelo": "DW-5600UE",
           "fato": "O beater quadrado, praticamente indestrutível.",
@@ -49,26 +39,46 @@
       ]
     },
     {
-      "slug": "casio-g-shock",
+      "slug": "entrada",
       "categoria": "entrada",
-      "titulo": "Casio e G-Shock com preço de achado — REF: PROMOS",
-      "descricao": "G-Shock, Casio e os beaters que não saem do pulso — garimpados e conferidos antes de chegar até você.",
-      "chamada": "CASIO E G-SHOCK",
+      "titulo": "Achados de entrada: Casio, G-Shock e Orient — REF: PROMOS",
+      "descricao": "G-Shock, Casio, Orient e os beaters que não saem do pulso — garimpados e conferidos antes de chegar até você.",
+      "chamada": "ACHADOS DE ENTRADA",
       "linhas": [
         "ÍCONES",
         "COM PREÇO",
         "DE ACHADO."
       ],
-      "texto": "G-Shock, Casio e os beaters que não saem do pulso — garimpados e conferidos antes de chegar até você.",
+      "texto": "G-Shock, Casio, Orient e os beaters que não saem do pulso — garimpados e conferidos antes de chegar até você.",
       "itens": [
         {
           "marca": "CASIO · G-SHOCK",
           "modelo": "DW-5600UE",
-          "fato": "O beater quadrado, praticamente indestrutível.",
+          "fato": "O quadrado de 1983, praticamente indestrutível.",
           "preco": "212",
           "imagem": "assets/img/promos/dw5600ue.webp",
           "anuncios": [
             "1a45"
+          ]
+        },
+        {
+          "marca": "CASIO · DURO",
+          "modelo": "“BATMAN”",
+          "fato": "Diver de aço: bezel giratório e o preto com azul que deu o apelido.",
+          "preco": "458,10",
+          "imagem": "assets/img/promos/duro-batman.webp",
+          "anuncios": [
+            "1d2"
+          ]
+        },
+        {
+          "marca": "ORIENT · SOLARTECH",
+          "modelo": "MBSS1492",
+          "fato": "O “strap monster” da Orient, movido a luz.",
+          "preco": "262",
+          "imagem": "assets/img/promos/orient-solartech.webp",
+          "anuncios": [
+            "1f"
           ]
         },
         {
@@ -84,16 +94,6 @@
           "fato": "O G-Shock octogonal, analógico-digital e 200 m.",
           "preco": "337,37",
           "imagem": "assets/img/promos/ga2100.webp"
-        },
-        {
-          "marca": "CASIO · DURO",
-          "modelo": "MDV-107",
-          "fato": "O diver beater: bezel giratório e 200 m.",
-          "preco": "458,10",
-          "imagem": "assets/img/promos/duro.webp",
-          "anuncios": [
-            "1d2"
-          ]
         },
         {
           "marca": "CASIO",
@@ -191,9 +191,9 @@
         {
           "marca": "CASIO",
           "modelo": "MTP-B190D",
-          "fato": "Caixa retangular, algarismos romanos e 50 m.",
+          "fato": "Old money, preço de Casio: caixa retangular e algarismos romanos.",
           "preco": "432,13",
-          "imagem": "assets/img/promos/casio-mtpb190.webp",
+          "imagem": "assets/img/promos/casio-mtpb190-claro.webp",
           "anuncios": [
             "om1"
           ]
@@ -201,7 +201,7 @@
         {
           "marca": "SECULUS",
           "modelo": "TONNEAU",
-          "fato": "Caixa tonneau, couro preto e 5 ATM.",
+          "fato": "Tonneau: o formato que não sai de moda.",
           "preco": "392,44",
           "imagem": "assets/img/promos/seculus-tonneau.webp",
           "anuncios": [
@@ -211,7 +211,7 @@
         {
           "marca": "ORIENT",
           "modelo": "SAPPHIRE SLIM",
-          "fato": "Vidro de safira, caixa slim e algarismos romanos.",
+          "fato": "O dress que não pede atenção: caixa retangular e couro.",
           "preco": "808,20",
           "imagem": "assets/img/promos/orient-sapphire.webp",
           "anuncios": [
