@@ -58,6 +58,20 @@ function montarSite(site) {
     $('historia-video').href = h.video.link;
     $('historia-video').textContent = h.video.rotulo;
     $('historia-video').hidden = false;
+    // Reel do Instagram incorporado; o link simples só aparece se o endereço não for de reel.
+    const reel = h.video.link.match(/instagram\.com\/reel\/([\w-]+)/)?.[1];
+    if (reel) {
+      $('historia-reel').replaceChildren(el('iframe', {
+        src: `https://www.instagram.com/reel/${reel}/embed/`,
+        title: h.video.rotulo,
+        loading: 'lazy',
+        allow: 'autoplay; encrypted-media; picture-in-picture; fullscreen',
+        allowfullscreen: true,
+        scrolling: 'no',
+      }));
+      $('historia-reel').hidden = false;
+      $('historia-video').hidden = true; // o próprio reel já leva ao Instagram
+    }
   }
 
   $('lista-redes').replaceChildren(
