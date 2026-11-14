@@ -1,0 +1,10 @@
+# Hostinger: por padrão CSS e JS ficam 7 dias guardados no celular de quem já visitou.
+# Com 10 minutos, mudanças no site chegam a todo mundo no mesmo dia.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=600"
+  </FilesMatch>
+  <FilesMatch "\.(html|json)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
