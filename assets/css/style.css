@@ -138,8 +138,8 @@ summary:focus-visible,
 .abertura .nota { margin-top: 12px; color: var(--ref-charcoal); opacity: 0.75; }
 
 /* Cores das próprias plataformas; texto escuro para manter a leitura. */
-.btn-whatsapp { background: #25D366; color: #06301F; }
-.btn-telegram { background: #229ED9; color: #04263A; margin-top: 10px; }
+.btn-whatsapp { background: #25D366; color: #06301F; border-radius: 12px; }
+.btn-telegram { background: #229ED9; color: #04263A; border-radius: 12px; margin-top: 10px; }
 .btn .icone { flex: 0 0 26px; width: 26px; height: 26px; fill: currentColor; }
 .btn .icone + span { flex: 1; }
 
@@ -376,7 +376,26 @@ summary:focus-visible,
 
 .historia summary::-webkit-details-marker { display: none; }
 .historia details[open] summary { margin-bottom: 16px; }
-.historia details p { font-style: italic; }
+.historia .assinatura { margin-top: 18px; color: var(--ref-teal); }
+
+.historia .video {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+  min-height: 52px;
+  padding: 12px 16px;
+  border: 1px solid var(--ref-teal);
+  border-radius: 2px;
+  color: var(--ref-teal);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.historia .video::after { content: "▶"; font-size: 12px; }
 
 /* Redes */
 

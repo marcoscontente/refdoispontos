@@ -1,18 +1,28 @@
 {
   "promos": {
-    "nome": "REF:PROMOS",
+    "nome": "REF: PROMOS no WhatsApp",
     "descricao": "Ofertas de relógio da Amazon e do Mercado Livre, todo dia.",
     "modo": "encher",
     "grupos": [
-      { "nome": "REF:PROMOS", "link": "https://chat.whatsapp.com/GRIteFG2K497E6kuvxLQqR", "status": "aberto", "peso": 1 }
+      {
+        "nome": "REF:PROMOS",
+        "link": "https://chat.whatsapp.com/GRIteFG2K497E6kuvxLQqR",
+        "status": "aberto",
+        "peso": 1
+      }
     ]
   },
   "telegram": {
-    "nome": "REF:PROMOS no Telegram",
+    "nome": "REF: PROMOS no Telegram",
     "descricao": "As mesmas ofertas do REF:PROMOS, para quem prefere o Telegram.",
     "modo": "encher",
     "grupos": [
-      { "nome": "Telegram", "link": "https://t.me/refdoispontospromos", "status": "aberto", "peso": 1 }
+      {
+        "nome": "Telegram",
+        "link": "https://t.me/refdoispontospromos",
+        "status": "aberto",
+        "peso": 1
+      }
     ]
   },
   "community": {
@@ -20,7 +30,12 @@
     "descricao": "A confraria: conversa sobre relógio com quem gosta de relógio.",
     "modo": "encher",
     "grupos": [
-      { "nome": "REF:COMMUNITY", "link": "https://chat.whatsapp.com/HD9XzUnAVfSEVUCloUKiPc", "status": "aberto", "peso": 1 }
+      {
+        "nome": "REF:COMMUNITY",
+        "link": "https://chat.whatsapp.com/HD9XzUnAVfSEVUCloUKiPc",
+        "status": "aberto",
+        "peso": 1
+      }
     ]
   },
   "acao": {
@@ -28,7 +43,12 @@
     "descricao": "O grupo da ação que está rolando agora.",
     "modo": "encher",
     "grupos": [
-      { "nome": "Ação atual", "link": "https://chat.whatsapp.com/Dzzu8M5HcfMC6RSdD7AAsB", "status": "aberto", "peso": 1 }
+      {
+        "nome": "Ação atual",
+        "link": "https://chat.whatsapp.com/Dzzu8M5HcfMC6RSdD7AAsB",
+        "status": "aberto",
+        "peso": 1
+      }
     ]
   }
 }

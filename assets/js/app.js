@@ -50,6 +50,15 @@ function montarSite(site) {
     $('historia-completo').replaceChildren(...h.completo.map((p) => el('p', {}, p)));
     $('historia-mais').hidden = false;
   }
+  if (h.assinatura) {
+    $('historia-assinatura').textContent = h.assinatura;
+    $('historia-assinatura').hidden = false;
+  }
+  if (h.video?.link) {
+    $('historia-video').href = h.video.link;
+    $('historia-video').textContent = h.video.rotulo;
+    $('historia-video').hidden = false;
+  }
 
   $('lista-redes').replaceChildren(
     ...site.redes.map((r) =>

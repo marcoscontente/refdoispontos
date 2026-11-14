@@ -2,26 +2,51 @@
   "handle": "@refdoispontos",
   "assinatura": "Watches & Culture",
   "abertura": {
-    "titulo": ["PROMOÇÃO", "DE RELÓGIO", "CHEGA ANTES", "NO GRUPO."],
+    "titulo": [
+      "PROMOÇÃO",
+      "DE RELÓGIO",
+      "CHEGA ANTES",
+      "NO GRUPO."
+    ],
     "linhaVermelha": 4,
-    "texto": "Achados da Amazon e do Mercado Livre, garimpados pela REF: e enviados direto no seu WhatsApp.",
-    "botao": "Entrar no REF:PROMOS",
+    "texto": "Achados da Amazon e do Mercado Livre, garimpados pela REF: e enviados direto no seu WhatsApp ou Telegram.",
+    "botao": "REF: PROMOS no WhatsApp",
     "nota": "Gratuito · as mesmas ofertas nos dois",
-    "alternativa": "Entrar pelo Telegram"
+    "alternativa": "REF: PROMOS no Telegram"
   },
   "historia": {
     "resumo": [
-      "A REF: é um canal brasileiro sobre relógios e a cultura em volta deles.",
-      "Aqui o relógio é evidência de uma história: quem fez, por que fez e o que aquilo diz sobre a época."
+      "Eu usava smartwatch e nem sabia ver a hora num relógio de ponteiro. Descobri que ia ser pai e quis um objeto que contasse uma história minha para o meu filho. Uma herança.",
+      "Decidi comprar um relógio. Um. Quem gosta de relógio sabe que isso não existe."
     ],
     "completo": [
-      "[RASCUNHO] Troque este trecho pela história da REF: nas suas palavras: como começou, o que você procura em um relógio e por que os grupos existem."
-    ]
+      "Abri a porta errada. Marca, modelo, quartz ou automático, diver, cronógrafo, vintage. Vieram as justificativas: um relógio para o meu pai, um para a minha esposa, um para o meu irmão. Tudo presente, é claro.",
+      "Uma hora a família acabou e eu continuei pesquisando. Relógios que eu não ia comprar, modelos antigos, marcas desconhecidas, 50 abas abertas.",
+      "Até um amigo me cortar no meio de dez minutos de explicação sobre 38 e 40 mm. Ali eu percebi que não queria só ter relógio. Queria entender por que esse modelo existe, por que aquele calibre é importante, qual é a história daquele design.",
+      "E dividir isso com gente que gosta de falar mais de dez minutos sobre o assunto. Dessa curiosidade nasceu a REF:."
+    ],
+    "assinatura": "Marcos, @refdoispontos",
+    "video": {
+      "rotulo": "Assistir ao primeiro vídeo da REF:",
+      "link": "https://www.instagram.com/reel/Dd4tztgPOOE/"
+    }
   },
   "redes": [
-    { "nome": "Instagram", "handle": "@refdoispontos", "link": "https://www.instagram.com/refdoispontos" },
-    { "nome": "YouTube", "handle": "@refdoispontos", "link": "https://www.youtube.com/@refdoispontos" },
-    { "nome": "TikTok", "handle": "@refdoispontos", "link": "https://www.tiktok.com/@refdoispontos" }
+    {
+      "nome": "Instagram",
+      "handle": "@refdoispontos",
+      "link": "https://www.instagram.com/refdoispontos"
+    },
+    {
+      "nome": "YouTube",
+      "handle": "@refdoispontos",
+      "link": "https://www.youtube.com/@refdoispontos"
+    },
+    {
+      "nome": "TikTok",
+      "handle": "@refdoispontos",
+      "link": "https://www.tiktok.com/@refdoispontos"
+    }
   ],
   "rodape": {
     "afiliados": "Os links de oferta são links de afiliado: a REF: pode receber comissão pelas compras, sem custo extra para você. Como Associado da Amazon, a REF: ganha com compras qualificadas. Preços e estoque podem mudar a qualquer momento.",
