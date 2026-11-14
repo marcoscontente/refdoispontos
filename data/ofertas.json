@@ -2,6 +2,27 @@
   "maximoPorLoja": 10,
   "ofertas": [
     {
+      "id": "tg-24",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Casio Retangular Mtp-b190d-1bvdf-sc Wr 41mm Tank Prateado Preto",
+      "preco": 425,
+      "link": "https://meli.la/2ED1iSb",
+      "data": "2026-11-14T13:34:15+00:00",
+      "precoDe": 539,
+      "parcelas": "9x de R$ 51,67 sem juros",
+      "imagem": "assets/img/ofertas/tg-24.jpg"
+    },
+    {
+      "id": "tg-23",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Solartech Mbss1492 B2sx Prateado Off White",
+      "preco": 350,
+      "link": "https://meli.la/2i4Znbi",
+      "data": "2026-11-14T13:33:26+00:00",
+      "parcelas": "7x de R$ 50,00 sem juros",
+      "imagem": "assets/img/ofertas/tg-23.jpg"
+    },
+    {
       "id": "tg-22",
       "loja": "amazon",
       "titulo": "Casio POP Bio-Based Renewable Band LED Backlight Daily Alarm Digital Watch",
@@ -132,17 +153,6 @@
       "precoDe": 395.72,
       "parcelas": "6x de R$ 55,37 sem juros",
       "imagem": "assets/img/ofertas/tg-11.jpg"
-    },
-    {
-      "id": "tg-10",
-      "loja": "mercadolivre",
-      "titulo": "Seculus Relógio Masculino Spin Master Couro Marrom",
-      "preco": 1259,
-      "link": "https://meli.la/2KDS9wU",
-      "data": "2026-11-14T12:17:17+00:00",
-      "precoDe": 1299,
-      "parcelas": "10x de R$ 129,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-10.jpg"
     },
     {
       "id": "tg-9",
