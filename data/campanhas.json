@@ -1,0 +1,265 @@
+{
+  "_como_usar": "Uma entrada por página de campanha. slug vazio = /promos/. Depois de editar, rode: node scripts/gerar-campanhas.mjs (o GitHub também roda sozinho a cada publicação). anuncios = códigos de criativo: se o utm_content do anúncio tiver o código, esse relógio sobe para o topo.",
+  "campanhas": [
+    {
+      "slug": "",
+      "categoria": "geral",
+      "titulo": "REF: PROMOS — Achados de relógios",
+      "descricao": "Achados e cupons de relógios de R$ 100 a R$ 3.000 — do primeiro Casio ao grail.",
+      "chamada": "CURADORIA DE OFERTAS",
+      "linhas": [
+        "SEU PRÓXIMO",
+        "RELÓGIO, COM",
+        "PREÇO DE",
+        "ACHADO."
+      ],
+      "texto": "Achados e cupons de relógios de R$ 100 a R$ 3.000 — do primeiro Casio ao grail.",
+      "itens": [
+        {
+          "marca": "ORIENT · SOLARTECH",
+          "modelo": "MBSS1492",
+          "fato": "O “strap monster” da Orient, movido a luz.",
+          "preco": "262",
+          "imagem": "assets/img/promos/orient-solartech.webp",
+          "anuncios": [
+            "1f"
+          ]
+        },
+        {
+          "marca": "CASIO · G-SHOCK",
+          "modelo": "DW-5600UE",
+          "fato": "O beater quadrado, praticamente indestrutível.",
+          "preco": "212",
+          "imagem": "assets/img/promos/dw5600ue.webp"
+        },
+        {
+          "marca": "CITIZEN",
+          "modelo": "TSUYOSA",
+          "fato": "Automático, 40 mm, pulseira integrada.",
+          "preco": "2.242",
+          "imagem": "assets/img/promos/tsuyosa.webp"
+        },
+        {
+          "marca": "SECULUS · LONG LIFE",
+          "modelo": "AZUL",
+          "fato": "Dia da semana por extenso e calendário com lupa.",
+          "preco": "366",
+          "imagem": "assets/img/promos/seculus-azul.webp"
+        }
+      ]
+    },
+    {
+      "slug": "casio-g-shock",
+      "categoria": "entrada",
+      "titulo": "Casio e G-Shock com preço de achado — REF: PROMOS",
+      "descricao": "G-Shock, Casio e os beaters que não saem do pulso — garimpados e conferidos antes de chegar até você.",
+      "chamada": "CASIO E G-SHOCK",
+      "linhas": [
+        "ÍCONES",
+        "COM PREÇO",
+        "DE ACHADO."
+      ],
+      "texto": "G-Shock, Casio e os beaters que não saem do pulso — garimpados e conferidos antes de chegar até você.",
+      "itens": [
+        {
+          "marca": "CASIO · G-SHOCK",
+          "modelo": "DW-5600UE",
+          "fato": "O beater quadrado, praticamente indestrutível.",
+          "preco": "212",
+          "imagem": "assets/img/promos/dw5600ue.webp",
+          "anuncios": [
+            "1a45"
+          ]
+        },
+        {
+          "marca": "CASIO",
+          "modelo": "F-91W",
+          "fato": "O rei da praticidade: 21 g e bateria de 7 anos.",
+          "preco": "96,79",
+          "imagem": "assets/img/promos/f91w.webp"
+        },
+        {
+          "marca": "CASIO · G-SHOCK",
+          "modelo": "GA-2100",
+          "fato": "O G-Shock octogonal, analógico-digital e 200 m.",
+          "preco": "337,37",
+          "imagem": "assets/img/promos/ga2100.webp"
+        },
+        {
+          "marca": "CASIO · DURO",
+          "modelo": "MDV-107",
+          "fato": "O diver beater: bezel giratório e 200 m.",
+          "preco": "458,10",
+          "imagem": "assets/img/promos/duro.webp",
+          "anuncios": [
+            "1d2"
+          ]
+        },
+        {
+          "marca": "CASIO",
+          "modelo": "AE-1200 “ROYALE”",
+          "fato": "World time, bateria de 10 anos e 100 m.",
+          "preco": "352",
+          "imagem": "assets/img/promos/ae1200.webp"
+        }
+      ]
+    },
+    {
+      "slug": "automaticos",
+      "categoria": "automaticos",
+      "titulo": "Relógios automáticos com preço de achado — REF: PROMOS",
+      "descricao": "Citizen, Orient, Seiko e o que mais aparecer de interessante — com o preço acompanhado de perto.",
+      "chamada": "AUTOMÁTICOS E DESEJÁVEIS",
+      "linhas": [
+        "SEU PRÓXIMO",
+        "AUTOMÁTICO",
+        "ESTÁ AQUI."
+      ],
+      "texto": "Citizen, Orient, Seiko e o que mais aparecer de interessante — com o preço acompanhado de perto.",
+      "itens": [
+        {
+          "marca": "CITIZEN",
+          "modelo": "TSUYOSA",
+          "fato": "Automático, 40 mm, pulseira integrada.",
+          "preco": "2.242",
+          "imagem": "assets/img/promos/tsuyosa.webp"
+        },
+        {
+          "marca": "ORIENT",
+          "modelo": "YN6SS023",
+          "fato": "Diver automático em 39 mm e coroa rosqueada.",
+          "preco": "1.488",
+          "imagem": "assets/img/promos/yn6ss023.webp"
+        },
+        {
+          "marca": "ORIENT · SPECIAL CALIBER",
+          "modelo": "YN6SS033",
+          "fato": "Small seconds e inspiração vintage em 36 mm.",
+          "preco": "2.251",
+          "imagem": "assets/img/promos/yn6ss033.webp"
+        }
+      ]
+    },
+    {
+      "slug": "feminino",
+      "categoria": "feminino",
+      "titulo": "Relógios femininos com preço de achado — REF: PROMOS",
+      "descricao": "Seculus, Casio, Mondaine e outras escolhas elegantes — com preço de achado e vendedor conferido.",
+      "chamada": "ACHADOS PARA ELA",
+      "linhas": [
+        "RELÓGIOS",
+        "QUE VALEM",
+        "O SEU PULSO."
+      ],
+      "texto": "Seculus, Casio, Mondaine e outras escolhas elegantes — com preço de achado e vendedor conferido.",
+      "itens": [
+        {
+          "marca": "SECULUS · LONG LIFE",
+          "modelo": "AZUL",
+          "fato": "Dia da semana por extenso e calendário com lupa.",
+          "preco": "366",
+          "imagem": "assets/img/promos/seculus-azul.webp"
+        },
+        {
+          "marca": "CASIO",
+          "modelo": "AQ-230 DOURADO",
+          "fato": "Charme retrô com brilho: analógico e digital.",
+          "preco": "202",
+          "imagem": "assets/img/promos/aq230.webp"
+        },
+        {
+          "marca": "MONDAINE",
+          "modelo": "OCTOGONAL",
+          "fato": "Bezel octogonal e textura em toda a peça.",
+          "preco": "385",
+          "imagem": "assets/img/promos/mondaine-octogonal.webp"
+        }
+      ]
+    },
+    {
+      "slug": "old-money",
+      "categoria": "oldmoney",
+      "titulo": "Old money, sem money — REF: PROMOS",
+      "descricao": "Dress watches, caixas retangulares e tonneau, algarismos romanos — o visual clássico garimpado e conferido antes de chegar até você.",
+      "chamada": "OLD MONEY SEM MONEY",
+      "linhas": [
+        "Old money,",
+        "sem money."
+      ],
+      "texto": "Dress watches, caixas retangulares e tonneau, algarismos romanos — o visual clássico garimpado e conferido antes de chegar até você.",
+      "itens": [
+        {
+          "marca": "CASIO",
+          "modelo": "MTP-B190D",
+          "fato": "Caixa retangular, algarismos romanos e 50 m.",
+          "preco": "432,13",
+          "imagem": "assets/img/promos/casio-mtpb190.webp",
+          "anuncios": [
+            "om1"
+          ]
+        },
+        {
+          "marca": "SECULUS",
+          "modelo": "TONNEAU",
+          "fato": "Caixa tonneau, couro preto e 5 ATM.",
+          "preco": "392,44",
+          "imagem": "assets/img/promos/seculus-tonneau.webp",
+          "anuncios": [
+            "om2"
+          ]
+        },
+        {
+          "marca": "ORIENT",
+          "modelo": "SAPPHIRE SLIM",
+          "fato": "Vidro de safira, caixa slim e algarismos romanos.",
+          "preco": "808,20",
+          "imagem": "assets/img/promos/orient-sapphire.webp",
+          "anuncios": [
+            "om3"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "black-friday",
+      "categoria": "blackfriday",
+      "titulo": "Black Friday dos relógios — REF: PROMOS",
+      "descricao": "Na Black Friday as melhores ofertas de relógio somem em horas. Entre antes no grupo gratuito da REF:.",
+      "chamada": "BLACK FRIDAY · PREPARE-SE",
+      "linhas": [
+        "27.11",
+        "BLACK FRIDAY",
+        "DOS RELÓGIOS"
+      ],
+      "texto": "Na Black Friday as melhores ofertas somem em horas. Entre antes e receba os achados conferidos assim que aparecerem.",
+      "selo": [
+        "ENTRE",
+        "ANTES",
+        "DO DIA 27"
+      ],
+      "itens": [
+        {
+          "marca": "CASIO · G-SHOCK",
+          "modelo": "DW-5600UE",
+          "fato": "O beater quadrado, praticamente indestrutível.",
+          "preco": "212",
+          "imagem": "assets/img/promos/dw5600ue.webp"
+        },
+        {
+          "marca": "CASIO · OLD MONEY",
+          "modelo": "MTP-B190D",
+          "fato": "Caixa retangular e algarismos romanos.",
+          "preco": "432,13",
+          "imagem": "assets/img/promos/casio-mtpb190.webp"
+        },
+        {
+          "marca": "ORIENT",
+          "modelo": "YN6SS023 “SUB”",
+          "fato": "Diver automático em 39 mm e coroa rosqueada.",
+          "preco": "1.488",
+          "imagem": "assets/img/promos/yn6ss023.webp"
+        }
+      ]
+    }
+  ]
+}

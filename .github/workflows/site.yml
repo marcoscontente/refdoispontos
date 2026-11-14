@@ -33,14 +33,19 @@ jobs:
         continue-on-error: true
         run: node scripts/atualizar-ofertas.mjs
 
+      # Páginas de campanha: data/campanhas.json → promos/<slug>/index.html
+      - name: Gerar páginas de campanha
+        run: node scripts/gerar-campanhas.mjs
+
       - name: Guardar ofertas novas no repositório
         run: |
+          git add -A promos
           git add data/ofertas.json assets/img/ofertas 2>/dev/null || git add data/ofertas.json
           if git diff --cached --quiet; then
-            echo "Ofertas sem mudança."
+            echo "Nada novo para guardar."
           else
             git -c user.name="ofertas-bot" -c user.email="ofertas-bot@users.noreply.github.com" \
-              commit -m "Atualiza ofertas"
+              commit -m "Atualiza ofertas e páginas de campanha"
             git push
           fi
 
