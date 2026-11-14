@@ -143,4 +143,11 @@ body.theme-blackfriday{--bg:#FAF9F6;--bg-2:#FFFFFF;--paper:#161616;--paper-dim:r
 .theme-blackfriday .trust li::before{background:#893126}
 
 /* Segundo botão: Telegram, na cor do Telegram em todos os temas */
-body .hero .cta.tg{background:#229ED9;color:#fff;box-shadow:none;margin-top:10px}
+body .hero .cta.tg,body .sticky .cta.tg{background:#229ED9;color:#fff;box-shadow:none;margin-top:10px}
+/* Barra fixa com os dois botões: mais baixos para não cobrir a página */
+.sticky .cta{padding:13px 16px;font-size:15px;border-radius:12px}
+body .sticky .cta.tg{margin-top:8px}
+body{padding-bottom:150px}
+/* Texto dos botões sempre em uma linha */
+.cta{white-space:nowrap;padding-left:14px;padding-right:14px;font-size:clamp(12px,4vw,16px)}
+.sticky .cta{font-size:clamp(12px,3.9vw,15px)}

@@ -40,11 +40,11 @@ function pagina(c) {
   const fontes = FONTES[c.categoria] || FONTES.padrao;
   const botao = (pos) => `<a class="cta js-cta" href="${raiz}g/promos/?o=campanha" data-grupo="promos" data-pos="${pos}">
       ${WHATSAPP}
-      Entrar no grupo grátis
+      REF: PROMOS NO WHATSAPP
     </a>`;
-  const telegram = `<a class="cta tg js-cta" href="${raiz}g/telegram/?o=campanha" data-grupo="telegram" data-pos="hero">
+  const telegram = (pos) => `<a class="cta tg js-cta" href="${raiz}g/telegram/?o=campanha" data-grupo="telegram" data-pos="${pos}">
       ${TELEGRAM}
-      Entrar pelo Telegram
+      REF: PROMOS NO TELEGRAM
     </a>`;
   const selo = c.selo?.length ? `\n    <div class="selo">${c.selo.map(e).join('<br>')}</div>` : '';
 
@@ -82,7 +82,7 @@ function pagina(c) {
     <h1 id="title">${c.linhas.map((l) => `<span>${e(l)}</span>`).join('')}</h1>
     <p class="lead" id="lead">${e(c.texto)}</p>
     ${botao('hero')}
-    ${telegram}
+    ${telegram('hero')}
     <p class="cta-note">Você recebe os achados no WhatsApp ou no Telegram e compra direto na Amazon ou no Mercado Livre.</p>${selo}
   </div>
 
@@ -134,6 +134,7 @@ ${c.itens.map((it, i) => cartao(it, i, raiz)).join('\n')}
 
 <div class="sticky" id="sticky">
   ${botao('sticky')}
+  ${telegram('sticky')}
 </div>
 
 <script src="${raiz}assets/js/grupos.js"></script>
