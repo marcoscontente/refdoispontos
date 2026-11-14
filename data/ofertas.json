@@ -2,6 +2,94 @@
   "maximoPorLoja": 10,
   "ofertas": [
     {
+      "id": "tg-22",
+      "loja": "amazon",
+      "titulo": "Casio POP Bio-Based Renewable Band LED Backlight Daily Alarm Digital Watch",
+      "preco": 196.8,
+      "link": "https://link.amazon/B01qpBJBx",
+      "data": "2026-11-14T13:19:34+00:00",
+      "precoDe": 284.37,
+      "parcelas": "6x de R$ 32,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-22.jpg"
+    },
+    {
+      "id": "tg-21",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Seculus Masculino Slim Aço Pulseira Couro Preto Preto Prateado Branco",
+      "preco": 389.99,
+      "link": "https://meli.la/27U46BN",
+      "data": "2026-11-14T13:19:26+00:00",
+      "precoDe": 600,
+      "parcelas": "7x de R$ 55,71 sem juros",
+      "imagem": "assets/img/ofertas/tg-21.jpg"
+    },
+    {
+      "id": "tg-20",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Seculus Masculino Automático S300 Diver 300m Amarelo Amarelo Preto",
+      "preco": 1801,
+      "link": "https://meli.la/1wYy5d1",
+      "data": "2026-11-14T13:17:15+00:00",
+      "precoDe": 1998,
+      "parcelas": "10x de R$ 184,10 sem juros",
+      "imagem": "assets/img/ofertas/tg-20.jpg"
+    },
+    {
+      "id": "tg-19",
+      "loja": "amazon",
+      "titulo": "Relógio Casio Vintage Calculadora CA-53WF-2BDF Azul",
+      "preco": 198.54,
+      "link": "https://link.amazon/B0cqwKFWc",
+      "data": "2026-11-14T13:03:33+00:00",
+      "precoDe": 229,
+      "parcelas": "6x de R$ 33,09 sem juros",
+      "imagem": "assets/img/ofertas/tg-19.jpg"
+    },
+    {
+      "id": "tg-18",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Seculus 23746gpsvdc2 Retangular Dourado Marrom Dourado",
+      "preco": 427.9,
+      "link": "https://meli.la/33XSWrB",
+      "data": "2026-11-14T13:03:25+00:00",
+      "precoDe": 492.53,
+      "parcelas": "9x de R$ 51,99 sem juros",
+      "imagem": "assets/img/ofertas/tg-18.jpg"
+    },
+    {
+      "id": "tg-17",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Masculino Prata Esportivo Aço Inoxidável Prova Dágua 100 Metros Analógico Fundo Azul",
+      "preco": 302,
+      "link": "https://meli.la/2RGfNnt",
+      "data": "2026-11-14T12:57:13+00:00",
+      "precoDe": 470.83,
+      "parcelas": "6x de R$ 50,33 sem juros",
+      "imagem": "assets/img/ofertas/tg-17.jpg"
+    },
+    {
+      "id": "tg-16",
+      "loja": "amazon",
+      "titulo": "Casio FT500WC Series | Men's Analog Watch | 100 Meter Water Resistance | LED",
+      "preco": 260.9,
+      "link": "https://link.amazon/B0dDmwPH0",
+      "data": "2026-11-14T12:48:19+00:00",
+      "precoDe": 317.17,
+      "parcelas": "6x de R$ 43,50 sem juros",
+      "imagem": "assets/img/ofertas/tg-16.jpg"
+    },
+    {
+      "id": "tg-15",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Technos Masculino Performance Acqua Diver Aço Inoxidável Azul 15 Atm Lançamento",
+      "preco": 471.43,
+      "link": "https://meli.la/27HztZj",
+      "data": "2026-11-14T12:48:11+00:00",
+      "precoDe": 798,
+      "parcelas": "10x de R$ 51,14 sem juros",
+      "imagem": "assets/img/ofertas/tg-15.jpg"
+    },
+    {
       "id": "tg-14",
       "loja": "mercadolivre",
       "titulo": "Seculus Relógio Masculino Spin Master Em Aço Prata",
