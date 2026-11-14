@@ -2,14 +2,111 @@
   "maximoPorLoja": 10,
   "ofertas": [
     {
-      "id": "tg-57",
+      "id": "tg-75",
       "loja": "amazon",
-      "titulo": "BERTUCCI A-2T Original Classic - Mostrador branco/nylon florestal, Branco, Relógio de campo",
-      "preco": 1302.64,
-      "link": "https://link.amazon/B001O8kXN",
-      "data": "2026-11-14T15:39:17+00:00",
-      "parcelas": "10x de R$ 130,30 sem juros",
-      "imagem": "assets/img/ofertas/tg-57.jpg"
+      "titulo": "Cadola Relógio masculino 42 mm Testa Di Toro cronógrafo 917k edição limitada com pulseira",
+      "preco": 2190,
+      "link": "https://link.amazon/B01oRR6Ee",
+      "data": "2026-11-14T20:39:38+00:00",
+      "parcelas": "12x de R$ 182,50 sem juros",
+      "imagem": "assets/img/ofertas/tg-75.jpg"
+    },
+    {
+      "id": "tg-74",
+      "loja": "amazon",
+      "titulo": "Relógio Duxot Taranto Automatic Metallic Mist DX-2081-22 37mm | Miyota 21 Rubis e Safira",
+      "preco": 1889,
+      "link": "https://link.amazon/B0hpDQY8b",
+      "data": "2026-11-14T20:24:02+00:00",
+      "parcelas": "12x de R$ 157,49 sem juros",
+      "imagem": "assets/img/ofertas/tg-74.jpg"
+    },
+    {
+      "id": "tg-73",
+      "loja": "amazon",
+      "titulo": "Spinnaker Croft Pioneer Automatic SP-5136 Relógio masculino com pulseira de aço inoxidável liso",
+      "preco": 1918.66,
+      "link": "https://link.amazon/B0dUUd4gH",
+      "data": "2026-11-14T20:07:55+00:00",
+      "parcelas": "10x de R$ 191,92 sem juros",
+      "imagem": "assets/img/ofertas/tg-73.jpg"
+    },
+    {
+      "id": "tg-72",
+      "loja": "amazon",
+      "titulo": "Relógio Casio Digital Vintage Unissex F-91W-1DG",
+      "preco": 109,
+      "link": "https://link.amazon/B0aJ6JxjW",
+      "data": "2026-11-14T19:51:02+00:00",
+      "precoDe": 126,
+      "parcelas": "3x de R$ 36,34 sem juros",
+      "imagem": "assets/img/ofertas/tg-72.jpg"
+    },
+    {
+      "id": "tg-71",
+      "loja": "amazon",
+      "titulo": "Relogio Casio Vintage Unssex AQ-230A-9AMQYDF",
+      "preco": 240.03,
+      "link": "https://link.amazon/B0dNSu55u",
+      "data": "2026-11-14T19:35:11+00:00",
+      "precoDe": 289.89,
+      "parcelas": "6x de R$ 40,03 sem juros",
+      "imagem": "assets/img/ofertas/tg-71.jpg"
+    },
+    {
+      "id": "tg-70",
+      "loja": "amazon",
+      "titulo": "Casio WS1600H Series | Men’s Watch | Sports Design | Stopwatch | Countdown Timer",
+      "preco": 227.4,
+      "link": "https://link.amazon/B07pnxRRG",
+      "data": "2026-11-14T19:20:02+00:00",
+      "precoDe": 289.66,
+      "parcelas": "6x de R$ 37,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-70.jpg"
+    },
+    {
+      "id": "tg-69",
+      "loja": "amazon",
+      "titulo": "Casio Série AE1000W | Relógio digital masculino | 100 m WR | Multi Alarmes",
+      "preco": 210.5,
+      "link": "https://link.amazon/B00XQAib1",
+      "data": "2026-11-14T19:04:57+00:00",
+      "precoDe": 358.75,
+      "parcelas": "6x de R$ 35,10 sem juros",
+      "imagem": "assets/img/ofertas/tg-69.jpg"
+    },
+    {
+      "id": "tg-68",
+      "loja": "amazon",
+      "titulo": "Casio Série AE1200WH | Relógio digital masculino | 100 m WR | Multi Alarmes",
+      "preco": 204.8,
+      "link": "https://link.amazon/B0d4jCp4q",
+      "data": "2026-11-14T18:49:01+00:00",
+      "precoDe": 234.41,
+      "parcelas": "6x de R$ 34,15 sem juros",
+      "imagem": "assets/img/ofertas/tg-68.jpg"
+    },
+    {
+      "id": "tg-67",
+      "loja": "amazon",
+      "titulo": "Invicta Relógio automático masculino 3044 de aço inoxidável Pro Diver",
+      "preco": 483.67,
+      "link": "https://link.amazon/B08GmyBDT",
+      "data": "2026-11-14T18:33:24+00:00",
+      "precoDe": 552.32,
+      "parcelas": "9x de R$ 53,75 sem juros",
+      "imagem": "assets/img/ofertas/tg-67.jpg"
+    },
+    {
+      "id": "tg-66",
+      "loja": "amazon",
+      "titulo": "Casio MRW200H Series | Unisex Analog Watch | 100M WR | Stainless Steel Case",
+      "preco": 183.2,
+      "link": "https://link.amazon/B09ygBLi1",
+      "data": "2026-11-14T18:18:21+00:00",
+      "precoDe": 238.14,
+      "parcelas": "6x de R$ 30,55 sem juros",
+      "imagem": "assets/img/ofertas/tg-66.jpg"
     },
     {
       "id": "tg-56",
@@ -43,17 +140,6 @@
       "precoDe": 1580,
       "parcelas": "10x de R$ 51,89 sem juros",
       "imagem": "assets/img/ofertas/tg-54.jpg"
-    },
-    {
-      "id": "tg-53",
-      "loja": "amazon",
-      "titulo": "Citizen Quartz Mens Watch, Stainless Steel with Leather Strap, Casual",
-      "preco": 719.51,
-      "link": "https://link.amazon/B090ouOhO",
-      "data": "2026-11-14T15:22:37+00:00",
-      "precoDe": 877.72,
-      "parcelas": "10x de R$ 71,96 sem juros",
-      "imagem": "assets/img/ofertas/tg-53.jpg"
     },
     {
       "id": "tg-52",
@@ -97,16 +183,6 @@
       "imagem": "assets/img/ofertas/tg-49.jpg"
     },
     {
-      "id": "tg-48",
-      "loja": "amazon",
-      "titulo": "BERTUCCI Relógio A-3PS SOLAR FIELD | Mostrador branco óptico/caixa preta | Pulseira de nylon",
-      "preco": 1657.42,
-      "link": "https://link.amazon/B0bKZqedv",
-      "data": "2026-11-14T15:07:11+00:00",
-      "parcelas": "10x de R$ 165,76 sem juros",
-      "imagem": "assets/img/ofertas/tg-48.jpg"
-    },
-    {
       "id": "tg-47",
       "loja": "mercadolivre",
       "titulo": "Relogio Technos MAsculino Skydiver Prata WT2060AE/2Y Amarelo Silicone 40mm",
@@ -138,81 +214,6 @@
       "precoDe": 799,
       "parcelas": "10x de R$ 69,84 sem juros",
       "imagem": "assets/img/ofertas/tg-45.jpg"
-    },
-    {
-      "id": "tg-41",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Southview com pulseira de couro de 41 mm",
-      "preco": 331.07,
-      "link": "https://link.amazon/B09FbnbS8",
-      "data": "2026-11-14T14:36:20+00:00",
-      "precoDe": 483.28,
-      "parcelas": "6x de R$ 55,22 sem juros",
-      "imagem": "assets/img/ofertas/tg-41.jpg"
-    },
-    {
-      "id": "tg-37",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Intelligent Quartz® Tide Temp Compass 45 mm",
-      "preco": 1048.9,
-      "link": "https://link.amazon/B07PbYXxP",
-      "data": "2026-11-14T14:21:30+00:00",
-      "precoDe": 1365.84,
-      "parcelas": "10x de R$ 104,89 sem juros",
-      "imagem": "assets/img/ofertas/tg-37.jpg"
-    },
-    {
-      "id": "tg-33",
-      "loja": "amazon",
-      "titulo": "Relógio Masculino Timex Waterbury Diver 40 mm",
-      "preco": 1241.02,
-      "link": "https://link.amazon/B0iPEYoom",
-      "data": "2026-11-14T14:06:30+00:00",
-      "precoDe": 1409.43,
-      "parcelas": "10x de R$ 124,12 sem juros",
-      "imagem": "assets/img/ofertas/tg-33.jpg"
-    },
-    {
-      "id": "tg-29",
-      "loja": "amazon",
-      "titulo": "Relógio Masculino Timex Classic, Digital, 34 mm",
-      "preco": 299,
-      "link": "https://link.amazon/B0cQ5Fnle",
-      "data": "2026-11-14T13:50:52+00:00",
-      "parcelas": "6x de R$ 49,85 sem juros",
-      "imagem": "assets/img/ofertas/tg-29.jpg"
-    },
-    {
-      "id": "tg-25",
-      "loja": "amazon",
-      "titulo": "Invicta Relógio masculino de quartzo Pro Diver com pulseira de aço inoxidável",
-      "preco": 413.24,
-      "link": "https://link.amazon/B069CxI4u",
-      "data": "2026-11-14T13:34:33+00:00",
-      "parcelas": "8x de R$ 51,69 sem juros",
-      "imagem": "assets/img/ofertas/tg-25.jpg"
-    },
-    {
-      "id": "tg-22",
-      "loja": "amazon",
-      "titulo": "Casio POP Bio-Based Renewable Band LED Backlight Daily Alarm Digital Watch",
-      "preco": 196.8,
-      "link": "https://link.amazon/B01qpBJBx",
-      "data": "2026-11-14T13:19:34+00:00",
-      "precoDe": 284.37,
-      "parcelas": "6x de R$ 32,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-22.jpg"
-    },
-    {
-      "id": "tg-19",
-      "loja": "amazon",
-      "titulo": "Relógio Casio Vintage Calculadora CA-53WF-2BDF Azul",
-      "preco": 198.54,
-      "link": "https://link.amazon/B0cqwKFWc",
-      "data": "2026-11-14T13:03:33+00:00",
-      "precoDe": 229,
-      "parcelas": "6x de R$ 33,09 sem juros",
-      "imagem": "assets/img/ofertas/tg-19.jpg"
     }
   ]
 }
