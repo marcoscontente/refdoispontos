@@ -42,16 +42,22 @@
     else { img.addEventListener('load', conferir); img.addEventListener('error', falhou); }
   });
 
-  // Botão: abre direto o grupo com vaga. Até o rodízio responder, vale o endereço fixo /g/promos/.
-  const botoes = document.querySelectorAll('.js-cta');
-  window.REF.linkDoGrupo(raiz, 'promos')
-    .then((link) => botoes.forEach((a) => { a.href = link; }))
-    .catch((erro) => console.error('[REF:]', erro));
+  // Botões: abrem direto o grupo com vaga (WhatsApp) ou o canal (Telegram).
+  // Até o rodízio responder, vale o endereço fixo /g/<grupo>/.
+  const botoes = [...document.querySelectorAll('.js-cta')];
+  ['promos', 'telegram'].forEach((grupo) => {
+    const dele = botoes.filter((a) => a.dataset.grupo === grupo);
+    if (!dele.length) return;
+    window.REF.linkDoGrupo(raiz, grupo)
+      .then((link) => dele.forEach((a) => { a.href = link; }))
+      .catch((erro) => console.error('[REF:]', erro));
+  });
 
-  // Registra o Lead no Pixel e só depois abre o WhatsApp.
+  // Registra o Lead no Pixel e só depois abre o grupo.
   botoes.forEach((a) => {
     a.addEventListener('click', (e) => {
-      const dados = { content_category: categoria, content_name: `grupo_whatsapp_${a.dataset.pos}` };
+      const app = a.dataset.grupo === 'telegram' ? 'telegram' : 'whatsapp';
+      const dados = { content_category: categoria, content_name: `grupo_${app}_${a.dataset.pos}` };
       if (utm) dados.utm_content = utm;
       if (!window.REF.evento('Lead', dados)) return; // sem Pixel: segue o link normal
       e.preventDefault();

@@ -15,6 +15,8 @@ const FONTES = {
 };
 const WHATSAPP = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.9 9.9 0 0 0 12.04 2zm5.8 14.13c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.82-.12-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.8-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3s.75-2.13 1.02-2.42c.27-.29.58-.36.78-.36h.56c.18 0 .42-.07.66.5.24.58.82 2.01.89 2.16.07.14.12.31.02.5-.1.2-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.13.59.17.29.74 1.22 1.58 1.97 1.09.97 2 1.27 2.29 1.42.29.14.46.12.63-.07.17-.2.72-.84.92-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.21.55.33.07.12.07.7-.17 1.38z"/></svg>';
 
+const TELEGRAM = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>';
+
 const e = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 function cartao(item, i, raiz) {
@@ -36,9 +38,13 @@ function pagina(c) {
   const raiz = c.slug ? '../../' : '../';
   const endereco = `${DOMINIO}/promos/${c.slug ? `${c.slug}/` : ''}`;
   const fontes = FONTES[c.categoria] || FONTES.padrao;
-  const botao = (pos) => `<a class="cta js-cta" href="${raiz}g/promos/?o=campanha" data-pos="${pos}">
+  const botao = (pos) => `<a class="cta js-cta" href="${raiz}g/promos/?o=campanha" data-grupo="promos" data-pos="${pos}">
       ${WHATSAPP}
       Entrar no grupo grátis
+    </a>`;
+  const telegram = `<a class="cta tg js-cta" href="${raiz}g/telegram/?o=campanha" data-grupo="telegram" data-pos="hero">
+      ${TELEGRAM}
+      Entrar pelo Telegram
     </a>`;
   const selo = c.selo?.length ? `\n    <div class="selo">${c.selo.map(e).join('<br>')}</div>` : '';
 
@@ -76,7 +82,8 @@ function pagina(c) {
     <h1 id="title">${c.linhas.map((l) => `<span>${e(l)}</span>`).join('')}</h1>
     <p class="lead" id="lead">${e(c.texto)}</p>
     ${botao('hero')}
-    <p class="cta-note">Você recebe os achados no WhatsApp e compra direto na Amazon ou no Mercado Livre.</p>${selo}
+    ${telegram}
+    <p class="cta-note">Você recebe os achados no WhatsApp ou no Telegram e compra direto na Amazon ou no Mercado Livre.</p>${selo}
   </div>
 
   <section id="achados">

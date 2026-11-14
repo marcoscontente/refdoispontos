@@ -141,3 +141,6 @@ body.theme-blackfriday{--bg:#FAF9F6;--bg-2:#FFFFFF;--paper:#161616;--paper-dim:r
 .theme-blackfriday .sticky .cta{background:#161616}
 .theme-blackfriday footer b{color:#161616!important}
 .theme-blackfriday .trust li::before{background:#893126}
+
+/* Segundo botão: Telegram, na cor do Telegram em todos os temas */
+body .hero .cta.tg{background:#229ED9;color:#fff;box-shadow:none;margin-top:10px}
