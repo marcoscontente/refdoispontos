@@ -1,0 +1,52 @@
+name: Atualizar ofertas e publicar
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 9 * * *" # todo dia às 6h de Brasília
+  workflow_dispatch: # permite rodar na hora pelo botão "Run workflow"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Se o Telegram falhar, a página é publicada mesmo assim com as ofertas anteriores.
+      - name: Ler ofertas do canal
+        continue-on-error: true
+        run: node scripts/atualizar-ofertas.mjs
+
+      - name: Guardar ofertas novas no repositório
+        run: |
+          git add data/ofertas.json assets/img/ofertas 2>/dev/null || git add data/ofertas.json
+          if git diff --cached --quiet; then
+            echo "Ofertas sem mudança."
+          else
+            git -c user.name="ofertas-bot" -c user.email="ofertas-bot@users.noreply.github.com" \
+              commit -m "Atualiza ofertas"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4

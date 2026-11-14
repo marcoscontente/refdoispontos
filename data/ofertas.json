@@ -1,0 +1,54 @@
+{
+  "maximoPorLoja": 10,
+  "ofertas": [
+    {
+      "exemplo": true,
+      "loja": "amazon",
+      "titulo": "Exemplo: nome do relógio como aparece na Amazon",
+      "preco": 399.9,
+      "precoDe": 549.9,
+      "imagem": "",
+      "link": "https://www.amazon.com.br/",
+      "data": "2026-11-13"
+    },
+    {
+      "exemplo": true,
+      "loja": "amazon",
+      "titulo": "Exemplo: segunda oferta da Amazon",
+      "preco": 1299,
+      "precoDe": 1599,
+      "imagem": "",
+      "link": "https://www.amazon.com.br/",
+      "data": "2026-11-12"
+    },
+    {
+      "exemplo": true,
+      "loja": "amazon",
+      "titulo": "Exemplo: oferta sem preço antigo",
+      "preco": 219.9,
+      "imagem": "",
+      "link": "https://www.amazon.com.br/",
+      "data": "2026-11-11"
+    },
+    {
+      "exemplo": true,
+      "loja": "mercadolivre",
+      "titulo": "Exemplo: nome do relógio como aparece no Mercado Livre",
+      "preco": 899,
+      "precoDe": 1190,
+      "imagem": "",
+      "link": "https://www.mercadolivre.com.br/",
+      "data": "2026-11-13"
+    },
+    {
+      "exemplo": true,
+      "loja": "mercadolivre",
+      "titulo": "Exemplo: segunda oferta do Mercado Livre",
+      "preco": 349.9,
+      "precoDe": 429.9,
+      "imagem": "",
+      "link": "https://www.mercadolivre.com.br/",
+      "data": "2026-11-10"
+    }
+  ]
+}

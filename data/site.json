@@ -1,0 +1,31 @@
+{
+  "handle": "@refdoispontos",
+  "assinatura": "Watches & Culture",
+  "abertura": {
+    "titulo": ["PROMOÇÃO", "DE RELÓGIO", "CHEGA ANTES", "NO GRUPO."],
+    "linhaVermelha": 4,
+    "texto": "Achados da Amazon e do Mercado Livre, garimpados pela REF: e enviados direto no seu WhatsApp.",
+    "botao": "Entrar no REF:PROMOS",
+    "nota": "Grupo no WhatsApp · gratuito",
+    "alternativa": "Prefere o Telegram? Entre por lá"
+  },
+  "historia": {
+    "resumo": [
+      "A REF: é um canal brasileiro sobre relógios e a cultura em volta deles.",
+      "Aqui o relógio é evidência de uma história: quem fez, por que fez e o que aquilo diz sobre a época."
+    ],
+    "completo": [
+      "[RASCUNHO] Troque este trecho pela história da REF: nas suas palavras: como começou, o que você procura em um relógio e por que os grupos existem."
+    ]
+  },
+  "redes": [
+    { "nome": "Instagram", "handle": "@refdoispontos", "link": "https://www.instagram.com/refdoispontos" },
+    { "nome": "YouTube", "handle": "@refdoispontos", "link": "https://www.youtube.com/@refdoispontos" },
+    { "nome": "TikTok", "handle": "@refdoispontos", "link": "https://www.tiktok.com/@refdoispontos" }
+  ],
+  "rodape": {
+    "afiliados": "Os links de oferta são links de afiliado: a REF: pode receber comissão pelas compras, sem custo extra para você. Como Associado da Amazon, a REF: ganha com compras qualificadas. Preços e estoque podem mudar a qualquer momento.",
+    "contatoRotulo": "Parcerias",
+    "contatoLink": ""
+  }
+}

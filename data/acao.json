@@ -1,0 +1,16 @@
+{
+  "ativa": true,
+  "codigo": "REF:002",
+  "nome": "Casio Royale",
+  "complemento": "+ Estojo individual",
+  "descricao": "100 cotas. Sorteio pela Loteria Federal, no primeiro domingo após a venda das cotas.",
+  "detalhes": [
+    { "rotulo": "1 a 5 cotas", "valor": "R$ 7,00" },
+    { "rotulo": "6 a 10 cotas", "valor": "R$ 6,50" },
+    { "rotulo": "11+ cotas", "valor": "R$ 6,00" }
+  ],
+  "imagem": "assets/img/acao/ref-002.webp",
+  "imagemAlt": "Arte da ação REF:002: Casio Royale com estojo, 100 cotas",
+  "prazo": "",
+  "botao": "Entrar no grupo da ação"
+}
