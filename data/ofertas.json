@@ -2,25 +2,195 @@
   "maximoPorLoja": 10,
   "ofertas": [
     {
-      "id": "tg-24",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio Retangular Mtp-b190d-1bvdf-sc Wr 41mm Tank Prateado Preto",
-      "preco": 425,
-      "link": "https://meli.la/2ED1iSb",
-      "data": "2026-11-14T13:34:15+00:00",
-      "precoDe": 539,
-      "parcelas": "9x de R$ 51,67 sem juros",
-      "imagem": "assets/img/ofertas/tg-24.jpg"
+      "id": "tg-57",
+      "loja": "amazon",
+      "titulo": "BERTUCCI A-2T Original Classic - Mostrador branco/nylon florestal, Branco, Relógio de campo",
+      "preco": 1302.64,
+      "link": "https://link.amazon/B001O8kXN",
+      "data": "2026-11-14T15:39:17+00:00",
+      "parcelas": "10x de R$ 130,30 sem juros",
+      "imagem": "assets/img/ofertas/tg-57.jpg"
     },
     {
-      "id": "tg-23",
+      "id": "tg-56",
       "loja": "mercadolivre",
-      "titulo": "Relógio Orient Solartech Mbss1492 B2sx Prateado Off White",
-      "preco": 350,
-      "link": "https://meli.la/2i4Znbi",
-      "data": "2026-11-14T13:33:26+00:00",
-      "parcelas": "7x de R$ 50,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-23.jpg"
+      "titulo": "Relógio Seculus Masculino 23769g0svnc2 Retangular Prateado",
+      "preco": 529.9,
+      "link": "https://meli.la/16Bx7GP",
+      "data": "2026-11-14T15:36:46+00:00",
+      "precoDe": 569.9,
+      "parcelas": "10x de R$ 56,99 sem juros",
+      "imagem": "assets/img/ofertas/tg-56.jpg"
+    },
+    {
+      "id": "tg-55",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Seculus Masculino Social Couro Preto 23767g0svnc2",
+      "preco": 567.6,
+      "link": "https://meli.la/1ephLnr",
+      "data": "2026-11-14T15:32:34+00:00",
+      "precoDe": 980,
+      "parcelas": "10x de R$ 60,76 sem juros",
+      "imagem": "assets/img/ofertas/tg-55.jpg"
+    },
+    {
+      "id": "tg-54",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Seculus Masculino Cronógrafo 77307g0svnc1 Azul Aço Marrom-escuro Prateado Azul",
+      "preco": 478.94,
+      "link": "https://meli.la/1kj4PxJ",
+      "data": "2026-11-14T15:27:45+00:00",
+      "precoDe": 1580,
+      "parcelas": "10x de R$ 51,89 sem juros",
+      "imagem": "assets/img/ofertas/tg-54.jpg"
+    },
+    {
+      "id": "tg-53",
+      "loja": "amazon",
+      "titulo": "Citizen Quartz Mens Watch, Stainless Steel with Leather Strap, Casual",
+      "preco": 719.51,
+      "link": "https://link.amazon/B090ouOhO",
+      "data": "2026-11-14T15:22:37+00:00",
+      "precoDe": 877.72,
+      "parcelas": "10x de R$ 71,96 sem juros",
+      "imagem": "assets/img/ofertas/tg-53.jpg"
+    },
+    {
+      "id": "tg-52",
+      "loja": "mercadolivre",
+      "titulo": "Caixa Maleta Estojo Porta Relógios Organizadora Luxo Top Pre Preto",
+      "preco": 64,
+      "link": "https://meli.la/1BC7f7W",
+      "data": "2026-11-14T15:22:30+00:00",
+      "precoDe": 89.9,
+      "imagem": "assets/img/ofertas/tg-52.jpg"
+    },
+    {
+      "id": "tg-51",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine Masculino 32549g0mvne1 Aco Inox Prata Fundo Preto Analogico Prova Dágua 50m",
+      "preco": 168,
+      "link": "https://meli.la/25Gzi4U",
+      "data": "2026-11-14T15:18:46+00:00",
+      "precoDe": 398.51,
+      "imagem": "assets/img/ofertas/tg-51.jpg"
+    },
+    {
+      "id": "tg-50",
+      "loja": "mercadolivre",
+      "titulo": "Kit 147 Relojoeiro Ferramentas Alta Precisão Chaves Relógio",
+      "preco": 39,
+      "link": "https://meli.la/3461gT6",
+      "data": "2026-11-14T15:12:27+00:00",
+      "precoDe": 62,
+      "imagem": "assets/img/ofertas/tg-50.jpg"
+    },
+    {
+      "id": "tg-49",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Technos Masculino 8205qh/2a Diver Automatico Azul Preto Prateado Azul",
+      "preco": 1023,
+      "link": "https://meli.la/1DMM3rW",
+      "data": "2026-11-14T15:09:57+00:00",
+      "precoDe": 1130,
+      "parcelas": "10x de R$ 106,30 sem juros",
+      "imagem": "assets/img/ofertas/tg-49.jpg"
+    },
+    {
+      "id": "tg-48",
+      "loja": "amazon",
+      "titulo": "BERTUCCI Relógio A-3PS SOLAR FIELD | Mostrador branco óptico/caixa preta | Pulseira de nylon",
+      "preco": 1657.42,
+      "link": "https://link.amazon/B0bKZqedv",
+      "data": "2026-11-14T15:07:11+00:00",
+      "parcelas": "10x de R$ 165,76 sem juros",
+      "imagem": "assets/img/ofertas/tg-48.jpg"
+    },
+    {
+      "id": "tg-47",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Technos MAsculino Skydiver Prata WT2060AE/2Y Amarelo Silicone 40mm",
+      "preco": 648,
+      "link": "https://meli.la/1g67kUQ",
+      "data": "2026-11-14T15:01:52+00:00",
+      "precoDe": 799,
+      "parcelas": "10x de R$ 68,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-47.jpg"
+    },
+    {
+      "id": "tg-46",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Seiko Masculino Automático Prata Snxs79b1 P1sx",
+      "preco": 2050,
+      "link": "https://meli.la/2d7yp3f",
+      "data": "2026-11-14T15:01:42+00:00",
+      "precoDe": 2200,
+      "parcelas": "10x de R$ 209,00 sem juros",
+      "imagem": "assets/img/ofertas/tg-46.jpg"
+    },
+    {
+      "id": "tg-45",
+      "loja": "mercadolivre",
+      "titulo": "RELÓGIO TECHNOS MASCULINO SKYDIVER PRATA WT2060AM/2V Verde Silicone 40 mm",
+      "preco": 658.4,
+      "link": "https://meli.la/2MrruKx",
+      "data": "2026-11-14T14:52:09+00:00",
+      "precoDe": 799,
+      "parcelas": "10x de R$ 69,84 sem juros",
+      "imagem": "assets/img/ofertas/tg-45.jpg"
+    },
+    {
+      "id": "tg-41",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Southview com pulseira de couro de 41 mm",
+      "preco": 331.07,
+      "link": "https://link.amazon/B09FbnbS8",
+      "data": "2026-11-14T14:36:20+00:00",
+      "precoDe": 483.28,
+      "parcelas": "6x de R$ 55,22 sem juros",
+      "imagem": "assets/img/ofertas/tg-41.jpg"
+    },
+    {
+      "id": "tg-37",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Intelligent Quartz® Tide Temp Compass 45 mm",
+      "preco": 1048.9,
+      "link": "https://link.amazon/B07PbYXxP",
+      "data": "2026-11-14T14:21:30+00:00",
+      "precoDe": 1365.84,
+      "parcelas": "10x de R$ 104,89 sem juros",
+      "imagem": "assets/img/ofertas/tg-37.jpg"
+    },
+    {
+      "id": "tg-33",
+      "loja": "amazon",
+      "titulo": "Relógio Masculino Timex Waterbury Diver 40 mm",
+      "preco": 1241.02,
+      "link": "https://link.amazon/B0iPEYoom",
+      "data": "2026-11-14T14:06:30+00:00",
+      "precoDe": 1409.43,
+      "parcelas": "10x de R$ 124,12 sem juros",
+      "imagem": "assets/img/ofertas/tg-33.jpg"
+    },
+    {
+      "id": "tg-29",
+      "loja": "amazon",
+      "titulo": "Relógio Masculino Timex Classic, Digital, 34 mm",
+      "preco": 299,
+      "link": "https://link.amazon/B0cQ5Fnle",
+      "data": "2026-11-14T13:50:52+00:00",
+      "parcelas": "6x de R$ 49,85 sem juros",
+      "imagem": "assets/img/ofertas/tg-29.jpg"
+    },
+    {
+      "id": "tg-25",
+      "loja": "amazon",
+      "titulo": "Invicta Relógio masculino de quartzo Pro Diver com pulseira de aço inoxidável",
+      "preco": 413.24,
+      "link": "https://link.amazon/B069CxI4u",
+      "data": "2026-11-14T13:34:33+00:00",
+      "parcelas": "8x de R$ 51,69 sem juros",
+      "imagem": "assets/img/ofertas/tg-25.jpg"
     },
     {
       "id": "tg-22",
@@ -34,28 +204,6 @@
       "imagem": "assets/img/ofertas/tg-22.jpg"
     },
     {
-      "id": "tg-21",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seculus Masculino Slim Aço Pulseira Couro Preto Preto Prateado Branco",
-      "preco": 389.99,
-      "link": "https://meli.la/27U46BN",
-      "data": "2026-11-14T13:19:26+00:00",
-      "precoDe": 600,
-      "parcelas": "7x de R$ 55,71 sem juros",
-      "imagem": "assets/img/ofertas/tg-21.jpg"
-    },
-    {
-      "id": "tg-20",
-      "loja": "mercadolivre",
-      "titulo": "Relogio Seculus Masculino Automático S300 Diver 300m Amarelo Amarelo Preto",
-      "preco": 1801,
-      "link": "https://meli.la/1wYy5d1",
-      "data": "2026-11-14T13:17:15+00:00",
-      "precoDe": 1998,
-      "parcelas": "10x de R$ 184,10 sem juros",
-      "imagem": "assets/img/ofertas/tg-20.jpg"
-    },
-    {
       "id": "tg-19",
       "loja": "amazon",
       "titulo": "Relógio Casio Vintage Calculadora CA-53WF-2BDF Azul",
@@ -65,148 +213,6 @@
       "precoDe": 229,
       "parcelas": "6x de R$ 33,09 sem juros",
       "imagem": "assets/img/ofertas/tg-19.jpg"
-    },
-    {
-      "id": "tg-18",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seculus 23746gpsvdc2 Retangular Dourado Marrom Dourado",
-      "preco": 427.9,
-      "link": "https://meli.la/33XSWrB",
-      "data": "2026-11-14T13:03:25+00:00",
-      "precoDe": 492.53,
-      "parcelas": "9x de R$ 51,99 sem juros",
-      "imagem": "assets/img/ofertas/tg-18.jpg"
-    },
-    {
-      "id": "tg-17",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Masculino Prata Esportivo Aço Inoxidável Prova Dágua 100 Metros Analógico Fundo Azul",
-      "preco": 302,
-      "link": "https://meli.la/2RGfNnt",
-      "data": "2026-11-14T12:57:13+00:00",
-      "precoDe": 470.83,
-      "parcelas": "6x de R$ 50,33 sem juros",
-      "imagem": "assets/img/ofertas/tg-17.jpg"
-    },
-    {
-      "id": "tg-16",
-      "loja": "amazon",
-      "titulo": "Casio FT500WC Series | Men's Analog Watch | 100 Meter Water Resistance | LED",
-      "preco": 260.9,
-      "link": "https://link.amazon/B0dDmwPH0",
-      "data": "2026-11-14T12:48:19+00:00",
-      "precoDe": 317.17,
-      "parcelas": "6x de R$ 43,50 sem juros",
-      "imagem": "assets/img/ofertas/tg-16.jpg"
-    },
-    {
-      "id": "tg-15",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Technos Masculino Performance Acqua Diver Aço Inoxidável Azul 15 Atm Lançamento",
-      "preco": 471.43,
-      "link": "https://meli.la/27HztZj",
-      "data": "2026-11-14T12:48:11+00:00",
-      "precoDe": 798,
-      "parcelas": "10x de R$ 51,14 sem juros",
-      "imagem": "assets/img/ofertas/tg-15.jpg"
-    },
-    {
-      "id": "tg-14",
-      "loja": "mercadolivre",
-      "titulo": "Seculus Relógio Masculino Spin Master Em Aço Prata",
-      "preco": 1159,
-      "link": "https://meli.la/1b2wSzk",
-      "data": "2026-11-14T12:37:12+00:00",
-      "precoDe": 1199,
-      "parcelas": "10x de R$ 119,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-14.jpg"
-    },
-    {
-      "id": "tg-13",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Masculino Casio Analógico em Aço Inoxidável 46 Milímetros com Fundo Preto Dial Luminescente",
-      "preco": 480,
-      "link": "https://meli.la/1k2Cvdh",
-      "data": "2026-11-14T12:32:58+00:00",
-      "precoDe": 633.5,
-      "parcelas": "12x de R$ 50,28",
-      "imagem": "assets/img/ofertas/tg-13.jpg"
-    },
-    {
-      "id": "tg-12",
-      "loja": "amazon",
-      "titulo": "Casio FT500WC Series | Men's Analog Watch | 100 Meter Water Resistance | LED",
-      "preco": 218,
-      "link": "https://link.amazon/B07RPC7oo",
-      "data": "2026-11-14T12:17:36+00:00",
-      "precoDe": 301.6,
-      "parcelas": "6x de R$ 36,35 sem juros",
-      "imagem": "assets/img/ofertas/tg-12.jpg"
-    },
-    {
-      "id": "tg-11",
-      "loja": "mercadolivre",
-      "titulo": "Relógio de pulso Orient MBSS1155A com correia de aço inoxidável cor prata - fundo",
-      "preco": 332.22,
-      "link": "https://meli.la/1iekKJD",
-      "data": "2026-11-14T12:17:29+00:00",
-      "precoDe": 395.72,
-      "parcelas": "6x de R$ 55,37 sem juros",
-      "imagem": "assets/img/ofertas/tg-11.jpg"
-    },
-    {
-      "id": "tg-9",
-      "loja": "amazon",
-      "titulo": "Relógio Casio G-Shock DW-5600UE-1DR - Iluminação LED",
-      "preco": 303.99,
-      "link": "https://link.amazon/B0eKI0Lki",
-      "data": "2026-11-14T12:02:27+00:00",
-      "precoDe": 449,
-      "parcelas": "6x de R$ 50,69 sem juros",
-      "imagem": "assets/img/ofertas/tg-9.jpg"
-    },
-    {
-      "id": "tg-8",
-      "loja": "amazon",
-      "titulo": "Timex Expedition Scout 40mm Men’s Analog Watch | Luminous Hands | Durable Comfortable Adjustable",
-      "preco": 316.56,
-      "link": "https://link.amazon/B00ni5HKh",
-      "data": "2026-11-14T11:47:02+00:00",
-      "parcelas": "6x de R$ 52,76 sem juros",
-      "imagem": "assets/img/ofertas/tg-8.jpg"
-    },
-    {
-      "id": "tg-7",
-      "loja": "amazon",
-      "titulo": "Casio Série MRW200H | Relógio analógico masculino | Design esportivo | Resistência à água",
-      "preco": 255.9,
-      "link": "https://link.amazon/B08vscZ1F",
-      "data": "2026-11-14T11:31:15+00:00",
-      "precoDe": 284.4,
-      "parcelas": "6x de R$ 42,65 sem juros",
-      "imagem": "assets/img/ofertas/tg-7.jpg"
-    },
-    {
-      "id": "tg-6",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Expedition Gallatin de 45 mm",
-      "preco": 405.95,
-      "link": "https://link.amazon/B0iF9uewJ",
-      "data": "2026-11-14T11:16:15+00:00",
-      "precoDe": 767.49,
-      "parcelas": "8x de R$ 50,77 sem juros",
-      "imagem": "assets/img/ofertas/tg-6.jpg"
-    },
-    {
-      "id": "tg-5",
-      "loja": "amazon",
-      "titulo": "Casio Illuminator Alarm Chronograph Digital Watch",
-      "preco": 172.98,
-      "link": "https://link.amazon/B0fw0Q3RR",
-      "data": "2026-11-14T11:00:41+00:00",
-      "precoDe": 199,
-      "parcelas": "5x de R$ 34,62 sem juros",
-      "imagem": "assets/img/ofertas/tg-5.jpg"
     }
   ]
 }
