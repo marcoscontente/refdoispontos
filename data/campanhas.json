@@ -105,6 +105,51 @@
       ]
     },
     {
+      "slug": "militar",
+      "categoria": "militar",
+      "titulo": "DNA militar no seu pulso — REF: PROMOS",
+      "descricao": "Timex Expedition Scout: o mostrador do relógio que a Timex fez para o Exército dos EUA em 1982. Apareceu no grupo gratuito da REF: por R$ 290.",
+      "chamada": "TIMEX EXPEDITION SCOUT",
+      "linhas": [
+        "DNA MILITAR",
+        "NO SEU PULSO."
+      ],
+      "texto": "Em 1982, a Timex fez um relógio para o Exército dos EUA. O Expedition Scout herda o mesmo mostrador — e é um dos achados que já passaram pelo grupo.",
+      "itens": [
+        {
+          "marca": "TIMEX · EXPEDITION",
+          "modelo": "SCOUT 40 MM",
+          "fato": "Números grandes, leitura rápida e luz que acende no escuro.",
+          "preco": "290",
+          "imagem": "assets/img/promos/timex-scout.webp",
+          "anuncios": [
+            "sc2b"
+          ]
+        },
+        {
+          "marca": "ORIENT · SOLARTECH",
+          "modelo": "MBSS1492",
+          "fato": "O “strap monster” da Orient, movido a luz.",
+          "preco": "262",
+          "imagem": "assets/img/promos/orient-solartech.webp"
+        },
+        {
+          "marca": "CASIO · DURO",
+          "modelo": "“BATMAN”",
+          "fato": "Diver de aço: bezel giratório e o preto com azul que deu o apelido.",
+          "preco": "458,10",
+          "imagem": "assets/img/promos/duro-batman.webp"
+        },
+        {
+          "marca": "CASIO · G-SHOCK",
+          "modelo": "DW-5600UE",
+          "fato": "O quadrado de 1983, praticamente indestrutível.",
+          "preco": "212",
+          "imagem": "assets/img/promos/dw5600ue.webp"
+        }
+      ]
+    },
+    {
       "slug": "automaticos",
       "categoria": "automaticos",
       "titulo": "Relógios automáticos com preço de achado — REF: PROMOS",
