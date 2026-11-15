@@ -3,6 +3,16 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-124",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
+      "preco": 347.87,
+      "link": "https://link.amazon/B0gRdV9Ll",
+      "data": "2026-11-15T18:36:30+00:00",
+      "parcelas": "6x de R$ 58,02 sem juros",
+      "imagem": "assets/img/ofertas/tg-124.jpg"
+    },
+    {
       "id": "tg-123",
       "loja": "amazon",
       "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
@@ -657,16 +667,6 @@
       "data": "2026-11-14T17:14:25+00:00",
       "parcelas": "10x de R$ 245,48 sem juros",
       "imagem": "assets/img/ofertas/tg-62.jpg"
-    },
-    {
-      "id": "tg-61",
-      "loja": "amazon",
-      "titulo": "UNDONE Basecamp Classic ANC Cali Designs, tamanho da caixa de 40 mm, relógio",
-      "preco": 2454.08,
-      "link": "https://link.amazon/B09DyHdos",
-      "data": "2026-11-14T16:59:31+00:00",
-      "parcelas": "10x de R$ 245,48 sem juros",
-      "imagem": "assets/img/ofertas/tg-61.jpg"
     }
   ]
 }
