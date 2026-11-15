@@ -105,6 +105,51 @@
       ]
     },
     {
+      "slug": "g-shock-octogonal",
+      "categoria": "gshockoctogonal",
+      "titulo": "O G-Shock octogonal — REF: PROMOS",
+      "descricao": "Casio G-Shock GA-2100: analógico-digital, Carbon Core Guard e 200 m. Apareceu no grupo gratuito da REF: por R$ 337,37.",
+      "chamada": "CASIO · G-SHOCK GA-2100",
+      "linhas": [
+        "O G-SHOCK",
+        "OCTOGONAL."
+      ],
+      "texto": "O GA-2100 levou o G-Shock para a silhueta octogonal, com perfil fino para um G-Shock — e é um dos achados que já passaram pelo grupo.",
+      "itens": [
+        {
+          "marca": "CASIO · G-SHOCK",
+          "modelo": "GA-2100",
+          "fato": "Analógico-digital, Carbon Core Guard e 200 m.",
+          "preco": "337,37",
+          "imagem": "assets/img/promos/ga2100-octogonal.webp",
+          "anuncios": [
+            "1e"
+          ]
+        },
+        {
+          "marca": "CASIO · G-SHOCK",
+          "modelo": "DW-5600UE",
+          "fato": "O quadrado de 1983, praticamente indestrutível.",
+          "preco": "212",
+          "imagem": "assets/img/promos/dw5600ue.webp"
+        },
+        {
+          "marca": "CASIO",
+          "modelo": "AE-1200 “ROYALE”",
+          "fato": "World time, bateria de 10 anos e 100 m.",
+          "preco": "352",
+          "imagem": "assets/img/promos/ae1200.webp"
+        },
+        {
+          "marca": "CASIO",
+          "modelo": "F-91W",
+          "fato": "O rei da praticidade: 21 g e bateria de 7 anos.",
+          "preco": "96,79",
+          "imagem": "assets/img/promos/f91w.webp"
+        }
+      ]
+    },
+    {
       "slug": "militar",
       "categoria": "militar",
       "titulo": "DNA militar no seu pulso — REF: PROMOS",
