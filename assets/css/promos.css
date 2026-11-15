@@ -155,23 +155,19 @@ body{padding-bottom:150px}
 body .hero .cta:not(.tg),body .sticky .cta:not(.tg){background:#25D366;color:#06301F;box-shadow:0 10px 24px rgba(37,211,102,.22)}
 body .hero .cta.tg,body .sticky .cta.tg{color:#04263A}
 
-/* Lista de ofertas recentes: 6 linhas visíveis, o resto rola dentro da caixa */
+/* Lista de ofertas recentes: 6 cartões visíveis, o resto rola dentro da caixa (altura definida em promos.js) */
 .dica{margin:-8px 0 14px}
-.cards.rolagem{display:block;max-height:520px;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
-  border:1px solid var(--line);border-radius:18px;padding:8px}
-.linha{display:grid;grid-template-columns:60px 1fr auto;gap:12px;align-items:center;height:76px;padding:8px 12px 8px 8px;
-  margin-bottom:8px;border-radius:12px;background:linear-gradient(160deg,var(--bg-2),#0B2223);color:inherit;text-decoration:none}
-.linha:last-child{margin-bottom:0}
-.linha:active{transform:scale(.99)}
-.linha img{width:60px;height:60px;object-fit:contain;background:#fff;border-radius:10px;padding:4px}
-.linha .texto{min-width:0;display:block}
-.linha .micro{display:block;font-size:10px}
-.linha .nome{font-weight:700;font-size:13px;line-height:1.25;margin-top:3px;
-  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.linha .valor{text-align:right;white-space:nowrap}
-.linha .valor s{display:block;font-size:11px;color:var(--paper-dim)}
-.linha .valor b{font-family:var(--display);font-weight:400;font-size:18px}
-.linha .valor small{font-family:var(--text);font-weight:600;font-size:11px;margin-right:2px}
+.cards.rolagem{position:relative;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  border:1px solid var(--line);border-radius:22px;padding:8px;gap:8px}
+a.card{color:inherit;text-decoration:none}
+a.card:active{transform:scale(.99)}
+.card.oferta{height:204px}
+.card.oferta .shot{background:#fff;aspect-ratio:1/1}
+.card.oferta .shot img{filter:none}
+.card.oferta .model{font-family:var(--text);font-weight:700;font-size:15px;line-height:1.25;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card.oferta .de{font-size:13px;color:var(--paper-dim);text-decoration:line-through;margin-bottom:6px}
+.card.oferta .price{font-size:26px}
 
 /* Página de uma oferta (/promos/oferta/?id=...) */
 .item{padding:8px 0 28px}

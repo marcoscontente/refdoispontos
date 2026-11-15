@@ -63,22 +63,36 @@
         if (recentes.length < 3) return;
         lista.classList.add('rolagem');
         lista.replaceChildren(...recentes.map((o) => {
-          const linha = no('a', 'linha');
-          linha.href = endereco(o.id);
-          const img = no('img');
+          const cartao = no('a', 'card oferta');
+          cartao.href = endereco(o.id);
+          const foto = no('div', 'shot');
+          const img = no('img', 'fit');
           img.src = raiz + o.imagem; img.alt = ''; img.loading = 'lazy';
-          const texto = no('span', 'texto');
+          foto.append(img);
+          const texto = no('div');
           texto.append(
-            no('span', 'micro', `${LOJAS[o.loja] || o.loja} · ${quando(o.data)}`),
-            no('span', 'nome', o.titulo));
-          const valor = no('span', 'valor');
-          if (o.precoDe > o.preco) valor.append(no('s', '', `R$ ${real(o.precoDe)}`));
-          const por = no('b');
-          por.append(no('small', '', 'R$'), real(o.preco));
-          valor.append(por);
-          linha.append(img, texto, valor);
-          return linha;
+            no('div', 'micro brand', `${LOJAS[o.loja] || o.loja} · ${quando(o.data)}`),
+            no('div', 'model', o.titulo));
+          if (o.precoDe > o.preco) texto.append(no('div', 'de', `de R$ ${real(o.precoDe)}`));
+          texto.append(no('span', 'tag', 'APARECEU POR'));
+          const preco = no('div', 'price');
+          preco.append(no('small', '', 'R$'), real(o.preco));
+          texto.append(preco);
+          cartao.append(foto, texto);
+          return cartao;
         }));
+        // A caixa mostra 6 cartões inteiros; os outros rolam dentro dela.
+        const VISIVEIS = 6;
+        const ajustarCaixa = () => {
+          const setimo = lista.children[VISIVEIS];
+          if (!setimo) { lista.style.maxHeight = ''; return; }
+          const estilo = getComputedStyle(lista);
+          const sobra = parseFloat(estilo.rowGap) || 0;
+          lista.style.maxHeight =
+            `${setimo.offsetTop - lista.children[0].offsetTop - sobra + 2 * parseFloat(estilo.paddingTop)}px`;
+        };
+        ajustarCaixa();
+        window.addEventListener('resize', ajustarCaixa);
         const dica = document.getElementById('dica');
         if (dica) {
           dica.textContent = `${recentes.length} ofertas · role a lista e toque para ver`;
