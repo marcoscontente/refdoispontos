@@ -14,6 +14,13 @@
   parametros.forEach((v, k) => { if (k.startsWith('utm_')) utms.set(k, v); });
   if ([...utms].length) $('voltar').href = `../?${utms}`;
 
+  // Quem veio da página principal volta para ela.
+  if (parametros.get('de') === 'home') {
+    $('voltar').href = '../../#ofertas';
+    $('voltar').textContent = '← Voltar para as ofertas';
+    document.querySelector('.logo').href = '../../';
+  }
+
   function semOferta() {
     $('titulo').textContent = 'Esse achado já saiu da lista.';
     $('extra').textContent = 'As ofertas mudam rápido. Entre grátis no grupo e receba as próximas na hora.';

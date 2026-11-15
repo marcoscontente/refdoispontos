@@ -206,40 +206,44 @@ summary:focus-visible,
 
 .abas button[aria-selected="true"] { background: var(--ref-teal); color: var(--ref-white); }
 
+/* Lista de ofertas: 6 cartões visíveis, o resto rola dentro da caixa (altura definida em app.js) */
 .trilho {
-  display: flex;
-  gap: 14px;
-  overflow-x: auto;
-  padding: 0 var(--margem) 6px;
-  scroll-snap-type: x mandatory;
-  scroll-padding-left: var(--margem);
+  display: grid;
+  gap: 8px;
+  margin: 0 var(--margem);
+  padding: 8px;
+  border: 1px solid var(--linha);
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
 }
-
-.trilho::-webkit-scrollbar { display: none; }
 
 .oferta {
-  flex: 0 0 66%;
-  max-width: 290px;
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 44% 1fr;
+  gap: 14px;
+  align-items: center;
+  height: 204px;
+  padding: 12px;
+  background: var(--ref-white);
+  border: 1px solid var(--linha);
   text-decoration: none;
   color: var(--ref-charcoal);
+  overflow: hidden;
 }
+
+.oferta:active { transform: scale(0.99); }
+.oferta .texto { min-width: 0; display: block; }
 
 .oferta .foto {
   position: relative;
   aspect-ratio: 1 / 1;
   background: var(--ref-white);
-  border: 1px solid var(--linha);
   display: grid;
   place-items: center;
   overflow: hidden;
 }
 
-.oferta .foto img { width: 100%; height: 100%; object-fit: contain; padding: 8%; }
+.oferta .foto img { width: 100%; height: 100%; object-fit: contain; }
 .oferta .foto .vazio { color: var(--ref-teal); opacity: 0.45; }
 
 .oferta .selo {
@@ -249,8 +253,8 @@ summary:focus-visible,
   background: var(--ref-red);
   color: var(--ref-white);
   font-family: var(--ref-font-display);
-  font-size: 15px;
-  padding: 6px 9px;
+  font-size: 13px;
+  padding: 4px 7px;
 }
 
 .oferta .exemplo {
@@ -262,51 +266,49 @@ summary:focus-visible,
   padding: 4px 8px;
 }
 
-.oferta .loja { margin-top: 12px; color: var(--ref-teal); }
+.oferta .loja { display: block; color: var(--ref-teal); font-size: 10px; letter-spacing: 0.06em; white-space: nowrap; }
 
 .oferta .titulo {
   margin: 4px 0 8px;
-  font-size: 14px;
-  line-height: 1.35;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.25;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  min-height: 2.7em;
 }
 
+.oferta .preco-de { display: block; font-size: 13px; text-decoration: line-through; opacity: 0.7; margin-bottom: 6px; }
+.oferta .por { display: block; color: var(--ref-red); font-size: 10px; }
+
 .oferta .preco {
+  display: block;
   font-family: var(--ref-font-display);
-  font-size: 22px;
+  font-size: clamp(17px, 5.4vw, 22px);
+  white-space: nowrap;
   line-height: 1.1;
   color: var(--ref-red);
 }
 
-.oferta .preco-de { font-size: 13px; text-decoration: line-through; opacity: 0.7; }
-
-.oferta .cupom {
-  align-self: flex-start;
-  margin-top: 8px;
-  padding: 4px 8px;
-  border: 1px dashed var(--ref-teal);
-  color: var(--ref-teal);
-}
-
 .oferta.fim {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  height: auto;
   background: var(--ref-teal);
+  border-color: var(--ref-teal);
   color: var(--ref-white);
   padding: 20px;
-  flex-basis: 56%;
 }
 
 .oferta.fim strong {
   font-family: var(--ref-font-display);
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 /* Grupos */
@@ -453,5 +455,4 @@ summary:focus-visible,
 .redirect p { margin: 0; }
 
 @media (prefers-reduced-motion: no-preference) {
-  .trilho { scroll-behavior: smooth; }
 }

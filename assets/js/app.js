@@ -141,8 +141,15 @@ function montarGrupos(grupos, acao) {
   );
 }
 
+// "2026-11-15T17:36:27+00:00" → hoje / ontem / há N dias, no horário de quem abre a página.
+function quando(iso) {
+  const dias = Math.floor((new Date().setHours(0, 0, 0, 0) - new Date(iso).setHours(0, 0, 0, 0)) / 864e5);
+  return dias <= 0 ? 'hoje' : dias === 1 ? 'ontem' : `há ${dias} dias`;
+}
+
+// Cada cartão abre a página da oferta (promos/oferta/), que leva para os grupos.
 function cartaoOferta(o) {
-  const foto = el('div', { class: 'foto' },
+  const foto = el('span', { class: 'foto' },
     o.imagem
       ? el('img', { src: o.imagem, alt: '', loading: 'lazy' })
       : el('span', { class: 'micro vazio' }, 'Foto'));
@@ -152,23 +159,27 @@ function cartaoOferta(o) {
   }
   if (o.exemplo) foto.append(el('span', { class: 'micro exemplo' }, 'Exemplo'));
 
-  return el('a', { class: 'oferta', href: o.link, target: '_blank', rel: 'sponsored noopener' },
+  const destino = o.exemplo ? 'g/promos/' : `promos/oferta/?id=${encodeURIComponent(o.id)}&de=home`;
+  return el('a', { class: 'oferta', href: destino },
     foto,
-    el('span', { class: 'micro loja' }, LOJAS[o.loja] || o.loja),
-    el('span', { class: 'titulo' }, o.titulo),
-    o.precoDe > o.preco ? el('span', { class: 'preco-de' }, BRL.format(o.precoDe)) : null,
-    el('span', { class: 'preco' }, BRL.format(o.preco)),
-    o.cupom ? el('span', { class: 'micro cupom' }, `Cupom ${o.cupom}`) : null);
+    el('span', { class: 'texto' },
+      el('span', { class: 'micro loja' }, `${LOJAS[o.loja] || o.loja} · ${quando(o.data)}`),
+      el('span', { class: 'titulo' }, o.titulo),
+      o.precoDe > o.preco ? el('span', { class: 'preco-de' }, `de ${BRL.format(o.precoDe)}`) : null,
+      el('span', { class: 'micro por' }, 'Apareceu por'),
+      el('span', { class: 'preco' }, BRL.format(o.preco))));
 }
 
+const OFERTAS_POR_LOJA = 30; // quantas entram na lista de cada loja
+const OFERTAS_VISIVEIS = 6;  // quantas cabem na caixa sem rolar
+
 function montarOfertas(dados) {
-  const max = dados.maximoPorLoja || 10;
   const porLoja = {};
   [...dados.ofertas]
     .sort((a, b) => (a.data < b.data ? 1 : -1))
     .forEach((o) => {
       (porLoja[o.loja] ||= []);
-      if (porLoja[o.loja].length < max) porLoja[o.loja].push(o);
+      if (porLoja[o.loja].length < OFERTAS_POR_LOJA) porLoja[o.loja].push(o);
     });
 
   const lojas = Object.keys(LOJAS).filter((l) => porLoja[l]?.length);
@@ -177,14 +188,24 @@ function montarOfertas(dados) {
   const trilho = $('trilho');
   const abas = $('abas');
 
+  // A caixa mostra 6 cartões inteiros; os outros rolam dentro dela.
+  function ajustarCaixa() {
+    const setimo = trilho.children[OFERTAS_VISIVEIS];
+    if (!setimo) { trilho.style.maxHeight = ''; return; }
+    const estilo = getComputedStyle(trilho);
+    trilho.style.maxHeight =
+      `${setimo.offsetTop - trilho.children[0].offsetTop - (parseFloat(estilo.rowGap) || 0) + 2 * parseFloat(estilo.paddingTop)}px`;
+  }
+
   function mostrar(loja) {
     trilho.replaceChildren(
       ...porLoja[loja].map(cartaoOferta),
       el('a', { class: 'oferta fim', href: 'g/promos/' },
         el('strong', {}, 'Todas as ofertas estão no grupo'),
         el('span', { class: 'micro' }, 'Entrar no REF:PROMOS →')));
-    trilho.scrollLeft = 0;
+    trilho.scrollTop = 0;
     for (const b of abas.children) b.setAttribute('aria-selected', String(b.dataset.loja === loja));
+    ajustarCaixa();
   }
 
   abas.replaceChildren(
@@ -196,8 +217,9 @@ function montarOfertas(dados) {
   );
   abas.hidden = lojas.length < 2;
 
+  $('ofertas').hidden = false; // antes de medir: seção escondida não tem altura
   mostrar(lojas[0]);
-  $('ofertas').hidden = false;
+  window.addEventListener('resize', ajustarCaixa);
 }
 
 async function iniciar() {
