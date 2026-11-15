@@ -36,7 +36,8 @@
           "preco": "366",
           "imagem": "assets/img/promos/seculus-azul.webp"
         }
-      ]
+      ],
+      "ofertas": 30
     },
     {
       "slug": "entrada",

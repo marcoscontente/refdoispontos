@@ -116,7 +116,9 @@ async function baixarFoto(oferta, url) {
 
 async function main() {
   const atual = JSON.parse(await readFile(ARQUIVO, 'utf8'));
-  const maximo = atual.maximoPorLoja || 10;
+  // maximoPorLoja = quantas o carrossel do site mostra; guardarPorLoja = quantas ficam no arquivo
+  // (a lista de /promos/ usa as 30 mais recentes).
+  const maximo = atual.guardarPorLoja || 30;
 
   // 1. Ler o canal, da publicação mais nova para a mais antiga.
   const lidas = [];
@@ -168,7 +170,8 @@ async function main() {
     if (!usadas.has(f)) await unlink(path.join(DIR_FOTOS, f));
   }
 
-  await writeFile(ARQUIVO, JSON.stringify({ maximoPorLoja: maximo, ofertas }, null, 2) + '\n');
+  await writeFile(ARQUIVO, JSON.stringify(
+    { maximoPorLoja: atual.maximoPorLoja || 10, guardarPorLoja: maximo, ofertas }, null, 2) + '\n');
   console.log(`data/ofertas.json atualizado: ${ofertas.length} ofertas ` +
     `(${Object.entries(contagem).map(([l, n]) => `${l}: ${Math.min(n, maximo)}`).join(', ')}).`);
 }

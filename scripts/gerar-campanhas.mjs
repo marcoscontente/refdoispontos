@@ -87,9 +87,10 @@ function pagina(c) {
   </div>
 
   <section id="achados">
-    <div class="micro">Prova, não promessa</div>
-    <h2>Achados que já<br>passaram pelo grupo</h2>
-    <div class="cards" id="cards">
+    <div class="micro">${c.ofertas ? 'Direto do grupo' : 'Prova, não promessa'}</div>
+    <h2>${c.ofertas ? 'Últimos achados<br>do grupo' : 'Achados que já<br>passaram pelo grupo'}</h2>
+    <p class="micro dica" id="dica" hidden></p>
+    <div class="cards" id="cards"${c.ofertas ? ` data-ofertas="${Number(c.ofertas)}"` : ''}>
 ${c.itens.map((it, i) => cartao(it, i, raiz)).join('\n')}
     </div>
     <p class="disclaimer">Valores de ofertas já publicadas no grupo. Preço, estoque e cupons mudam a qualquer momento.</p>

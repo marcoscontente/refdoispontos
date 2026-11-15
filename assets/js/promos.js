@@ -29,6 +29,65 @@
     if (doAnuncio) lista.prepend(doAnuncio);
   }
 
+  // Página com ofertas recentes: troca os cartões fixos por uma lista com rolagem das últimas
+  // ofertas lidas do canal (data/ofertas.json). Cada linha abre a página da oferta.
+  // Se a leitura falhar, os cartões fixos continuam na tela.
+  const lista = document.getElementById('cards');
+  const quantas = Number(lista.dataset.ofertas || 0);
+  if (quantas) {
+    const LOJAS = { amazon: 'Amazon', mercadolivre: 'Mercado Livre' };
+    const real = (n) => n.toLocaleString('pt-BR', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 });
+    const quando = (iso) => {
+      const dias = Math.floor((new Date().setHours(0, 0, 0, 0) - new Date(iso).setHours(0, 0, 0, 0)) / 864e5);
+      return dias <= 0 ? 'hoje' : dias === 1 ? 'ontem' : `há ${dias} dias`;
+    };
+    const no = (tag, classe, texto) => {
+      const n = document.createElement(tag);
+      if (classe) n.className = classe;
+      if (texto) n.textContent = texto;
+      return n;
+    };
+    // Os parâmetros do anúncio seguem para a página da oferta.
+    const endereco = (id) => {
+      const q = new URLSearchParams({ id });
+      new URLSearchParams(location.search).forEach((v, k) => { if (k.startsWith('utm_')) q.set(k, v); });
+      return `oferta/?${q}`;
+    };
+    fetch(`${raiz}data/ofertas.json`, { cache: 'no-store' })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`ofertas.json: ${r.status}`))))
+      .then((dados) => {
+        const recentes = dados.ofertas
+          .filter((o) => !o.exemplo && o.imagem)
+          .sort((a, b) => (a.data < b.data ? 1 : -1))
+          .slice(0, quantas);
+        if (recentes.length < 3) return;
+        lista.classList.add('rolagem');
+        lista.replaceChildren(...recentes.map((o) => {
+          const linha = no('a', 'linha');
+          linha.href = endereco(o.id);
+          const img = no('img');
+          img.src = raiz + o.imagem; img.alt = ''; img.loading = 'lazy';
+          const texto = no('span', 'texto');
+          texto.append(
+            no('span', 'micro', `${LOJAS[o.loja] || o.loja} · ${quando(o.data)}`),
+            no('span', 'nome', o.titulo));
+          const valor = no('span', 'valor');
+          if (o.precoDe > o.preco) valor.append(no('s', '', `R$ ${real(o.precoDe)}`));
+          const por = no('b');
+          por.append(no('small', '', 'R$'), real(o.preco));
+          valor.append(por);
+          linha.append(img, texto, valor);
+          return linha;
+        }));
+        const dica = document.getElementById('dica');
+        if (dica) {
+          dica.textContent = `${recentes.length} ofertas · role a lista e toque para ver`;
+          dica.hidden = false;
+        }
+      })
+      .catch((erro) => console.error('[REF:]', erro));
+  }
+
   // Foto larga (relógio deitado) aparece inteira; foto que falha vira o nome do modelo.
   document.querySelectorAll('.shot img').forEach((img) => {
     const conferir = () => { if (img.naturalWidth / img.naturalHeight > 0.8) img.classList.add('fit'); };
