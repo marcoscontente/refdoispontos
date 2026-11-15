@@ -2,6 +2,38 @@
   "maximoPorLoja": 10,
   "ofertas": [
     {
+      "id": "tg-122",
+      "loja": "amazon",
+      "titulo": "Timex Unissex T2N647 Weekender 38 mm Preto Nylon Slip",
+      "preco": 285.56,
+      "link": "https://link.amazon/B0gfA8Lr8",
+      "data": "2026-11-15T17:36:27+00:00",
+      "precoDe": 522.81,
+      "parcelas": "6x de R$ 47,61 sem juros",
+      "imagem": "assets/img/ofertas/tg-122.jpg"
+    },
+    {
+      "id": "tg-121",
+      "loja": "amazon",
+      "titulo": "Timex Expedition Scout 40mm Men’s Analog Watch | Luminous Hands | Durable Comfortable Adjustable",
+      "preco": 316.56,
+      "link": "https://link.amazon/B05hbKdsn",
+      "data": "2026-11-15T17:05:59+00:00",
+      "parcelas": "6x de R$ 52,76 sem juros",
+      "imagem": "assets/img/ofertas/tg-121.jpg"
+    },
+    {
+      "id": "tg-120",
+      "loja": "amazon",
+      "titulo": "Timex Men's Easy Reader Watch",
+      "preco": 279.95,
+      "link": "https://link.amazon/B03EZ2ZGY",
+      "data": "2026-11-15T16:34:41+00:00",
+      "precoDe": 359.91,
+      "parcelas": "6x de R$ 46,70 sem juros",
+      "imagem": "assets/img/ofertas/tg-120.jpg"
+    },
+    {
       "id": "tg-119",
       "loja": "amazon",
       "titulo": "Seiko Relógio masculino com cronógrafo SSB429P1, prata, Prata, pulseira",
@@ -190,36 +222,6 @@
       "data": "2026-11-14T21:57:31+00:00",
       "parcelas": "10x de R$ 157,78 sem juros",
       "imagem": "assets/img/ofertas/tg-80.jpg"
-    },
-    {
-      "id": "tg-79",
-      "loja": "amazon",
-      "titulo": "PRAESIDUS | TYPE H-75 - Relógios Masculinos, Relógios de Pulso Masculinos - Cronógrafo, Militar",
-      "preco": 2466.71,
-      "link": "https://link.amazon/B08RyXn5W",
-      "data": "2026-11-14T21:41:05+00:00",
-      "parcelas": "10x de R$ 246,68 sem juros",
-      "imagem": "assets/img/ofertas/tg-79.jpg"
-    },
-    {
-      "id": "tg-78",
-      "loja": "amazon",
-      "titulo": "𝗣𝗥𝗔𝗘𝗦𝗜𝗗𝗨𝗦 | 𝗔-𝟮 𝗢𝗿𝗶𝗴𝗶𝗻 Relógio Militar de Campo Masculino com Mostrador Preto Pulseira",
-      "preco": 1896.46,
-      "link": "https://link.amazon/B0ilJh4YR",
-      "data": "2026-11-14T21:25:12+00:00",
-      "parcelas": "10x de R$ 189,70 sem juros",
-      "imagem": "assets/img/ofertas/tg-78.jpg"
-    },
-    {
-      "id": "tg-77",
-      "loja": "amazon",
-      "titulo": "AVI-8 Relógio piloto masculino Hawker Hurricane – cronógrafo clássico, movimento de quartzo japonês, caixa",
-      "preco": 1338.64,
-      "link": "https://link.amazon/B01K7b7mB",
-      "data": "2026-11-14T21:10:17+00:00",
-      "parcelas": "10x de R$ 133,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-77.jpg"
     }
   ]
 }
