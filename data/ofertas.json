@@ -3,6 +3,64 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-170",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine Masculino 32549g0mvne1 Aco Inox Prata Fundo Preto Analogico Prova Dágua 50m",
+      "preco": 154.8,
+      "link": "https://meli.la/25Gzi4U",
+      "data": "2026-11-16T16:06:23+00:00",
+      "precoDe": 289,
+      "cupom": "DEZOFF",
+      "parcelas": "12x de R$ 17,00",
+      "imagem": "assets/img/ofertas/tg-170.jpg"
+    },
+    {
+      "id": "tg-169",
+      "loja": "mercadolivre",
+      "titulo": "Relógio de pulso Casio MTP-B145G-9AVDF com corria de aço inoxidável cor dourado",
+      "preco": 444.05,
+      "link": "https://meli.la/1uVQ1BC",
+      "data": "2026-11-16T16:04:20+00:00",
+      "precoDe": 543,
+      "cupom": "DEZOFF",
+      "parcelas": "12x de R$ 45,84",
+      "imagem": "assets/img/ofertas/tg-169.jpg"
+    },
+    {
+      "id": "tg-168",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Casio Tank Standard Mtp-b215d-2avdf Prateado Azul",
+      "preco": 560.91,
+      "link": "https://meli.la/1sSY12B",
+      "data": "2026-11-16T16:03:18+00:00",
+      "precoDe": 849,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 59,09 sem juros",
+      "imagem": "assets/img/ofertas/tg-168.jpg"
+    },
+    {
+      "id": "tg-167",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Casio MTP-B190D-1BVCF em aço retrô prateado e preto",
+      "preco": 411,
+      "link": "https://meli.la/24bCf2r",
+      "data": "2026-11-16T16:01:08+00:00",
+      "precoDe": 1149,
+      "cupom": "DEZOFF",
+      "parcelas": "12x de R$ 42,64",
+      "imagem": "assets/img/ofertas/tg-167.jpg"
+    },
+    {
+      "id": "tg-166",
+      "loja": "amazon",
+      "titulo": "Casio Herren Analog Quarz mit Edelstahl Armbanduhr",
+      "preco": 290,
+      "link": "https://link.amazon/B0aZPTNsI",
+      "data": "2026-11-16T15:53:29+00:00",
+      "parcelas": "6x de R$ 48,35 sem juros",
+      "imagem": "assets/img/ofertas/tg-166.jpg"
+    },
+    {
       "id": "tg-165",
       "loja": "amazon",
       "titulo": "Timex Relógio masculino Easy Reader",
@@ -374,54 +432,6 @@
       "imagem": "assets/img/ofertas/tg-134.jpg"
     },
     {
-      "id": "tg-133",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Masculino Prata Esportivo Aço Inoxidável Prova Dágua 100 Metros Analógico Fundo Azul",
-      "preco": 278.1,
-      "link": "https://meli.la/2RGfNnt",
-      "data": "2026-11-16T12:39:28+00:00",
-      "precoDe": 458,
-      "cupom": "VIPNOML",
-      "parcelas": "6x de R$ 51,50 sem juros",
-      "imagem": "assets/img/ofertas/tg-133.jpg"
-    },
-    {
-      "id": "tg-132",
-      "loja": "mercadolivre",
-      "titulo": "RELOGIO ORIENT MASCULINO ANALOGICO PRATEADO MBSS1155A D2SX",
-      "preco": 269.1,
-      "link": "https://meli.la/1ycRUrW",
-      "data": "2026-11-16T12:28:23+00:00",
-      "precoDe": 299,
-      "cupom": "VIPNOML",
-      "parcelas": "6x de R$ 49,83 sem juros",
-      "imagem": "assets/img/ofertas/tg-132.jpg"
-    },
-    {
-      "id": "tg-131",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seculus Masculino Social Couro Preto 23767g0svnc2",
-      "preco": 546.84,
-      "link": "https://meli.la/1ephLnr",
-      "data": "2026-11-16T12:26:13+00:00",
-      "precoDe": 980,
-      "cupom": "VIPNOML",
-      "parcelas": "10x de R$ 60,76 sem juros",
-      "imagem": "assets/img/ofertas/tg-131.jpg"
-    },
-    {
-      "id": "tg-130",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Analógico Orient MBSS1380 Fundo Verde Aço Prateado Resistente à Água",
-      "preco": 299,
-      "link": "https://meli.la/1cWgDUa",
-      "data": "2026-11-16T12:21:23+00:00",
-      "precoDe": 409.57,
-      "cupom": "VIPNOML",
-      "parcelas": "6x de R$ 55,37 sem juros",
-      "imagem": "assets/img/ofertas/tg-130.jpg"
-    },
-    {
       "id": "tg-129",
       "loja": "amazon",
       "titulo": "Timex Relógio masculino Easy Reader de 35 mm - pulseira preta, mostrador azul, caixa",
@@ -657,17 +667,6 @@
       "data": "2026-11-14T20:07:55+00:00",
       "parcelas": "10x de R$ 191,92 sem juros",
       "imagem": "assets/img/ofertas/tg-73.jpg"
-    },
-    {
-      "id": "tg-72",
-      "loja": "amazon",
-      "titulo": "Relógio Casio Digital Vintage Unissex F-91W-1DG",
-      "preco": 109,
-      "link": "https://link.amazon/B0aJ6JxjW",
-      "data": "2026-11-14T19:51:02+00:00",
-      "precoDe": 126,
-      "parcelas": "3x de R$ 36,34 sem juros",
-      "imagem": "assets/img/ofertas/tg-72.jpg"
     }
   ]
 }
