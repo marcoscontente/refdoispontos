@@ -3,6 +3,170 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-195",
+      "loja": "amazon",
+      "titulo": "Casio Série F91W | Relógio digital | Resistente à água | Luz LED",
+      "preco": 109.99,
+      "link": "https://link.amazon/B0aSiipGX",
+      "data": "2026-11-16T18:56:53+00:00",
+      "precoDe": 169,
+      "parcelas": "3x de R$ 36,67 sem juros",
+      "imagem": "assets/img/ofertas/tg-195.jpg"
+    },
+    {
+      "id": "tg-194",
+      "loja": "mercadolivre",
+      "titulo": "Caixa Maleta Porta Relógio Estojo Organizadora 5 Lugares Preto",
+      "preco": 57.9,
+      "link": "https://meli.la/1uRZoWg",
+      "data": "2026-11-16T18:44:14+00:00",
+      "precoDe": 60.9,
+      "imagem": "assets/img/ofertas/tg-194.jpg"
+    },
+    {
+      "id": "tg-193",
+      "loja": "amazon",
+      "titulo": "Relógio de Pulso Feminino Casio Prata Vintage Digital A168WA-1WDF",
+      "preco": 222.43,
+      "link": "https://link.amazon/B071fPGWS",
+      "data": "2026-11-16T18:36:00+00:00",
+      "precoDe": 295,
+      "parcelas": "6x de R$ 37,08 sem juros",
+      "imagem": "assets/img/ofertas/tg-193.jpg"
+    },
+    {
+      "id": "tg-192",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Seculus Automatico Masculino Azul Claro 44237g0svna6 Prateado Azul-claro Azul Caixa de 42mm",
+      "preco": 729,
+      "link": "https://meli.la/2yqkByJ",
+      "data": "2026-11-16T18:26:17+00:00",
+      "precoDe": 1080,
+      "cupom": "PESOPESADO",
+      "parcelas": "12x de R$ 73,40",
+      "imagem": "assets/img/ofertas/tg-192.jpg"
+    },
+    {
+      "id": "tg-191",
+      "loja": "mercadolivre",
+      "titulo": "Pulseira Nylon Force Relógio Smartwatch 18mm 20mm 22mm 24mm Cor Verde Largura 22 mm",
+      "preco": 38.76,
+      "link": "https://meli.la/14y4DaN",
+      "data": "2026-11-16T18:23:51+00:00",
+      "precoDe": 38.78,
+      "imagem": "assets/img/ofertas/tg-191.jpg"
+    },
+    {
+      "id": "tg-190",
+      "loja": "amazon",
+      "titulo": "Casio MRW-230H Series",
+      "preco": 278.39,
+      "link": "https://link.amazon/B0d8KwUVM",
+      "data": "2026-11-16T18:14:24+00:00",
+      "parcelas": "6x de R$ 46,44 sem juros",
+      "imagem": "assets/img/ofertas/tg-190.jpg"
+    },
+    {
+      "id": "tg-189",
+      "loja": "mercadolivre",
+      "titulo": "Pulseira 18mm, 20mm, 22mm, 24mm,26mm Nato Zulu Nylon Militar Cor Verde 20mm",
+      "preco": 29,
+      "link": "https://meli.la/31csgPB",
+      "data": "2026-11-16T18:03:14+00:00",
+      "precoDe": 29.9,
+      "imagem": "assets/img/ofertas/tg-189.jpg"
+    },
+    {
+      "id": "tg-188",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Seculus Masculino Couro 77308g0svnc1 Preto Prateado",
+      "preco": 505.93,
+      "link": "https://meli.la/1EEgWH4",
+      "data": "2026-11-16T17:58:41+00:00",
+      "precoDe": 579.92,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 57,99 sem juros",
+      "imagem": "assets/img/ofertas/tg-188.jpg"
+    },
+    {
+      "id": "tg-187",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Reclaim Ocean 40 mm - pulseira azul com mostrador preto",
+      "preco": 349.87,
+      "link": "https://link.amazon/B04lpV1dE",
+      "data": "2026-11-16T17:54:24+00:00",
+      "precoDe": 389.14,
+      "parcelas": "6x de R$ 58,32 sem juros",
+      "imagem": "assets/img/ofertas/tg-187.jpg"
+    },
+    {
+      "id": "tg-186",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Mondaine Masculino 99739g0mvnh1 Clássico Preto Prateado",
+      "preco": 255.64,
+      "link": "https://meli.la/2WAEP24",
+      "data": "2026-11-16T17:48:14+00:00",
+      "precoDe": 299,
+      "cupom": "DEZOFF",
+      "parcelas": "6x de R$ 49,83 sem juros",
+      "imagem": "assets/img/ofertas/tg-186.jpg"
+    },
+    {
+      "id": "tg-185",
+      "loja": "mercadolivre",
+      "titulo": "Pulseira Relógio Smartwatch Aço Inox Cor Preto Largura 18 mm",
+      "preco": 33.45,
+      "link": "https://meli.la/329FZ6t",
+      "data": "2026-11-16T17:42:57+00:00",
+      "precoDe": 42.14,
+      "imagem": "assets/img/ofertas/tg-185.jpg"
+    },
+    {
+      "id": "tg-184",
+      "loja": "amazon",
+      "titulo": "Casio WS1600H Series | Men’s Watch | Sports Design | Stopwatch | Countdown Timer",
+      "preco": 298.49,
+      "link": "https://link.amazon/B05Il0AjF",
+      "data": "2026-11-16T17:34:25+00:00",
+      "parcelas": "6x de R$ 49,79 sem juros",
+      "imagem": "assets/img/ofertas/tg-184.jpg"
+    },
+    {
+      "id": "tg-183",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine M1 Cronógrafo 33055g0mvnc2 Edição 1954 42mm Marrom Prateado Branco",
+      "preco": 923.1,
+      "link": "https://meli.la/2qEPCat",
+      "data": "2026-11-16T17:22:18+00:00",
+      "precoDe": 1598,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 94,99 sem juros",
+      "imagem": "assets/img/ofertas/tg-183.jpg"
+    },
+    {
+      "id": "tg-182",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine 1954 Masculino Automático em Couro Marrom",
+      "preco": 600,
+      "link": "https://meli.la/1BphMLM",
+      "data": "2026-11-16T17:18:03+00:00",
+      "precoDe": 1117,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 62,86 sem juros",
+      "imagem": "assets/img/ofertas/tg-182.jpg"
+    },
+    {
+      "id": "tg-181",
+      "loja": "amazon",
+      "titulo": "Invicta Relógio automático masculino 3044 de aço inoxidável Pro Diver",
+      "preco": 483.67,
+      "link": "https://link.amazon/B0csTx0XW",
+      "data": "2026-11-16T17:14:21+00:00",
+      "precoDe": 552.32,
+      "parcelas": "9x de R$ 53,75 sem juros",
+      "imagem": "assets/img/ofertas/tg-181.jpg"
+    },
+    {
       "id": "tg-180",
       "loja": "mercadolivre",
       "titulo": "Relógio Mondaine Automático 32993g0mvnc7 Couro Crocodilo Preto Prateado Branco",
@@ -322,30 +486,6 @@
       "imagem": "assets/img/ofertas/tg-153.jpg"
     },
     {
-      "id": "tg-152",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seiko Ssb427 Quartzo Cronógrafo Azul 41.5mm Prateado Azul",
-      "preco": 1886,
-      "link": "https://meli.la/2y8JavJ",
-      "data": "2026-11-16T13:52:49+00:00",
-      "precoDe": 2091,
-      "cupom": "HOJETEM",
-      "parcelas": "10x de R$ 198,65 sem juros",
-      "imagem": "assets/img/ofertas/tg-152.jpg"
-    },
-    {
-      "id": "tg-151",
-      "loja": "mercadolivre",
-      "titulo": "Relogio Technos Masculino 2315acg/2p Marrom Dourado",
-      "preco": 258.3,
-      "link": "https://meli.la/17rAk4t",
-      "data": "2026-11-16T13:52:41+00:00",
-      "precoDe": 446,
-      "cupom": "HOJETEM",
-      "parcelas": "6x de R$ 47,83 sem juros",
-      "imagem": "assets/img/ofertas/tg-151.jpg"
-    },
-    {
       "id": "tg-150",
       "loja": "amazon",
       "titulo": "Relógio de quartzo Casio com temporizador, para pesca, com pulseira de resina",
@@ -354,78 +494,6 @@
       "data": "2026-11-16T13:50:22+00:00",
       "parcelas": "6x de R$ 49,79 sem juros",
       "imagem": "assets/img/ofertas/tg-150.jpg"
-    },
-    {
-      "id": "tg-149",
-      "loja": "mercadolivre",
-      "titulo": "Relogio Mondaine Masculino Ref: 99788g0mvnh1 Casual Prateado",
-      "preco": 183.24,
-      "link": "https://meli.la/153Xrnu",
-      "data": "2026-11-16T13:42:28+00:00",
-      "precoDe": 299,
-      "cupom": "HOJETEM",
-      "parcelas": "12x de R$ 20,15",
-      "imagem": "assets/img/ofertas/tg-149.jpg"
-    },
-    {
-      "id": "tg-148",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Technos Skydiver Wt2060ae/2l Laranja 40mm",
-      "preco": 639,
-      "link": "https://meli.la/1nMjWen",
-      "data": "2026-11-16T13:41:13+00:00",
-      "precoDe": 800,
-      "cupom": "HOJETEM",
-      "parcelas": "10x de R$ 76,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-148.jpg"
-    },
-    {
-      "id": "tg-147",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient SolarTech Masculino com Cronógrafo em Couro Preto",
-      "preco": 1298,
-      "link": "https://meli.la/184s3yP",
-      "data": "2026-11-16T13:32:37+00:00",
-      "precoDe": 1747,
-      "cupom": "HOJETEM",
-      "parcelas": "10x de R$ 139,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-147.jpg"
-    },
-    {
-      "id": "tg-146",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Masculino Automático Verde F49ss027nh E1sx",
-      "preco": 859.5,
-      "link": "https://meli.la/1QypYUz",
-      "data": "2026-11-16T13:32:27+00:00",
-      "precoDe": 1250,
-      "cupom": "HOJETEM",
-      "parcelas": "12x de R$ 92,71",
-      "imagem": "assets/img/ofertas/tg-146.jpg"
-    },
-    {
-      "id": "tg-145",
-      "loja": "mercadolivre",
-      "titulo": "Relogio Mondaine Masculino 32849g0mvna2 Retangular Aço Prata",
-      "preco": 347.4,
-      "link": "https://meli.la/32YYHB7",
-      "data": "2026-11-16T13:26:12+00:00",
-      "precoDe": 409,
-      "cupom": "VIPNOML",
-      "parcelas": "12x de R$ 37,76",
-      "imagem": "assets/img/ofertas/tg-145.jpg"
-    },
-    {
-      "id": "tg-144",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Masculino SolarTech MBSS1492 P2SX com Pulseira de Aço Prateado e Fundo Preto",
-      "preco": 305.1,
-      "link": "https://meli.la/2HMYSZ6",
-      "data": "2026-11-16T13:21:27+00:00",
-      "precoDe": 369,
-      "cupom": "VIPNOML",
-      "parcelas": "12x de R$ 33,16",
-      "imagem": "assets/img/ofertas/tg-144.jpg"
     },
     {
       "id": "tg-143",
@@ -437,18 +505,6 @@
       "precoDe": 278.36,
       "parcelas": "6x de R$ 38,14 sem juros",
       "imagem": "assets/img/ofertas/tg-143.jpg"
-    },
-    {
-      "id": "tg-142",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Masculino Solar Solartech Mbss1492 Azul Aço Correia Prateado Bisel Prateado",
-      "preco": 312.3,
-      "link": "https://meli.la/1jGswp5",
-      "data": "2026-11-16T13:11:28+00:00",
-      "precoDe": 369,
-      "cupom": "VIPNOML",
-      "parcelas": "6x de R$ 57,83 sem juros",
-      "imagem": "assets/img/ofertas/tg-142.jpg"
     },
     {
       "id": "tg-136",
@@ -606,67 +662,6 @@
       "precoDe": 329.9,
       "parcelas": "6x de R$ 47,53 sem juros",
       "imagem": "assets/img/ofertas/tg-106.jpg"
-    },
-    {
-      "id": "tg-89",
-      "loja": "amazon",
-      "titulo": "Seiko Relógio masculino analógico automático com pulseira de aço inoxidável",
-      "preco": 1962,
-      "link": "https://link.amazon/B0g6bauLW",
-      "data": "2026-11-15T13:31:59+00:00",
-      "precoDe": 1999,
-      "parcelas": "12x de R$ 163,50 sem juros",
-      "imagem": "assets/img/ofertas/tg-89.jpg"
-    },
-    {
-      "id": "tg-80",
-      "loja": "amazon",
-      "titulo": "Spinnaker Hull Relógio Cronógrafo Masculino – Movimento Meca-Quartz, Caixa em Aço Inoxidável com formato",
-      "preco": 1577.8,
-      "link": "https://link.amazon/B0gmcRrmz",
-      "data": "2026-11-14T21:57:31+00:00",
-      "parcelas": "10x de R$ 157,78 sem juros",
-      "imagem": "assets/img/ofertas/tg-80.jpg"
-    },
-    {
-      "id": "tg-79",
-      "loja": "amazon",
-      "titulo": "PRAESIDUS | TYPE H-75 - Relógios Masculinos, Relógios de Pulso Masculinos - Cronógrafo, Militar",
-      "preco": 2466.71,
-      "link": "https://link.amazon/B08RyXn5W",
-      "data": "2026-11-14T21:41:05+00:00",
-      "parcelas": "10x de R$ 246,68 sem juros",
-      "imagem": "assets/img/ofertas/tg-79.jpg"
-    },
-    {
-      "id": "tg-78",
-      "loja": "amazon",
-      "titulo": "𝗣𝗥𝗔𝗘𝗦𝗜𝗗𝗨𝗦 | 𝗔-𝟮 𝗢𝗿𝗶𝗴𝗶𝗻 Relógio Militar de Campo Masculino com Mostrador Preto Pulseira",
-      "preco": 1896.46,
-      "link": "https://link.amazon/B0ilJh4YR",
-      "data": "2026-11-14T21:25:12+00:00",
-      "parcelas": "10x de R$ 189,70 sem juros",
-      "imagem": "assets/img/ofertas/tg-78.jpg"
-    },
-    {
-      "id": "tg-77",
-      "loja": "amazon",
-      "titulo": "AVI-8 Relógio piloto masculino Hawker Hurricane – cronógrafo clássico, movimento de quartzo japonês, caixa",
-      "preco": 1338.64,
-      "link": "https://link.amazon/B01K7b7mB",
-      "data": "2026-11-14T21:10:17+00:00",
-      "parcelas": "10x de R$ 133,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-77.jpg"
-    },
-    {
-      "id": "tg-76",
-      "loja": "amazon",
-      "titulo": "About Vintage Relógio masculino cronógrafo 1815, aço inoxidável, analógico, à prova d'água",
-      "preco": 3870.99,
-      "link": "https://link.amazon/B0hZi8Gn5",
-      "data": "2026-11-14T20:55:00+00:00",
-      "parcelas": "10x de R$ 387,18 sem juros",
-      "imagem": "assets/img/ofertas/tg-76.jpg"
     }
   ]
 }
