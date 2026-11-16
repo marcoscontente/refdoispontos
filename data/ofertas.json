@@ -3,6 +3,30 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-180",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine Automático 32993g0mvnc7 Couro Crocodilo Preto Prateado Branco",
+      "preco": 769,
+      "link": "https://meli.la/2PBfFpb",
+      "data": "2026-11-16T17:12:51+00:00",
+      "precoDe": 1039,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 79,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-180.jpg"
+    },
+    {
+      "id": "tg-179",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Masc Automático Ed. 70 Anos Mondaine 32993g0mvna6 Prateado Azul-claro",
+      "preco": 615.48,
+      "link": "https://meli.la/2vYbs5y",
+      "data": "2026-11-16T17:09:53+00:00",
+      "precoDe": 699,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 69,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-179.jpg"
+    },
+    {
       "id": "tg-178",
       "loja": "mercadolivre",
       "titulo": "Relógio Masculino Orient Solartech Neo Sports Aço Exclusivo MBSS1547E2SX",
@@ -425,30 +449,6 @@
       "cupom": "VIPNOML",
       "parcelas": "6x de R$ 57,83 sem juros",
       "imagem": "assets/img/ofertas/tg-142.jpg"
-    },
-    {
-      "id": "tg-141",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Masculino Orient Solartech Neo Sports Exclusivo Aço Mbss1546p2sx Prateado Preto",
-      "preco": 741.82,
-      "link": "https://meli.la/2a77bnT",
-      "data": "2026-11-16T13:11:21+00:00",
-      "precoDe": 1099,
-      "cupom": "VIPNOML",
-      "parcelas": "10x de R$ 82,43 sem juros",
-      "imagem": "assets/img/ofertas/tg-141.jpg"
-    },
-    {
-      "id": "tg-140",
-      "loja": "mercadolivre",
-      "titulo": "Relogio Seculus 23746g0svnc1 Oval Aco Couro 38mm Preto Prateado",
-      "preco": 440.1,
-      "link": "https://meli.la/2TtucXX",
-      "data": "2026-11-16T13:11:12+00:00",
-      "precoDe": 670,
-      "cupom": "VIPNOML",
-      "parcelas": "9x de R$ 54,33 sem juros",
-      "imagem": "assets/img/ofertas/tg-140.jpg"
     },
     {
       "id": "tg-136",
