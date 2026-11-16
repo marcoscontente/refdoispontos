@@ -3,6 +3,27 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-127",
+      "loja": "amazon",
+      "titulo": "Relógio masculino Timex Expedition Acadia",
+      "preco": 335.99,
+      "link": "https://link.amazon/B09HjOFB1",
+      "data": "2026-11-16T11:19:20+00:00",
+      "parcelas": "6x de R$ 56,04 sem juros",
+      "imagem": "assets/img/ofertas/tg-127.jpg"
+    },
+    {
+      "id": "tg-125",
+      "loja": "amazon",
+      "titulo": "Invicta Relógio automático masculino 3044 de aço inoxidável Pro Diver",
+      "preco": 483.67,
+      "link": "https://link.amazon/B0dTZcvCh",
+      "data": "2026-11-15T19:06:32+00:00",
+      "precoDe": 552.32,
+      "parcelas": "9x de R$ 53,75 sem juros",
+      "imagem": "assets/img/ofertas/tg-125.jpg"
+    },
+    {
       "id": "tg-124",
       "loja": "amazon",
       "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
@@ -647,26 +668,6 @@
       "data": "2026-11-14T17:45:24+00:00",
       "parcelas": "6x de R$ 45,67 sem juros",
       "imagem": "assets/img/ofertas/tg-64.jpg"
-    },
-    {
-      "id": "tg-63",
-      "loja": "amazon",
-      "titulo": "𝗣𝗥𝗔𝗘𝗦𝗜𝗗𝗨𝗦 | 𝗣𝗔𝗖-𝟳𝟲 - Relógio cronógrafo, Relógios de pulso masculinos - Piloto Relógios militares",
-      "preco": 2786.54,
-      "link": "https://link.amazon/B0eSlReHJ",
-      "data": "2026-11-14T17:30:19+00:00",
-      "parcelas": "10x de R$ 278,69 sem juros",
-      "imagem": "assets/img/ofertas/tg-63.jpg"
-    },
-    {
-      "id": "tg-62",
-      "loja": "amazon",
-      "titulo": "UNDONE Basecamp Classic ANC Cali Designs, tamanho da caixa de 40 mm, relógio",
-      "preco": 2454.08,
-      "link": "https://link.amazon/B0eErHzaR",
-      "data": "2026-11-14T17:14:25+00:00",
-      "parcelas": "10x de R$ 245,48 sem juros",
-      "imagem": "assets/img/ofertas/tg-62.jpg"
     }
   ]
 }
