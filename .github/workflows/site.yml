@@ -23,7 +23,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
+      # Sempre a ponta da main: uma reexecução de uma rodada antiga não volta o site no tempo.
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -46,7 +49,14 @@ jobs:
           else
             git -c user.name="ofertas-bot" -c user.email="ofertas-bot@users.noreply.github.com" \
               commit -m "Atualiza ofertas e páginas de campanha"
-            git push
+            # Se a main andou enquanto esta rodada lia o canal, entra por cima dela.
+            # Se nem assim der, a publicação segue e as ofertas ficam para a próxima rodada.
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Ofertas guardadas."
+            else
+              git rebase --abort 2>/dev/null || true
+              echo "::warning::Não foi possível guardar as ofertas agora; a próxima rodada tenta de novo."
+            fi
           fi
 
       - uses: actions/configure-pages@v5
