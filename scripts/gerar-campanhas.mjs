@@ -55,6 +55,9 @@ function pagina(c) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${e(c.titulo)}</title>
+<link rel="icon" type="image/png" sizes="32x32" href="${raiz}assets/img/icone/icone-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="${raiz}assets/img/icone/icone-192.png">
+<link rel="apple-touch-icon" href="${raiz}assets/img/icone/icone-180.png">
 <meta name="description" content="${e(c.descricao)}">
 <meta name="theme-color" content="#0E2A2B">
 <link rel="canonical" href="${endereco}">
