@@ -100,6 +100,14 @@ function montarAcao(acao) {
   $('acao-nome').textContent = acao.nome;
   $('acao-descricao').textContent = acao.descricao;
   $('acao-botao').textContent = acao.botao;
+  // Com "link", o botão principal abre a página da ação; o do grupo fica logo abaixo, vazado.
+  if (acao.link) {
+    const a = $('acao-link');
+    a.href = acao.link;
+    a.textContent = acao.botaoLink || 'Conferir a ação';
+    a.hidden = false;
+    $('acao-botao').className = 'btn btn-vazado';
+  }
   $('acao-codigo').textContent = acao.codigo || '';
   if (acao.complemento) {
     $('acao-complemento').textContent = acao.complemento;

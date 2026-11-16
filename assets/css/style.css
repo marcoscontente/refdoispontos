@@ -115,6 +115,7 @@ section { padding: 40px var(--margem); }
 
 .btn-vermelho { background: var(--ref-red); color: var(--ref-white); }
 .btn-branco { background: var(--ref-white); color: var(--ref-red); }
+.btn-vazado { margin-top: 10px; color: var(--ref-white); box-shadow: inset 0 0 0 2px var(--ref-white); }
 
 .btn:active { transform: translateY(1px); }
 

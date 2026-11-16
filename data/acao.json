@@ -1,16 +1,18 @@
 {
   "ativa": true,
-  "codigo": "REF:002",
-  "nome": "Casio Royale",
-  "complemento": "+ Estojo individual",
-  "descricao": "100 cotas. Sorteio pela Loteria Federal, no primeiro domingo após a venda das cotas.",
+  "codigo": "REF:003",
+  "nome": "Orient Strap Monster",
+  "complemento": "Orient Solartech MBSS1492-D2SX",
+  "descricao": "1 relógio, 3 personalidades. Movimento solar, caixa de 40 mm e 100 m de resistência à água, com kit de 3 pulseiras: aço original, NATO khaki e couro marrom.",
   "detalhes": [
-    { "rotulo": "1 a 5 cotas", "valor": "R$ 7,00" },
-    { "rotulo": "6 a 10 cotas", "valor": "R$ 6,50" },
-    { "rotulo": "11+ cotas", "valor": "R$ 6,00" }
+    { "rotulo": "1 a 4 cotas", "valor": "R$ 8,00" },
+    { "rotulo": "5 a 9 cotas", "valor": "R$ 7,50" },
+    { "rotulo": "10+ cotas", "valor": "R$ 7,00" }
   ],
-  "imagem": "assets/img/acao/ref-002.webp",
-  "imagemAlt": "Arte da ação REF:002: Casio Royale com estojo, 100 cotas",
+  "imagem": "assets/img/acao/ref-003.webp",
+  "imagemAlt": "Arte da ação REF:003: Orient Solartech MBSS1492-D2SX com pulseiras de aço, NATO khaki e couro marrom",
   "prazo": "",
+  "link": "https://rd.app/s/ref003-orient-solartech-ref-mbss1492-d2sx/3614466",
+  "botaoLink": "Conferir a ação",
   "botao": "Entrar no grupo da ação"
 }
