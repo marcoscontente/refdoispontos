@@ -3,6 +3,96 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-178",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Masculino Orient Solartech Neo Sports Aço Exclusivo MBSS1547E2SX",
+      "preco": 842,
+      "link": "https://meli.la/1fH3Gr1",
+      "data": "2026-11-16T17:04:51+00:00",
+      "precoDe": 1099,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 87,20 sem juros",
+      "imagem": "assets/img/ofertas/tg-178.jpg"
+    },
+    {
+      "id": "tg-177",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Masculino Orient Chronograph MBSSC181D1SX",
+      "preco": 816.99,
+      "link": "https://meli.la/2Hw4a3j",
+      "data": "2026-11-16T17:00:18+00:00",
+      "precoDe": 999,
+      "cupom": "DEZOFF",
+      "parcelas": "10x de R$ 81,70 sem juros",
+      "imagem": "assets/img/ofertas/tg-177.jpg"
+    },
+    {
+      "id": "tg-176",
+      "loja": "amazon",
+      "titulo": "Casio WS1500H Series | Men’s Digital Watch | 100M WR | Dual Time",
+      "preco": 293.25,
+      "link": "https://link.amazon/B0cOdMHfA",
+      "data": "2026-11-16T16:54:27+00:00",
+      "parcelas": "6x de R$ 48,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-176.jpg"
+    },
+    {
+      "id": "tg-175",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Casio Masculino Digital F-201wa-9adf Preto Vintage Lcd Positivo 10 Anos De Bateria Cronômetro",
+      "preco": 116.34,
+      "link": "https://meli.la/1zk6CEG",
+      "data": "2026-11-16T16:41:01+00:00",
+      "precoDe": 300.11,
+      "cupom": "HOJETEM",
+      "parcelas": "4x de R$ 34,75 sem juros",
+      "imagem": "assets/img/ofertas/tg-175.jpg"
+    },
+    {
+      "id": "tg-174",
+      "loja": "amazon",
+      "titulo": "Casio G-Shock relógio de quartzo com resina Strap, Black, 25 (Modelo: DW9052-1V)",
+      "preco": 355.9,
+      "link": "https://link.amazon/B00yv9gyN",
+      "data": "2026-11-16T16:34:31+00:00",
+      "precoDe": 459,
+      "parcelas": "7x de R$ 50,86 sem juros",
+      "imagem": "assets/img/ofertas/tg-174.jpg"
+    },
+    {
+      "id": "tg-173",
+      "loja": "mercadolivre",
+      "titulo": "Relógio oficial Casio G Shock Gbd-200",
+      "preco": 646.16,
+      "link": "https://meli.la/2s5FXoD",
+      "data": "2026-11-16T16:33:17+00:00",
+      "precoDe": 1399,
+      "cupom": "MELHORDOTECH",
+      "parcelas": "10x de R$ 69,48 sem juros",
+      "imagem": "assets/img/ofertas/tg-173.jpg"
+    },
+    {
+      "id": "tg-172",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Technos Masculino Golf Prata Azul Couro Marrom Quartzo 50m",
+      "preco": 381.9,
+      "link": "https://meli.la/2eAdbgu",
+      "data": "2026-11-16T16:23:13+00:00",
+      "precoDe": 599,
+      "parcelas": "7x de R$ 54,56 sem juros",
+      "imagem": "assets/img/ofertas/tg-172.jpg"
+    },
+    {
+      "id": "tg-171",
+      "loja": "amazon",
+      "titulo": "Timex Men's Easy Reader Watch",
+      "preco": 279.95,
+      "link": "https://link.amazon/B0dnGwBrc",
+      "data": "2026-11-16T16:14:25+00:00",
+      "parcelas": "6x de R$ 46,70 sem juros",
+      "imagem": "assets/img/ofertas/tg-171.jpg"
+    },
+    {
       "id": "tg-170",
       "loja": "mercadolivre",
       "titulo": "Relógio Mondaine Masculino 32549g0mvne1 Aco Inox Prata Fundo Preto Analogico Prova Dágua 50m",
@@ -361,42 +451,6 @@
       "imagem": "assets/img/ofertas/tg-140.jpg"
     },
     {
-      "id": "tg-139",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Solartech MBSSC274 P1SX Cronógrafo em Aço inoxidável Panda 43MM",
-      "preco": 808.2,
-      "link": "https://meli.la/2p1pSBu",
-      "data": "2026-11-16T13:01:15+00:00",
-      "precoDe": 1122,
-      "cupom": "VIPNOML",
-      "parcelas": "10x de R$ 89,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-139.jpg"
-    },
-    {
-      "id": "tg-138",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seculus Masculino 77368g0svna1 Clássico Prateado",
-      "preco": 386.91,
-      "link": "https://meli.la/2o8ZFjA",
-      "data": "2026-11-16T12:56:10+00:00",
-      "precoDe": 429.9,
-      "cupom": "VIPNOML",
-      "parcelas": "8x de R$ 53,74 sem juros",
-      "imagem": "assets/img/ofertas/tg-138.jpg"
-    },
-    {
-      "id": "tg-137",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Solartech Elite Land Mbscc071 N2mx Marrom-claro Prateado Marrom",
-      "preco": 1198,
-      "link": "https://meli.la/1YqnVcR",
-      "data": "2026-11-16T12:51:35+00:00",
-      "precoDe": 1622,
-      "cupom": "VIPNOML",
-      "parcelas": "10x de R$ 129,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-137.jpg"
-    },
-    {
       "id": "tg-136",
       "loja": "amazon",
       "titulo": "Timex Relógio Easy Reader com pulseira de couro de 38 mm",
@@ -406,30 +460,6 @@
       "precoDe": 426.44,
       "parcelas": "6x de R$ 52,85 sem juros",
       "imagem": "assets/img/ofertas/tg-136.jpg"
-    },
-    {
-      "id": "tg-135",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Masculino Orient Solartech Neo Sports Aço Exclusivo MBSS1547E2SX",
-      "preco": 784.8,
-      "link": "https://meli.la/1fH3Gr1",
-      "data": "2026-11-16T12:49:31+00:00",
-      "precoDe": 1099,
-      "cupom": "VIPNOML",
-      "parcelas": "10x de R$ 87,20 sem juros",
-      "imagem": "assets/img/ofertas/tg-135.jpg"
-    },
-    {
-      "id": "tg-134",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seculus Masculino 23769g0svnc2 Retangular Prateado",
-      "preco": 512.91,
-      "link": "https://meli.la/16Bx7GP",
-      "data": "2026-11-16T12:41:10+00:00",
-      "precoDe": 569.9,
-      "cupom": "VIPNOML",
-      "parcelas": "10x de R$ 56,99 sem juros",
-      "imagem": "assets/img/ofertas/tg-134.jpg"
     },
     {
       "id": "tg-129",
@@ -637,36 +667,6 @@
       "data": "2026-11-14T20:55:00+00:00",
       "parcelas": "10x de R$ 387,18 sem juros",
       "imagem": "assets/img/ofertas/tg-76.jpg"
-    },
-    {
-      "id": "tg-75",
-      "loja": "amazon",
-      "titulo": "Cadola Relógio masculino 42 mm Testa Di Toro cronógrafo 917k edição limitada com pulseira",
-      "preco": 2190,
-      "link": "https://link.amazon/B01oRR6Ee",
-      "data": "2026-11-14T20:39:38+00:00",
-      "parcelas": "12x de R$ 182,50 sem juros",
-      "imagem": "assets/img/ofertas/tg-75.jpg"
-    },
-    {
-      "id": "tg-74",
-      "loja": "amazon",
-      "titulo": "Relógio Duxot Taranto Automatic Metallic Mist DX-2081-22 37mm | Miyota 21 Rubis e Safira",
-      "preco": 1889,
-      "link": "https://link.amazon/B0hpDQY8b",
-      "data": "2026-11-14T20:24:02+00:00",
-      "parcelas": "12x de R$ 157,49 sem juros",
-      "imagem": "assets/img/ofertas/tg-74.jpg"
-    },
-    {
-      "id": "tg-73",
-      "loja": "amazon",
-      "titulo": "Spinnaker Croft Pioneer Automatic SP-5136 Relógio masculino com pulseira de aço inoxidável liso",
-      "preco": 1918.66,
-      "link": "https://link.amazon/B0dUUd4gH",
-      "data": "2026-11-14T20:07:55+00:00",
-      "parcelas": "10x de R$ 191,92 sem juros",
-      "imagem": "assets/img/ofertas/tg-73.jpg"
     }
   ]
 }
