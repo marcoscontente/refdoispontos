@@ -315,14 +315,14 @@
       "slug": "black-friday",
       "categoria": "blackfriday",
       "titulo": "Black Friday dos relógios — REF: PROMOS",
-      "descricao": "Na Black Friday as melhores ofertas de relógio somem em horas. Entre antes no grupo gratuito da REF:.",
-      "chamada": "BLACK FRIDAY · PREPARE-SE",
+      "descricao": "Grupo gratuito de achados e cupons de relógio no WhatsApp e no Telegram. Entre antes da Black Friday, dia 27 de novembro.",
+      "chamada": "ACHADOS E CUPONS",
       "linhas": [
         "27.11",
         "BLACK FRIDAY",
         "DOS RELÓGIOS"
       ],
-      "texto": "Na Black Friday as melhores ofertas somem em horas. Entre antes e receba os achados conferidos assim que aparecerem.",
+      "texto": "Na Black Friday, os achados e os cupons de relógio chegam no grupo todo dia. Entre grátis antes do dia 27.",
       "selo": [
         "ENTRE",
         "ANTES",
@@ -332,25 +332,44 @@
         {
           "marca": "CASIO · G-SHOCK",
           "modelo": "DW-5600UE",
-          "fato": "O beater quadrado, praticamente indestrutível.",
+          "fato": "O G-Shock quadrado de 1983. Quem teve um, lembra.",
           "preco": "212",
-          "imagem": "assets/img/promos/dw5600ue.webp"
+          "imagem": "assets/img/promos/dw5600ue.webp",
+          "anuncios": [
+            "bf1"
+          ]
         },
         {
-          "marca": "CASIO · OLD MONEY",
-          "modelo": "MTP-B190D",
-          "fato": "Caixa retangular e algarismos romanos.",
-          "preco": "432,13",
-          "imagem": "assets/img/promos/casio-mtpb190.webp"
+          "marca": "TIMEX · EXPEDITION",
+          "modelo": "SCOUT 40 MM",
+          "fato": "DNA militar: herda o mostrador do Exército dos EUA. Números grandes, leitura rápida.",
+          "preco": "290",
+          "imagem": "assets/img/promos/timex-scout.webp",
+          "anuncios": [
+            "bf2"
+          ]
         },
         {
-          "marca": "ORIENT",
-          "modelo": "YN6SS023 “SUB”",
-          "fato": "Diver automático em 39 mm e coroa rosqueada.",
-          "preco": "1.488",
-          "imagem": "assets/img/promos/yn6ss023.webp"
+          "marca": "ORIENT · SOLARTECH",
+          "modelo": "MBSS1492",
+          "fato": "Carrega com a luz. Um relógio, três estilos: aço, nylon ou couro (pulseiras extras vendidas à parte).",
+          "preco": "262",
+          "imagem": "assets/img/promos/orient-solartech.webp",
+          "anuncios": [
+            "bf3"
+          ]
         }
-      ]
+      ],
+      "noDia": {
+        "data": "2026-11-27",
+        "chamada": "A BLACK FRIDAY É HOJE",
+        "texto": "A Black Friday é hoje: entre grátis e receba os achados do dia.",
+        "selo": [
+          "É HOJE",
+          "ENTRE",
+          "AGORA"
+        ]
+      }
     }
   ]
 }

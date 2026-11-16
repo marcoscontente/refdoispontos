@@ -6,6 +6,19 @@
   const raiz = corpo.dataset.raiz;
   const utm = new URLSearchParams(location.search).get('utm_content') || '';
 
+  // No dia marcado na campanha (data-dia, no horário de quem abre a página) entram os textos do dia.
+  const hoje = new Date();
+  const dataLocal = `${hoje.getFullYear()}-${String(hoje.getMonth() + 1).padStart(2, '0')}-${String(hoje.getDate()).padStart(2, '0')}`;
+  if (corpo.dataset.dia === dataLocal) {
+    if (corpo.dataset.diaChamada) document.getElementById('eyebrow').textContent = corpo.dataset.diaChamada;
+    if (corpo.dataset.diaTexto) document.getElementById('lead').textContent = corpo.dataset.diaTexto;
+    const selo = document.querySelector('.selo');
+    if (selo && corpo.dataset.diaSelo) {
+      selo.replaceChildren(...corpo.dataset.diaSelo.split('|').flatMap((linha, i) =>
+        (i ? [document.createElement('br'), linha] : [linha])));
+    }
+  }
+
   // Título sempre cabe na largura, sem quebrar linhas no meio.
   const h1 = document.getElementById('title');
   function ajustarTitulo() {

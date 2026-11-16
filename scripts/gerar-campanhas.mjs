@@ -46,6 +46,10 @@ function pagina(c) {
       ${TELEGRAM}
       REF: PROMOS NO TELEGRAM
     </a>`;
+  // "noDia": textos que valem só na data marcada (ex.: o dia da Black Friday); promos.js faz a troca.
+  const noDia = c.noDia
+    ? ` data-dia="${e(c.noDia.data)}" data-dia-chamada="${e(c.noDia.chamada || '')}" data-dia-texto="${e(c.noDia.texto || '')}" data-dia-selo="${e((c.noDia.selo || []).join('|'))}"`
+    : '';
   const selo = c.selo?.length ? `\n    <div class="selo">${c.selo.map(e).join('<br>')}</div>` : '';
 
   return `<!doctype html>
@@ -72,7 +76,7 @@ function pagina(c) {
 <link rel="preload" as="image" href="${raiz}${e(c.itens[0].imagem)}">
 <script src="${raiz}assets/js/pixel.js"></script>
 </head>
-<body class="theme-${e(c.categoria)}" data-categoria="${e(c.categoria)}" data-raiz="${raiz}">
+<body class="theme-${e(c.categoria)}" data-categoria="${e(c.categoria)}" data-raiz="${raiz}"${noDia}>
 
 <div class="wrap">
   <header>
