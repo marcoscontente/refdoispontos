@@ -3,6 +3,47 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-199",
+      "loja": "mercadolivre",
+      "titulo": "Pulseira Borracha Silicone Fecho Deployant Cor Marrom Largura 22 Mm",
+      "preco": 31.18,
+      "link": "https://meli.la/13dwNLC",
+      "data": "2026-11-16T19:25:13+00:00",
+      "precoDe": 34.64,
+      "imagem": "assets/img/ofertas/tg-199.jpg"
+    },
+    {
+      "id": "tg-198",
+      "loja": "mercadolivre",
+      "titulo": "Relógio De Pulso Casio Mw-240-4bvdf-sc Com Corria De Resina Cor Preto",
+      "preco": 134.99,
+      "link": "https://meli.la/1T7oErE",
+      "data": "2026-11-16T19:18:11+00:00",
+      "precoDe": 317.83,
+      "imagem": "assets/img/ofertas/tg-198.jpg"
+    },
+    {
+      "id": "tg-197",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Easy Reader",
+      "preco": 280.24,
+      "link": "https://link.amazon/B04XH1MPm",
+      "data": "2026-11-16T19:17:45+00:00",
+      "precoDe": 376.49,
+      "parcelas": "6x de R$ 46,74 sem juros",
+      "imagem": "assets/img/ofertas/tg-197.jpg"
+    },
+    {
+      "id": "tg-196",
+      "loja": "mercadolivre",
+      "titulo": "Pulseira 18mm, 20mm, 22mm, 24mm,26mm Nato Zulu Nylon Militar Cor Creme 20mm",
+      "preco": 22.93,
+      "link": "https://meli.la/2453H6Z",
+      "data": "2026-11-16T19:04:21+00:00",
+      "precoDe": 25.21,
+      "imagem": "assets/img/ofertas/tg-196.jpg"
+    },
+    {
       "id": "tg-195",
       "loja": "amazon",
       "titulo": "Casio Série F91W | Relógio digital | Resistente à água | Luz LED",
@@ -453,39 +494,6 @@
       "imagem": "assets/img/ofertas/tg-156.jpg"
     },
     {
-      "id": "tg-155",
-      "loja": "mercadolivre",
-      "titulo": "Porta Relógio Estojo Caixa Maleta P/ Viagem 3 Lugares Preto Preto",
-      "preco": 53.98,
-      "link": "https://meli.la/246j91G",
-      "data": "2026-11-16T14:13:22+00:00",
-      "precoDe": 109.99,
-      "imagem": "assets/img/ofertas/tg-155.jpg"
-    },
-    {
-      "id": "tg-154",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Prata Masculino Technos Riviera 2350ai/1a",
-      "preco": 348.41,
-      "link": "https://meli.la/1AscNJ7",
-      "data": "2026-11-16T14:12:14+00:00",
-      "precoDe": 899,
-      "cupom": "HOJETEM",
-      "parcelas": "12x de R$ 37,87",
-      "imagem": "assets/img/ofertas/tg-154.jpg"
-    },
-    {
-      "id": "tg-153",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seculus Cronógrafo Masculino Azul Couro Marrom",
-      "preco": 436.5,
-      "link": "https://meli.la/2AAMR9E",
-      "data": "2026-11-16T13:56:28+00:00",
-      "precoDe": 819,
-      "cupom": "HOJETEM",
-      "imagem": "assets/img/ofertas/tg-153.jpg"
-    },
-    {
       "id": "tg-150",
       "loja": "amazon",
       "titulo": "Relógio de quartzo Casio com temporizador, para pesca, com pulseira de resina",
@@ -651,17 +659,6 @@
       "data": "2026-11-15T14:32:39+00:00",
       "parcelas": "12x de R$ 175,00 sem juros",
       "imagem": "assets/img/ofertas/tg-112.jpg"
-    },
-    {
-      "id": "tg-106",
-      "loja": "amazon",
-      "titulo": "Casio DW5600E-1V G Shock - Digital-200M Wr - Clássico",
-      "preco": 284.98,
-      "link": "https://link.amazon/B06EKtwB3",
-      "data": "2026-11-15T14:02:07+00:00",
-      "precoDe": 329.9,
-      "parcelas": "6x de R$ 47,53 sem juros",
-      "imagem": "assets/img/ofertas/tg-106.jpg"
     }
   ]
 }
