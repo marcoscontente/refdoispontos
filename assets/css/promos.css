@@ -180,3 +180,62 @@ a.card:active{transform:scale(.99)}
 .item .extra{font-size:13px;color:var(--paper-dim);margin-bottom:22px}
 .item .cta{font-size:clamp(10.5px,3.2vw,15px)}
 .item .voltar{display:block;text-align:center;margin-top:18px;font-size:14px;color:var(--paper-dim)}
+
+/* ===== Tablet e computador =====
+   Até 767px vale o desenho de celular acima. Daqui para cima a coluna alarga,
+   os cartões vão para 2 ou 3 colunas e os dois botões ficam lado a lado. */
+@media (min-width:768px){
+  .wrap{max-width:1120px;padding:0 40px}
+  header{padding:26px 0}
+  .logo{font-size:26px}
+  section{padding:52px 0}
+  h2{font-size:38px;margin-bottom:26px}
+  .theme-oldmoney h2{font-size:40px}
+
+  .hero:not(.item){display:grid;grid-template-columns:minmax(0,340px) minmax(0,340px);column-gap:12px;justify-content:start;padding:36px 0 56px}
+  .hero:not(.item)>*{grid-column:1/-1}
+  .hero:not(.item)>.cta{grid-column:auto}
+  .hero:not(.item)>.selo{grid-column:auto}
+  body .hero:not(.item) .cta.tg{margin-top:0}
+  .hero:not(.item) h1{font-size:clamp(56px,7.4vw,92px);margin:18px 0 22px}
+  .hero p.lead{font-size:19px;margin-bottom:30px}
+  .cta-note{text-align:left;margin-top:14px}
+  .cta{font-size:16px}
+
+  .theme-oldmoney .hero:not(.item){justify-content:center}
+  .theme-oldmoney .hero:not(.item) h1{font-size:clamp(64px,7.8vw,100px)}
+  .theme-oldmoney .hero p.lead{font-size:20px}
+  .theme-oldmoney .cta-note{text-align:center}
+  .theme-blackfriday .hero:not(.item){padding:44px 44px 48px}
+  .theme-blackfriday .hero:not(.item) h1{font-size:clamp(42px,5.2vw,60px)}
+  .theme-blackfriday .selo{right:28px;top:28px;width:108px;height:108px;font-size:15px}
+
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cards.rolagem{padding:12px;gap:12px}
+  .steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+  .trust{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 40px}
+  .trust li{font-size:16px}
+  details{max-width:760px}
+  footer p{max-width:90ch}
+
+  /* Barra fixa: os dois botões na mesma linha */
+  body{padding-bottom:104px}
+  .sticky{display:flex;justify-content:center;gap:12px}
+  .sticky .cta{flex:0 1 340px;margin:0;font-size:15px}
+  body .sticky .cta.tg{margin-top:0}
+
+  /* Página de uma oferta: foto à esquerda, informações à direita */
+  .item{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:repeat(9,auto) 1fr;column-gap:clamp(32px,5vw,64px);padding:24px 0 56px}
+  .item>*{grid-column:2}
+  .item>.foto{grid-column:1;grid-row:1/-1;margin:0;align-self:start}
+  .item>.tag{justify-self:start}
+  .item>.micro{padding-top:8px}
+  .item.hero h1{font-size:28px;margin:10px 0 18px}
+  .item .price{font-size:56px}
+  .item .extra{font-size:15px;margin-bottom:26px}
+  .item .cta{max-width:440px;font-size:clamp(11.5px,1.45vw,15px)}
+  .item .voltar{text-align:left;margin-top:22px}
+}
+@media (min-width:1100px){
+  .cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+}

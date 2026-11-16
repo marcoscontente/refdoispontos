@@ -455,5 +455,93 @@ summary:focus-visible,
 .redirect .logo { font-size: 44px; margin: 0; }
 .redirect p { margin: 0; }
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* ===== Tablet e computador =====
+   Até 767px vale o desenho de celular acima. Daqui para cima a página ocupa a largura da tela:
+   as faixas de cor vão de ponta a ponta e o conteúdo fica numa coluna central de até 1120px. */
+
+@media (min-width: 768px) {
+  :root { --margem: max(40px, calc((100vw - 1120px) / 2)); }
+
+  body { background: var(--ref-paper); }
+  .page { max-width: none; box-shadow: none; }
+  section { padding-top: 64px; padding-bottom: 64px; }
+
+  .display { font-size: clamp(56px, 7vw, 88px); }
+  .display span { white-space: nowrap; }
+  .display-2 { font-size: clamp(38px, 4.6vw, 56px); }
+  .texto { font-size: 18px; }
+  .micro { font-size: 12px; }
+  .logo { font-size: 28px; }
+
+  /* Abertura: os dois botões lado a lado */
+  .abertura {
+    display: grid;
+    grid-template-columns: minmax(0, 340px) minmax(0, 340px) minmax(0, 1fr);
+    column-gap: 12px;
+    padding-top: 56px;
+    padding-bottom: 72px;
+  }
+  .abertura > * { grid-column: 1 / -1; }
+  .abertura > .btn { grid-column: auto; }
+  .abertura .btn-telegram { margin-top: 0; }
+  .abertura .btn { font-size: 13px; letter-spacing: 0.02em; padding: 14px 16px; gap: 10px; }
+  .abertura .btn span { white-space: nowrap; }
+  .abertura .display { margin: 18px 0 26px; }
+  .abertura .texto { max-width: 44ch; margin-bottom: 32px; }
+
+  /* Ação: arte à esquerda, informações à direita */
+  .acao { padding-top: 56px; padding-bottom: 56px; }
+  .acao:has(.acao-arte:not([hidden])) {
+    display: grid;
+    grid-template-columns: minmax(0, min(420px, 46%)) minmax(0, 1fr);
+    grid-template-rows: repeat(7, auto) 1fr;
+    column-gap: clamp(32px, 5vw, 72px);
+  }
+  .acao:has(.acao-arte:not([hidden])) > * { grid-column: 2; }
+  .acao:has(.acao-arte:not([hidden])) > .acao-arte { grid-column: 1; grid-row: 1 / -1; margin: 0; align-self: start; }
+  .acao .btn { max-width: 440px; }
+  .acao-detalhes { max-width: 440px; }
+
+  /* Ofertas: cartões em duas colunas */
+  .cabeca { flex-direction: row; align-items: flex-end; justify-content: space-between; margin-bottom: 28px; }
+  .trilho { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding: 12px; }
+  .oferta .preco { font-size: 22px; }
+  .oferta.fim { grid-column: 1 / -1; }
+
+  /* Grupos e redes em duas colunas */
+  .lista-grupos,
+  .lista-redes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 5vw, 72px); }
+  .lista-grupos li,
+  .lista-redes li { border-top: 0; }
+  .lista-grupos li { border-bottom: 1px solid rgba(255, 255, 255, 0.28); }
+  .lista-redes li { border-bottom: 1px solid var(--linha); }
+  .lista-grupos li:nth-child(-n+2) { border-top: 1px solid rgba(255, 255, 255, 0.28); }
+  .lista-redes li:nth-child(-n+2) { border-top: 1px solid var(--linha); }
+  .lista-grupos strong { font-size: 24px; }
+
+  /* História: texto à esquerda, vídeo à direita */
+  .historia:has(.reel:not([hidden])) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 340px);
+    grid-template-rows: repeat(5, auto) 1fr;
+    column-gap: clamp(32px, 5vw, 72px);
+  }
+  .historia:has(.reel:not([hidden])) > * { grid-column: 1; }
+  .historia:has(.reel:not([hidden])) > .reel { grid-column: 2; grid-row: 1 / -1; margin: 0; align-self: start; }
+  .historia p { max-width: 54ch; font-size: 18px; }
+  .historia .video { max-width: 440px; }
+
+  .rodape { padding-top: 32px; padding-bottom: 48px; font-size: 13px; }
+  .rodape p { max-width: 90ch; }
+
+  .redirect main { padding: 0 22px; }
+}
+
+@media (min-width: 1100px) {
+  .abertura { grid-template-columns: minmax(0, 400px) minmax(0, 400px) minmax(0, 1fr); }
+  .abertura .btn { font-size: 15px; letter-spacing: 0.04em; padding: 14px 18px; gap: 12px; }
+  .trilho { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .lista-redes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .lista-redes li:nth-child(3) { border-top: 1px solid var(--linha); }
 }
