@@ -31,6 +31,8 @@
   .rt-marca{padding:14px 0}
   .rt-marca img{width:40px;height:40px}
   .rt-nome{font-size:22px}
-  .rt-nav{margin:0;border:0;justify-content:flex-end;gap:28px;align-self:stretch}
+  /* margin-left:auto em vez de justify-content:flex-end: sem espaço, a lista rola em vez de cortar o começo */
+  .rt-nav{margin:0;border:0;gap:28px;align-self:stretch}
+  .rt-nav a:first-child{margin-left:auto}
   .rt-nav a{display:flex;align-items:center;padding:0;font-size:12.5px;border-bottom-width:3px;border-top:3px solid transparent}
 }

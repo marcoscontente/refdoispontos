@@ -6,6 +6,7 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { barra, PAGINAS_A_MAO } from './barra.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -180,4 +181,36 @@ for (const p of PAGINAS_A_MAO) {
   if (novo === html && !html.includes('<!-- barra -->')) throw new Error(`${p.arquivo} sem os marcadores <!-- barra -->`);
   if (novo !== html) await writeFile(caminho, novo);
   console.log(`${p.arquivo} (barra)`);
+}
+
+// Versão nos CSS e JS (style.css?v=1a2b3c4d): o número muda quando o arquivo muda, então
+// nenhum navegador reaproveita uma cópia antiga guardada. Vale para todas as páginas do site.
+const versoes = new Map();
+async function versao(arquivo) {
+  if (!versoes.has(arquivo)) {
+    const conteudo = await readFile(join(RAIZ, 'assets', arquivo)).catch(() => null);
+    versoes.set(arquivo, conteudo && createHash('sha256').update(conteudo).digest('hex').slice(0, 8));
+  }
+  return versoes.get(arquivo);
+}
+async function paginasHtml(pasta) {
+  const lista = [];
+  for (const item of await readdir(pasta, { withFileTypes: true })) {
+    if (item.name.startsWith('.') || item.name === 'node_modules') continue;
+    const caminho = join(pasta, item.name);
+    if (item.isDirectory()) lista.push(...await paginasHtml(caminho));
+    else if (item.name.endsWith('.html')) lista.push(caminho);
+  }
+  return lista;
+}
+for (const caminho of await paginasHtml(RAIZ)) {
+  const html = await readFile(caminho, 'utf8');
+  const padrao = /assets\/((?:css|js)\/[\w.-]+\.(?:css|js))(?:\?v=\w+)?(?=["'])/g;
+  const trocas = await Promise.all([...html.matchAll(padrao)].map((m) => versao(m[1])));
+  let i = 0;
+  const novo = html.replace(padrao, (tudo, arquivo) => {
+    const v = trocas[i++];
+    return v ? `assets/${arquivo}?v=${v}` : tudo;
+  });
+  if (novo !== html) await writeFile(caminho, novo);
 }

@@ -42,7 +42,7 @@ jobs:
 
       - name: Guardar ofertas novas no repositório
         run: |
-          git add -A promos
+          git add -A promos g index.html doacoes/index.html
           git add data/ofertas.json assets/img/ofertas 2>/dev/null || git add data/ofertas.json
           if git diff --cached --quiet; then
             echo "Nada novo para guardar."
