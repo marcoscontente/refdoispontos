@@ -3,6 +3,16 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-274",
+      "loja": "mercadolivre",
+      "titulo": "Kit 147 Relojoeiro Ferramentas Alta Precisão Chaves Relógio",
+      "preco": 39,
+      "link": "https://meli.la/3461gT6",
+      "data": "2026-11-17T15:34:13+00:00",
+      "precoDe": 62,
+      "imagem": "assets/img/ofertas/tg-274.jpg"
+    },
+    {
       "id": "tg-273",
       "loja": "mercadolivre",
       "titulo": "Relógio Mondaine Masculino 33038g0mvno8 Camurça 40mm",
@@ -416,18 +426,6 @@
       "data": "2026-11-17T13:05:24+00:00",
       "parcelas": "10x de R$ 56,02 sem juros",
       "imagem": "assets/img/ofertas/tg-238.jpg"
-    },
-    {
-      "id": "tg-237",
-      "loja": "mercadolivre",
-      "titulo": "Caixa Maleta Estojo Porta Relógios Organizadora P/ 6 Lugares Marrom",
-      "preco": 148.04,
-      "link": "https://meli.la/2qTQAgX",
-      "data": "2026-11-17T13:04:33+00:00",
-      "precoDe": 219.9,
-      "cupom": "OFFHOJENOML",
-      "parcelas": "5x de R$ 32,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-237.jpg"
     },
     {
       "id": "tg-233",
