@@ -3,6 +3,72 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-280",
+      "loja": "amazon",
+      "titulo": "Casio DW5600E-1V G Shock - Digital-200M Wr - Clássico",
+      "preco": 284.98,
+      "link": "https://link.amazon/B0esnzXW4",
+      "data": "2026-11-17T16:53:19+00:00",
+      "precoDe": 329.9,
+      "parcelas": "6x de R$ 47,53 sem juros",
+      "imagem": "assets/img/ofertas/tg-280.jpg"
+    },
+    {
+      "id": "tg-279",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
+      "preco": 337.03,
+      "link": "https://link.amazon/B0bdnQI40",
+      "data": "2026-11-17T16:32:57+00:00",
+      "precoDe": 436.11,
+      "parcelas": "6x de R$ 56,18 sem juros",
+      "imagem": "assets/img/ofertas/tg-279.jpg"
+    },
+    {
+      "id": "tg-278",
+      "loja": "amazon",
+      "titulo": "Relógio Casio Vintage Calculadora CA-53WF-2BDF Azul",
+      "preco": 202,
+      "link": "https://link.amazon/B0iAoywZy",
+      "data": "2026-11-17T16:11:50+00:00",
+      "parcelas": "6x de R$ 33,70 sem juros",
+      "imagem": "assets/img/ofertas/tg-278.jpg"
+    },
+    {
+      "id": "tg-277",
+      "loja": "amazon",
+      "titulo": "Casio Série F91W | Relógio digital | Resistente à água | Luz LED",
+      "preco": 109.99,
+      "link": "https://link.amazon/B08UCJ6HX",
+      "data": "2026-11-17T16:09:27+00:00",
+      "precoDe": 169,
+      "parcelas": "3x de R$ 36,67 sem juros",
+      "imagem": "assets/img/ofertas/tg-277.jpg"
+    },
+    {
+      "id": "tg-276",
+      "loja": "amazon",
+      "titulo": "Casio POP Bio-Based Renewable Band LED Backlight Daily Alarm Digital Watch",
+      "preco": 197.13,
+      "link": "https://link.amazon/B09dgamvc",
+      "data": "2026-11-17T15:51:07+00:00",
+      "precoDe": 256.06,
+      "parcelas": "6x de R$ 32,88 sem juros",
+      "imagem": "assets/img/ofertas/tg-276.jpg"
+    },
+    {
+      "id": "tg-275",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Masculino Mondaine Casual Preto 32549gpmvpe9",
+      "preco": 179.99,
+      "link": "https://meli.la/2PaeNgr",
+      "data": "2026-11-17T15:44:37+00:00",
+      "precoDe": 299,
+      "cupom": "OFFHOJENOML",
+      "parcelas": "6x de R$ 33,33 sem juros",
+      "imagem": "assets/img/ofertas/tg-275.jpg"
+    },
+    {
       "id": "tg-274",
       "loja": "mercadolivre",
       "titulo": "Kit 147 Relojoeiro Ferramentas Alta Precisão Chaves Relógio",
@@ -406,18 +472,6 @@
       "imagem": "assets/img/ofertas/tg-240.jpg"
     },
     {
-      "id": "tg-239",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Seiko 5 Automático Prata Snxs73k Tamanho 37mm Prateado",
-      "preco": 1799,
-      "link": "https://meli.la/2qhs4nF",
-      "data": "2026-11-17T13:06:37+00:00",
-      "precoDe": 2200,
-      "cupom": "OFFHOJENOML",
-      "parcelas": "10x de R$ 189,99 sem juros",
-      "imagem": "assets/img/ofertas/tg-239.jpg"
-    },
-    {
       "id": "tg-238",
       "loja": "amazon",
       "titulo": "Casio Relógio masculino MTP-1381D-7AVDF analógico de quartzo clássico de aço inoxidável, Prata, 46.6×39.9×8.9mm, Movimento",
@@ -613,59 +667,6 @@
       "precoDe": 169,
       "parcelas": "3x de R$ 36,67 sem juros",
       "imagem": "assets/img/ofertas/tg-195.jpg"
-    },
-    {
-      "id": "tg-193",
-      "loja": "amazon",
-      "titulo": "Relógio de Pulso Feminino Casio Prata Vintage Digital A168WA-1WDF",
-      "preco": 222.43,
-      "link": "https://link.amazon/B071fPGWS",
-      "data": "2026-11-16T18:36:00+00:00",
-      "precoDe": 295,
-      "parcelas": "6x de R$ 37,08 sem juros",
-      "imagem": "assets/img/ofertas/tg-193.jpg"
-    },
-    {
-      "id": "tg-190",
-      "loja": "amazon",
-      "titulo": "Casio MRW-230H Series",
-      "preco": 278.39,
-      "link": "https://link.amazon/B0d8KwUVM",
-      "data": "2026-11-16T18:14:24+00:00",
-      "parcelas": "6x de R$ 46,44 sem juros",
-      "imagem": "assets/img/ofertas/tg-190.jpg"
-    },
-    {
-      "id": "tg-187",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Reclaim Ocean 40 mm - pulseira azul com mostrador preto",
-      "preco": 349.87,
-      "link": "https://link.amazon/B04lpV1dE",
-      "data": "2026-11-16T17:54:24+00:00",
-      "precoDe": 389.14,
-      "parcelas": "6x de R$ 58,32 sem juros",
-      "imagem": "assets/img/ofertas/tg-187.jpg"
-    },
-    {
-      "id": "tg-184",
-      "loja": "amazon",
-      "titulo": "Casio WS1600H Series | Men’s Watch | Sports Design | Stopwatch | Countdown Timer",
-      "preco": 298.49,
-      "link": "https://link.amazon/B05Il0AjF",
-      "data": "2026-11-16T17:34:25+00:00",
-      "parcelas": "6x de R$ 49,79 sem juros",
-      "imagem": "assets/img/ofertas/tg-184.jpg"
-    },
-    {
-      "id": "tg-181",
-      "loja": "amazon",
-      "titulo": "Invicta Relógio automático masculino 3044 de aço inoxidável Pro Diver",
-      "preco": 483.67,
-      "link": "https://link.amazon/B0csTx0XW",
-      "data": "2026-11-16T17:14:21+00:00",
-      "precoDe": 552.32,
-      "parcelas": "9x de R$ 53,75 sem juros",
-      "imagem": "assets/img/ofertas/tg-181.jpg"
     }
   ]
 }
