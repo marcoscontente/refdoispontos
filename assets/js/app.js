@@ -29,7 +29,6 @@ function fimDoDia(iso) {
 
 function montarSite(site) {
   $('handle').textContent = site.handle;
-  $('assinatura').textContent = site.assinatura;
 
   const a = site.abertura;
   $('abertura-titulo').replaceChildren(

@@ -6,6 +6,7 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { barra, PAGINAS_A_MAO } from './barra.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DOMINIO = 'https://refdoispontos.com';
@@ -73,16 +74,15 @@ function pagina(c) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?${fontes}&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${raiz}assets/css/promos.css">
+<link rel="stylesheet" href="${raiz}assets/css/barra.css">
 <link rel="preload" as="image" href="${raiz}${e(c.itens[0].imagem)}">
 <script src="${raiz}assets/js/pixel.js"></script>
 </head>
 <body class="theme-${e(c.categoria)}" data-categoria="${e(c.categoria)}" data-raiz="${raiz}"${noDia}>
 
+${barra(raiz, 'promos')}
+
 <div class="wrap">
-  <header>
-    <div class="logo">REF<b>:</b> <span class="micro" style="margin-left:6px">PROMOS</span></div>
-    <span class="micro">Grupo gratuito</span>
-  </header>
 
   <div class="hero">
     <div class="micro" id="eyebrow">${e(c.chamada)}</div>
@@ -170,4 +170,14 @@ for (const c of campanhas) {
   await mkdir(destino, { recursive: true });
   await writeFile(join(destino, 'index.html'), pagina(c));
   console.log(`promos/${c.slug ? `${c.slug}/` : ''}index.html`);
+}
+
+// Barra de navegação nas páginas escritas à mão, entre <!-- barra --> e <!-- /barra -->.
+for (const p of PAGINAS_A_MAO) {
+  const caminho = join(RAIZ, p.arquivo);
+  const html = await readFile(caminho, 'utf8');
+  const novo = html.replace(/<!-- barra -->[\s\S]*?<!-- \/barra -->/, `<!-- barra -->\n${barra(p.raiz, p.ativo)}\n<!-- /barra -->`);
+  if (novo === html && !html.includes('<!-- barra -->')) throw new Error(`${p.arquivo} sem os marcadores <!-- barra -->`);
+  if (novo !== html) await writeFile(caminho, novo);
+  console.log(`${p.arquivo} (barra)`);
 }

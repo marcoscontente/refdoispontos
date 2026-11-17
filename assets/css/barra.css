@@ -1,0 +1,36 @@
+/* Barra de navegação de todas as páginas (HTML em scripts/barra.mjs).
+   Classes com prefixo rt- para não se misturar com style.css e promos.css. */
+.rt-barra{display:block;padding:0;margin:0;background:#123536;color:#FAF9F6;font-family:'Montserrat',system-ui,sans-serif;position:relative;z-index:20}
+.rt-dentro{display:grid;grid-template-columns:auto 1fr;grid-template-areas:"marca redes" "nav nav";align-items:center;
+  max-width:1120px;margin:0 auto;padding:12px 20px 0;column-gap:16px}
+.rt-barra a{color:inherit;text-decoration:none}
+.rt-barra a:focus-visible{outline:2px solid #FAF9F6;outline-offset:3px;border-radius:4px}
+
+.rt-marca{grid-area:marca;display:flex;align-items:center;gap:10px;min-width:0}
+.rt-marca img{width:36px;height:36px;border-radius:50%;flex:none;display:block}
+.rt-nome{display:flex;flex-direction:column;font-family:'Archivo Black',system-ui,sans-serif;font-size:20px;line-height:1;letter-spacing:-.02em}
+.rt-nome b{color:#E0745F;font-weight:400}
+.rt-nome small{font-family:'Montserrat',system-ui,sans-serif;font-weight:600;font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(250,249,246,.7);margin-top:4px;white-space:nowrap}
+
+.rt-redes{grid-area:redes;justify-self:end;display:flex;gap:4px;list-style:none;margin:0;padding:0}
+.rt-redes a{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;color:rgba(250,249,246,.85);transition:background .15s,color .15s}
+.rt-redes a:hover{background:rgba(250,249,246,.1);color:#FAF9F6}
+.rt-redes svg{width:19px;height:19px}
+
+.rt-nav{grid-area:nav;display:flex;gap:22px;margin-top:10px;border-top:1px solid rgba(250,249,246,.14);
+  overflow-x:auto;scrollbar-width:none;white-space:nowrap}
+.rt-nav::-webkit-scrollbar{display:none}
+.rt-nav a{font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:12px 0 10px;
+  color:rgba(250,249,246,.72);border-bottom:2px solid transparent}
+.rt-nav a:hover{color:#FAF9F6}
+.rt-nav a[aria-current="page"]{color:#FAF9F6;border-bottom-color:#E0745F}
+
+@media (min-width:768px){
+  .rt-dentro{padding:0 40px;grid-template-columns:auto 1fr auto;grid-template-areas:"marca nav redes";column-gap:32px}
+  .rt-marca{padding:14px 0}
+  .rt-marca img{width:40px;height:40px}
+  .rt-nome{font-size:22px}
+  .rt-nav{margin:0;border:0;justify-content:flex-end;gap:28px;align-self:stretch}
+  .rt-nav a{display:flex;align-items:center;padding:0;font-size:12.5px;border-bottom-width:3px;border-top:3px solid transparent}
+}
