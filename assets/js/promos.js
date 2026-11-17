@@ -64,7 +64,7 @@
     const endereco = (id) => {
       const q = new URLSearchParams({ id });
       new URLSearchParams(location.search).forEach((v, k) => { if (k.startsWith('utm_')) q.set(k, v); });
-      return `oferta/?${q}`;
+      return `${raiz}promos/oferta/?${q}`;
     };
     fetch(`${raiz}data/ofertas.json`, { cache: 'no-store' })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`ofertas.json: ${r.status}`))))
@@ -154,6 +154,7 @@
   // Botão fixo aparece depois que o botão do topo sai da tela.
   const topo = document.querySelector('.hero .cta');
   const fixo = document.getElementById('sticky');
+  if (!topo || !fixo) return; // página sem barra fixa (ex.: doações)
   if ('IntersectionObserver' in window) {
     new IntersectionObserver((en) => fixo.classList.toggle('show', !en[0].isIntersecting)).observe(topo);
   } else {

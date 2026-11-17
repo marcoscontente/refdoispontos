@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<!-- Sugestões de doação. O formulário envia para doacoes/enviar.php, que grava numa planilha fora da pasta pública. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sugira uma doação — REF:</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icone/icone-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/img/icone/icone-192.png">
+<link rel="apple-touch-icon" href="../assets/img/icone/icone-180.png">
+<meta name="description" content="Conhece um projeto ou uma causa que merece uma doação? Indique para a REF:.">
+<meta name="theme-color" content="#0E2A2B">
+<link rel="canonical" href="https://refdoispontos.com/doacoes/">
+<meta property="og:title" content="Sugira uma doação — REF:">
+<meta property="og:description" content="Conhece um projeto ou uma causa que merece uma doação? Indique para a REF:.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://refdoispontos.com/doacoes/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/promos.css">
+<script src="../assets/js/pixel.js"></script>
+</head>
+<body class="theme-doacoes" data-categoria="doacoes" data-raiz="../">
+
+<div class="wrap">
+  <header>
+    <a class="logo" href="../" style="text-decoration:none">REF<b>:</b></a>
+    <span class="micro">Doações</span>
+  </header>
+
+  <main class="doacao" id="doacao">
+    <div class="doacao-intro">
+      <div class="micro" id="eyebrow">Sugestão de doação</div>
+      <h1 id="title"><span>INDIQUE UM</span><span>PROJETO PARA</span><span>RECEBER DOAÇÃO.</span></h1>
+      <p class="lead" id="lead">Conhece um projeto ou uma causa que merece apoio? Conte para a REF:. Todas as sugestões são lidas.</p>
+    </div>
+
+    <form class="form" id="form" action="enviar.php" method="post" novalidate>
+      <p class="form-aviso">Os campos marcados com <b class="obrig" aria-hidden="true">*</b> são obrigatórios.</p>
+
+      <fieldset>
+        <legend class="micro">Sobre o projeto</legend>
+        <div class="campo">
+          <label for="projeto">Nome do projeto <b class="obrig" aria-hidden="true">*</b></label>
+          <input id="projeto" name="projeto" type="text" required maxlength="120" autocomplete="off" aria-describedby="projeto-erro">
+          <p class="erro" id="projeto-erro" hidden></p>
+        </div>
+        <div class="campo">
+          <label for="causa">Causa <b class="obrig" aria-hidden="true">*</b></label>
+          <p class="ajuda" id="causa-ajuda">O que o projeto faz e por que merece a doação.</p>
+          <textarea id="causa" name="causa" rows="4" required maxlength="1000" aria-describedby="causa-ajuda causa-erro"></textarea>
+          <p class="erro" id="causa-erro" hidden></p>
+        </div>
+        <div class="campo">
+          <label for="contato">Contato do projeto <b class="obrig" aria-hidden="true">*</b></label>
+          <p class="ajuda" id="contato-ajuda">Instagram, site, e-mail ou telefone.</p>
+          <input id="contato" name="contato" type="text" required maxlength="200" autocomplete="off" aria-describedby="contato-ajuda contato-erro">
+          <p class="erro" id="contato-erro" hidden></p>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="micro">Sobre você <span class="opcional">(opcional)</span></legend>
+        <div class="campo">
+          <label for="nome">Seu nome <span class="opcional">(opcional)</span></label>
+          <input id="nome" name="nome" type="text" maxlength="80" autocomplete="name">
+        </div>
+        <div class="campo">
+          <label for="telefone">Seu telefone <span class="opcional">(opcional)</span></label>
+          <p class="ajuda" id="telefone-ajuda">Com DDD. Só usamos se precisarmos falar sobre a sugestão.</p>
+          <input id="telefone" name="telefone" type="tel" inputmode="tel" maxlength="20" autocomplete="tel-national" placeholder="(11) 91234-5678" aria-describedby="telefone-ajuda telefone-erro">
+          <p class="erro" id="telefone-erro" hidden></p>
+        </div>
+      </fieldset>
+
+      <!-- Campo-armadilha: pessoas não veem; robôs preenchem e o envio é descartado. -->
+      <div class="armadilha" aria-hidden="true">
+        <label for="site">Não preencha este campo</label>
+        <input id="site" name="site" type="text" tabindex="-1" autocomplete="off">
+      </div>
+      <input type="hidden" name="t" id="t">
+
+      <p class="erro erro-geral" id="erro-geral" role="alert" hidden></p>
+      <button class="cta enviar" type="submit" id="enviar">Enviar sugestão</button>
+      <p class="privacidade">Seu nome e telefone servem só para a REF: falar com você sobre esta sugestão. Não entram em lista de mensagens e não são compartilhados.</p>
+    </form>
+
+    <div class="sucesso" id="sucesso" tabindex="-1" hidden>
+      <div class="micro">Recebido</div>
+      <h2>Obrigado pela<br>sugestão.</h2>
+      <p>A REF: lê todas. Se precisarmos de mais detalhes e você deixou telefone, a gente entra em contato.</p>
+      <button class="cta vazado" type="button" id="outra">Sugerir outro projeto</button>
+    </div>
+  </main>
+
+  <section id="achados">
+    <div class="micro">Enquanto isso</div>
+    <h2>Achados recentes<br>do grupo</h2>
+    <p class="micro dica" id="dica" hidden></p>
+    <div class="cards" id="cards" data-ofertas="30"></div>
+    <p class="disclaimer">Valores de ofertas já publicadas no grupo. Preço, estoque e cupons mudam a qualquer momento.</p>
+  </section>
+
+  <section class="grupos">
+    <div class="micro">Grupo gratuito</div>
+    <h2>Receba os achados<br>no celular</h2>
+    <p class="lead">Promoções de relógio da Amazon e do Mercado Livre, garimpadas pela REF:, no WhatsApp ou no Telegram.</p>
+    <div class="grupos-botoes">
+      <a class="cta js-cta" href="../g/promos/?o=campanha" data-grupo="promos" data-pos="grupos">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.9 9.9 0 0 0 12.04 2zm5.8 14.13c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.82-.12-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.8-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3s.75-2.13 1.02-2.42c.27-.29.58-.36.78-.36h.56c.18 0 .42-.07.66.5.24.58.82 2.01.89 2.16.07.14.12.31.02.5-.1.2-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.13.59.17.29.74 1.22 1.58 1.97 1.09.97 2 1.27 2.29 1.42.29.14.46.12.63-.07.17-.2.72-.84.92-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.21.55.33.07.12.07.7-.17 1.38z"/></svg>
+        REF: PROMOS NO WHATSAPP
+      </a>
+      <a class="cta tg js-cta" href="../g/telegram/?o=campanha" data-grupo="telegram" data-pos="grupos">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        REF: PROMOS NO TELEGRAM
+      </a>
+    </div>
+    <p class="cta-note">Gratuito · as mesmas ofertas nos dois</p>
+  </section>
+
+  <footer>
+    <p><b style="color:var(--paper)">REF: | Watches &amp; Culture</b> — uma referência de cada vez, do primeiro Casio ao grail.</p>
+    <p style="margin-top:8px"><a href="../">Voltar para a página da REF:</a></p>
+    <p style="margin-top:8px">Os links de oferta são links de afiliado. Como Associado da Amazon, a REF: ganha com compras qualificadas. A REF: não tem vínculo com as marcas citadas. Ofertas sujeitas a alteração. #publi</p>
+  </footer>
+</div>
+
+<script src="../assets/js/grupos.js"></script>
+<script src="../assets/js/promos.js"></script>
+<script src="../assets/js/doacoes.js"></script>
+</body>
+</html>
