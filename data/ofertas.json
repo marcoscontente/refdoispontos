@@ -3,6 +3,36 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-284",
+      "loja": "amazon",
+      "titulo": "Timex Expedition Scout 40mm Men’s Analog Watch | Luminous Hands | Durable Comfortable Adjustable",
+      "preco": 332.17,
+      "link": "https://link.amazon/B0huGmvrm",
+      "data": "2026-11-17T18:16:17+00:00",
+      "parcelas": "6x de R$ 55,37 sem juros",
+      "imagem": "assets/img/ofertas/tg-284.jpg"
+    },
+    {
+      "id": "tg-283",
+      "loja": "amazon",
+      "titulo": "Orient Relógio contemporâneo japonês automático/corda manual \"RA-AC0E\"",
+      "preco": 2041.26,
+      "link": "https://link.amazon/B04oOtTtK",
+      "data": "2026-11-17T18:09:06+00:00",
+      "parcelas": "12x de R$ 170,16 sem juros",
+      "imagem": "assets/img/ofertas/tg-283.jpg"
+    },
+    {
+      "id": "tg-281",
+      "loja": "amazon",
+      "titulo": "Citizen Quartz Mens Watch, Stainless Steel with Leather Strap, Casual",
+      "preco": 719.51,
+      "link": "https://link.amazon/B020ff4uX",
+      "data": "2026-11-17T17:37:40+00:00",
+      "parcelas": "10x de R$ 71,96 sem juros",
+      "imagem": "assets/img/ofertas/tg-281.jpg"
+    },
+    {
       "id": "tg-280",
       "loja": "amazon",
       "titulo": "Casio DW5600E-1V G Shock - Digital-200M Wr - Clássico",
@@ -635,38 +665,6 @@
       "data": "2026-11-16T19:58:27+00:00",
       "parcelas": "10x de R$ 169,65 sem juros",
       "imagem": "assets/img/ofertas/tg-204.jpg"
-    },
-    {
-      "id": "tg-202",
-      "loja": "amazon",
-      "titulo": "WARTIME Relógio militar da Segunda Guerra Mundial, relógio vintage da USAAF, movimento de quartzo",
-      "preco": 1696.56,
-      "link": "https://link.amazon/B0gpxaxB8",
-      "data": "2026-11-16T19:38:17+00:00",
-      "parcelas": "10x de R$ 169,71 sem juros",
-      "imagem": "assets/img/ofertas/tg-202.jpg"
-    },
-    {
-      "id": "tg-197",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Easy Reader",
-      "preco": 280.24,
-      "link": "https://link.amazon/B04XH1MPm",
-      "data": "2026-11-16T19:17:45+00:00",
-      "precoDe": 376.49,
-      "parcelas": "6x de R$ 46,74 sem juros",
-      "imagem": "assets/img/ofertas/tg-197.jpg"
-    },
-    {
-      "id": "tg-195",
-      "loja": "amazon",
-      "titulo": "Casio Série F91W | Relógio digital | Resistente à água | Luz LED",
-      "preco": 109.99,
-      "link": "https://link.amazon/B0aSiipGX",
-      "data": "2026-11-16T18:56:53+00:00",
-      "precoDe": 169,
-      "parcelas": "3x de R$ 36,67 sem juros",
-      "imagem": "assets/img/ofertas/tg-195.jpg"
     }
   ]
 }
