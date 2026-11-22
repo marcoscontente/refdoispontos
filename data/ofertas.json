@@ -3,6 +3,344 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-600",
+      "loja": "amazon",
+      "titulo": "Citizen Relógio feminino de quartzo, aço inoxidável, clássico",
+      "preco": 1073.9,
+      "link": "https://link.amazon/B0h55dE5p",
+      "data": "2026-11-22T16:46:42+00:00",
+      "precoDe": 1174.28,
+      "parcelas": "10x de R$ 107,39 sem juros",
+      "imagem": "assets/img/ofertas/tg-600.jpg"
+    },
+    {
+      "id": "tg-599",
+      "loja": "amazon",
+      "titulo": "Relógio digital masculino Casio Série W218H 50M WR Cronômetro 1/100 segundo, Cronógrafo 100 SEC",
+      "preco": 162,
+      "link": "https://link.amazon/B04j0sQoA",
+      "data": "2026-11-22T16:26:31+00:00",
+      "precoDe": 223.71,
+      "parcelas": "5x de R$ 32,40 sem juros",
+      "imagem": "assets/img/ofertas/tg-599.jpg"
+    },
+    {
+      "id": "tg-598",
+      "loja": "amazon",
+      "titulo": "Relógio Unissex Anadigi Casio AW-48HE-1AVDF - Preto",
+      "preco": 187.08,
+      "link": "https://link.amazon/B03yJ4zAK",
+      "data": "2026-11-22T16:06:33+00:00",
+      "precoDe": 209.5,
+      "parcelas": "6x de R$ 31,18 sem juros",
+      "imagem": "assets/img/ofertas/tg-598.jpg"
+    },
+    {
+      "id": "tg-597",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Casio AE-1200WHD-1 Masculino Word Time Prata Quadrado Cor da correia Prateado",
+      "preco": 219,
+      "link": "https://meli.la/1y1nRCQ",
+      "data": "2026-11-22T15:57:22+00:00",
+      "precoDe": 280,
+      "parcelas": "6x de R$ 36,50 sem juros",
+      "imagem": "assets/img/ofertas/tg-597.jpg"
+    },
+    {
+      "id": "tg-596",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Technos Masculino Skydiver Professional Wt205fz/2b Preto Prateado Branco",
+      "preco": 429.85,
+      "link": "https://meli.la/1ZwGKZ3",
+      "data": "2026-11-22T15:51:16+00:00",
+      "precoDe": 999,
+      "parcelas": "8x de R$ 54,98 sem juros",
+      "imagem": "assets/img/ofertas/tg-596.jpg"
+    },
+    {
+      "id": "tg-595",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Mk1 de 36 mm",
+      "preco": 300.16,
+      "link": "https://link.amazon/B008UOZuv",
+      "data": "2026-11-22T15:46:38+00:00",
+      "precoDe": 358.08,
+      "parcelas": "6x de R$ 50,06 sem juros",
+      "imagem": "assets/img/ofertas/tg-595.jpg"
+    },
+    {
+      "id": "tg-594",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Timex Masculino Digital Clássic T78587",
+      "preco": 299.99,
+      "link": "https://meli.la/1Seb55X",
+      "data": "2026-11-22T15:46:32+00:00",
+      "precoDe": 529,
+      "parcelas": "12x de R$ 29,35",
+      "imagem": "assets/img/ofertas/tg-594.jpg"
+    },
+    {
+      "id": "tg-593",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Technos Skydiver WT205FZ/2P Masculino de Aço Inoxidável Com Alarme",
+      "preco": 504.99,
+      "link": "https://meli.la/1KThCvy",
+      "data": "2026-11-22T15:41:10+00:00",
+      "precoDe": 999,
+      "parcelas": "10x de R$ 51,60 sem juros",
+      "imagem": "assets/img/ofertas/tg-593.jpg"
+    },
+    {
+      "id": "tg-592",
+      "loja": "amazon",
+      "titulo": "Casio W735H Series | Men’s Digital Watch | 1/100 SEC Stopwatch | Countdown Timer",
+      "preco": 270.9,
+      "link": "https://link.amazon/B0aIjS2Ok",
+      "data": "2026-11-22T15:26:49+00:00",
+      "precoDe": 301.35,
+      "parcelas": "6x de R$ 45,15 sem juros",
+      "imagem": "assets/img/ofertas/tg-592.jpg"
+    },
+    {
+      "id": "tg-591",
+      "loja": "amazon",
+      "titulo": "Citizen Quartz Mens Watch, Stainless Steel, Classic",
+      "preco": 1096.9,
+      "link": "https://link.amazon/B09QNyTp8",
+      "data": "2026-11-22T15:06:36+00:00",
+      "precoDe": 1196.92,
+      "parcelas": "10x de R$ 109,69 sem juros",
+      "imagem": "assets/img/ofertas/tg-591.jpg"
+    },
+    {
+      "id": "tg-590",
+      "loja": "amazon",
+      "titulo": "Relógio Casio Data Bank Ca-53wf-3bdf",
+      "preco": 170.99,
+      "link": "https://link.amazon/B0b5aN5w8",
+      "data": "2026-11-22T14:25:09+00:00",
+      "precoDe": 199.99,
+      "parcelas": "5x de R$ 34,23 sem juros",
+      "imagem": "assets/img/ofertas/tg-590.jpg"
+    },
+    {
+      "id": "tg-589",
+      "loja": "amazon",
+      "titulo": "RELOGIO CASIO ANALOGICO PRETO METAL PRATA MTP-B190D-1BV",
+      "preco": 435.24,
+      "link": "https://link.amazon/B03XardJe",
+      "data": "2026-11-22T14:04:43+00:00",
+      "precoDe": 539,
+      "parcelas": "8x de R$ 54,44 sem juros",
+      "imagem": "assets/img/ofertas/tg-589.jpg"
+    },
+    {
+      "id": "tg-588",
+      "loja": "amazon",
+      "titulo": "Casio TRT110H Series | Digital Watch | 100M WR | 1/100 SEC Stop Watch",
+      "preco": 263.9,
+      "link": "https://link.amazon/B08Q8tH16",
+      "data": "2026-11-22T13:44:35+00:00",
+      "precoDe": 420.13,
+      "parcelas": "6x de R$ 44,00 sem juros",
+      "imagem": "assets/img/ofertas/tg-588.jpg"
+    },
+    {
+      "id": "tg-587",
+      "loja": "amazon",
+      "titulo": "Relogio Casio Vintage Unssex AQ-230A-9AMQYDF",
+      "preco": 240.03,
+      "link": "https://link.amazon/B0aEKsgHO",
+      "data": "2026-11-22T13:24:31+00:00",
+      "precoDe": 289.89,
+      "parcelas": "6x de R$ 40,03 sem juros",
+      "imagem": "assets/img/ofertas/tg-587.jpg"
+    },
+    {
+      "id": "tg-586",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Ironman Triathlon Endure 30 Shock 42 mm",
+      "preco": 451.9,
+      "link": "https://link.amazon/B0jaavQz7",
+      "data": "2026-11-22T13:04:37+00:00",
+      "precoDe": 580.84,
+      "parcelas": "9x de R$ 50,22 sem juros",
+      "imagem": "assets/img/ofertas/tg-586.jpg"
+    },
+    {
+      "id": "tg-585",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
+      "preco": 319.9,
+      "link": "https://link.amazon/B00Ojcfhe",
+      "data": "2026-11-22T12:44:27+00:00",
+      "precoDe": 436.11,
+      "parcelas": "6x de R$ 53,35 sem juros",
+      "imagem": "assets/img/ofertas/tg-585.jpg"
+    },
+    {
+      "id": "tg-584",
+      "loja": "amazon",
+      "titulo": "Seiko Relógio masculino SNXG47 5 automático de aço inoxidável com mostrador branco, Branco, Relógio",
+      "preco": 1900,
+      "link": "https://link.amazon/B0fAySVta",
+      "data": "2026-11-21T20:11:11+00:00",
+      "parcelas": "12x de R$ 158,37 sem juros",
+      "imagem": "assets/img/ofertas/tg-584.jpg"
+    },
+    {
+      "id": "tg-583",
+      "loja": "amazon",
+      "titulo": "Timex Coleção Peanuts Weekender 38 mm",
+      "preco": 517.07,
+      "link": "https://link.amazon/B07azsxwA",
+      "data": "2026-11-21T19:57:15+00:00",
+      "parcelas": "10x de R$ 51,77 sem juros",
+      "imagem": "assets/img/ofertas/tg-583.jpg"
+    },
+    {
+      "id": "tg-582",
+      "loja": "amazon",
+      "titulo": "Seiko Relógio masculino esportivo SRPG37 Seiko 5, preto, 39,4 mm, aço inoxidável",
+      "preco": 3215,
+      "link": "https://link.amazon/B08K3xaR3",
+      "data": "2026-11-21T19:40:49+00:00",
+      "parcelas": "12x de R$ 267,99 sem juros",
+      "imagem": "assets/img/ofertas/tg-582.jpg"
+    },
+    {
+      "id": "tg-581",
+      "loja": "amazon",
+      "titulo": "Timex Relógio feminino Legacy de 36 mm - pulseira marrom, mostrador creme, caixa dourada",
+      "preco": 554.76,
+      "link": "https://link.amazon/B0gw8HBrP",
+      "data": "2026-11-21T19:37:09+00:00",
+      "precoDe": 660.89,
+      "parcelas": "10x de R$ 55,53 sem juros",
+      "imagem": "assets/img/ofertas/tg-581.jpg"
+    },
+    {
+      "id": "tg-580",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Expedition Atlantis de 40 mm",
+      "preco": 323.98,
+      "link": "https://link.amazon/B0dIa9sTO",
+      "data": "2026-11-21T19:17:08+00:00",
+      "parcelas": "6x de R$ 54,03 sem juros",
+      "imagem": "assets/img/ofertas/tg-580.jpg"
+    },
+    {
+      "id": "tg-579",
+      "loja": "amazon",
+      "titulo": "SEIKO Relógio masculino - Coleção Essentials - Estilo diário e artesanato",
+      "preco": 2318,
+      "link": "https://link.amazon/B04z6FLzb",
+      "data": "2026-11-21T19:09:31+00:00",
+      "parcelas": "12x de R$ 193,24 sem juros",
+      "imagem": "assets/img/ofertas/tg-579.jpg"
+    },
+    {
+      "id": "tg-578",
+      "loja": "amazon",
+      "titulo": "Timex Relógio unissex Weekender, 38 mm",
+      "preco": 499.04,
+      "link": "https://link.amazon/B0a4uolQh",
+      "data": "2026-11-21T18:57:09+00:00",
+      "parcelas": "9x de R$ 55,52 sem juros",
+      "imagem": "assets/img/ofertas/tg-578.jpg"
+    },
+    {
+      "id": "tg-577",
+      "loja": "amazon",
+      "titulo": "Seiko Relógio masculino analógico automático com pulseira de aço inoxidável",
+      "preco": 1962,
+      "link": "https://link.amazon/B0j6c0njQ",
+      "data": "2026-11-21T18:39:30+00:00",
+      "parcelas": "12x de R$ 163,50 sem juros",
+      "imagem": "assets/img/ofertas/tg-577.jpg"
+    },
+    {
+      "id": "tg-576",
+      "loja": "amazon",
+      "titulo": "Timex Relógio masculino Mk1 de 36 mm",
+      "preco": 340.54,
+      "link": "https://link.amazon/B05zgOYZe",
+      "data": "2026-11-21T18:16:11+00:00",
+      "parcelas": "6x de R$ 56,79 sem juros",
+      "imagem": "assets/img/ofertas/tg-576.jpg"
+    },
+    {
+      "id": "tg-574",
+      "loja": "amazon",
+      "titulo": "SEIKO SBTR027 Relógio de quartzo selecionado enviado do Japão, Relógio de quartzo",
+      "preco": 2344.93,
+      "link": "https://link.amazon/B0hgYjAvK",
+      "data": "2026-11-21T18:09:02+00:00",
+      "parcelas": "12x de R$ 195,42 sem juros",
+      "imagem": "assets/img/ofertas/tg-574.jpg"
+    },
+    {
+      "id": "tg-573",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Casio G-shock Ga-2100-1adr Carbon Core Guard Cor da correia Preto Cor do bisel",
+      "preco": 429.9,
+      "link": "https://meli.la/1nDuvYQ",
+      "data": "2026-11-21T18:07:08+00:00",
+      "precoDe": 819,
+      "imagem": "assets/img/ofertas/tg-573.jpg"
+    },
+    {
+      "id": "tg-572",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Casio Masculino Calculadora Ca-53w-1z Correia Preto",
+      "preco": 241.8,
+      "link": "https://meli.la/23U5gre",
+      "data": "2026-11-21T17:58:06+00:00",
+      "precoDe": 314.02,
+      "imagem": "assets/img/ofertas/tg-572.jpg"
+    },
+    {
+      "id": "tg-571",
+      "loja": "amazon",
+      "titulo": "Timex Expedition Scout Relógio analógico masculino de 40 mm | Ponteiros luminosos | Pulseira",
+      "preco": 343.44,
+      "link": "https://link.amazon/B0ivdCpLN",
+      "data": "2026-11-21T17:56:15+00:00",
+      "precoDe": 489.1,
+      "parcelas": "6x de R$ 57,24 sem juros",
+      "imagem": "assets/img/ofertas/tg-571.jpg"
+    },
+    {
+      "id": "tg-570",
+      "loja": "mercadolivre",
+      "titulo": "Porta Relógio Estojo Caixa Maleta P/ Viagem 3 Lugares Preto Preto",
+      "preco": 59.99,
+      "link": "https://meli.la/2WeTkNT",
+      "data": "2026-11-21T17:39:12+00:00",
+      "precoDe": 109.99,
+      "imagem": "assets/img/ofertas/tg-570.jpg"
+    },
+    {
+      "id": "tg-569",
+      "loja": "mercadolivre",
+      "titulo": "Caixa Maleta Estojo Porta Relógios Organizadora 15 Pretos Preto",
+      "preco": 141.29,
+      "link": "https://meli.la/2VtDc3p",
+      "data": "2026-11-21T17:08:58+00:00",
+      "precoDe": 179.3,
+      "imagem": "assets/img/ofertas/tg-569.jpg"
+    },
+    {
+      "id": "tg-568",
+      "loja": "amazon",
+      "titulo": "Timex Expedition Scout 40mm Men’s Analog Watch | Luminous Hands | Durable Comfortable Adjustable",
+      "preco": 393.03,
+      "link": "https://link.amazon/B00YUjHT5",
+      "data": "2026-11-21T16:53:48+00:00",
+      "parcelas": "7x de R$ 56,19 sem juros",
+      "imagem": "assets/img/ofertas/tg-568.jpg"
+    },
+    {
       "id": "tg-567",
       "loja": "mercadolivre",
       "titulo": "Caixa Maleta Estojo Porta Relógio 10 Lugares Para Viagem Preto",
@@ -228,17 +566,6 @@
       "imagem": "assets/img/ofertas/tg-547.jpg"
     },
     {
-      "id": "tg-546",
-      "loja": "amazon",
-      "titulo": "Timex Relógio com pulseira de expansão de data fácil de ler",
-      "preco": 355.28,
-      "link": "https://link.amazon/B0g9TCTV0",
-      "data": "2026-11-21T14:33:08+00:00",
-      "precoDe": 405.22,
-      "parcelas": "7x de R$ 50,78 sem juros",
-      "imagem": "assets/img/ofertas/tg-546.jpg"
-    },
-    {
       "id": "tg-545",
       "loja": "mercadolivre",
       "titulo": "Relógio Masculino Casio G-shock Preto Dw-5600ue-1dr Preto Não Se Aplica",
@@ -273,17 +600,6 @@
       "cupom": "SITETODO2111",
       "parcelas": "8x de R$ 51,75 sem juros",
       "imagem": "assets/img/ofertas/tg-543.jpg"
-    },
-    {
-      "id": "tg-542",
-      "loja": "amazon",
-      "titulo": "Relógio masculino militar MDC que brilha no escuro para esportes ao ar livre, relógio",
-      "preco": 139.43,
-      "link": "https://link.amazon/B0h3SyC1Z",
-      "data": "2026-11-21T14:13:08+00:00",
-      "precoDe": 154.11,
-      "parcelas": "4x de R$ 34,88 sem juros",
-      "imagem": "assets/img/ofertas/tg-542.jpg"
     },
     {
       "id": "tg-541",
@@ -328,331 +644,6 @@
       "cupom": "SITETODO2111",
       "parcelas": "10x de R$ 53,40 sem juros",
       "imagem": "assets/img/ofertas/tg-537.jpg"
-    },
-    {
-      "id": "tg-536",
-      "loja": "amazon",
-      "titulo": "Infantry Relógio militar masculino MDC, quartzo japonês, nylon deslizante",
-      "preco": 136.83,
-      "link": "https://link.amazon/B0aWeRZ60",
-      "data": "2026-11-21T13:52:29+00:00",
-      "precoDe": 152.06,
-      "parcelas": "4x de R$ 34,23 sem juros",
-      "imagem": "assets/img/ofertas/tg-536.jpg"
-    },
-    {
-      "id": "tg-535",
-      "loja": "mercadolivre",
-      "titulo": "Relógio oficial Casio G Shock Gbd-200",
-      "preco": 427,
-      "link": "https://meli.la/2s5FXoD",
-      "data": "2026-11-21T13:47:15+00:00",
-      "precoDe": 999,
-      "cupom": "SITETODO2111",
-      "parcelas": "10x de R$ 67,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-535.jpg"
-    },
-    {
-      "id": "tg-534",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Technos Masculino de Aço Inoxidável Prata, Fundo Azul, com Calendário e Resistente",
-      "preco": 437.14,
-      "link": "https://meli.la/2xr2eFc",
-      "data": "2026-11-21T13:39:21+00:00",
-      "precoDe": 744.99,
-      "parcelas": "8x de R$ 54,64 sem juros",
-      "imagem": "assets/img/ofertas/tg-534.jpg"
-    },
-    {
-      "id": "tg-533",
-      "loja": "mercadolivre",
-      "titulo": "Pulseira Nylon Compatível Com Casio Ae-1200 Ae-1300 Aq-s810w",
-      "preco": 39.91,
-      "link": "https://meli.la/2gZT86f",
-      "data": "2026-11-21T13:33:49+00:00",
-      "precoDe": 44.35,
-      "imagem": "assets/img/ofertas/tg-533.jpg"
-    },
-    {
-      "id": "tg-532",
-      "loja": "amazon",
-      "titulo": "Casio W217H Series | Men’s Digital Watch | 50M WR | 1/100 Second Stopwatch",
-      "preco": 150.08,
-      "link": "https://link.amazon/B01w6B3Xq",
-      "data": "2026-11-21T13:32:22+00:00",
-      "precoDe": 214.65,
-      "parcelas": "5x de R$ 30,04 sem juros",
-      "imagem": "assets/img/ofertas/tg-532.jpg"
-    },
-    {
-      "id": "tg-531",
-      "loja": "mercadolivre",
-      "titulo": "Paquímetro Digital 150mm Inox Rastreável Rbc",
-      "preco": 98.9,
-      "link": "https://meli.la/2NHoNax",
-      "data": "2026-11-21T13:31:30+00:00",
-      "precoDe": 161.27,
-      "imagem": "assets/img/ofertas/tg-531.jpg"
-    },
-    {
-      "id": "tg-530",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Mondaine Masculino 32549g0mvne1 Aco Inox Prata Fundo Preto Analogico Prova Dágua 50m",
-      "preco": 443,
-      "link": "https://meli.la/25Gzi4U",
-      "data": "2026-11-21T13:24:14+00:00",
-      "cupom": "SITETODO2111",
-      "parcelas": "12x de R$ 20,10",
-      "imagem": "assets/img/ofertas/tg-530.jpg"
-    },
-    {
-      "id": "tg-529",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Feminino Tank Quadrado Lbss1035 B3sx",
-      "preco": 998,
-      "link": "https://meli.la/1dsiGhc",
-      "data": "2026-11-21T13:17:09+00:00",
-      "precoDe": 1313,
-      "parcelas": "10x de R$ 99,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-529.jpg"
-    },
-    {
-      "id": "tg-528",
-      "loja": "amazon",
-      "titulo": "Casio POP Bio-Based Renewable Band LED Backlight Daily Alarm Digital Watch",
-      "preco": 197.1,
-      "link": "https://link.amazon/B0iiC9fPU",
-      "data": "2026-11-21T13:12:15+00:00",
-      "precoDe": 256.06,
-      "parcelas": "6x de R$ 32,85 sem juros",
-      "imagem": "assets/img/ofertas/tg-528.jpg"
-    },
-    {
-      "id": "tg-527",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient 3 Stars Sport Land Yn6sn027 D1dx Prateado Azul",
-      "preco": 1618.2,
-      "link": "https://meli.la/27KP9px",
-      "data": "2026-11-21T13:08:16+00:00",
-      "precoDe": 1872,
-      "cupom": "SITETODO2011",
-      "parcelas": "10x de R$ 179,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-527.jpg"
-    },
-    {
-      "id": "tg-526",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Submariner 39 Yn6ss023 P1sx Prateado Preto",
-      "preco": 1698,
-      "link": "https://meli.la/2ADJ4FP",
-      "data": "2026-11-21T13:03:25+00:00",
-      "precoDe": 2247,
-      "cupom": "SITETODO2011",
-      "parcelas": "10x de R$ 179,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-526.jpg"
-    },
-    {
-      "id": "tg-522",
-      "loja": "amazon",
-      "titulo": "Casio masculina FT500WVB-3BV",
-      "preco": 218.91,
-      "link": "https://link.amazon/B086o7phc",
-      "data": "2026-11-21T12:51:32+00:00",
-      "parcelas": "6x de R$ 36,51 sem juros",
-      "imagem": "assets/img/ofertas/tg-522.jpg"
-    },
-    {
-      "id": "tg-516",
-      "loja": "amazon",
-      "titulo": "Invicta Men's Pro Diver Watch",
-      "preco": 393.77,
-      "link": "https://link.amazon/B00iOPmCP",
-      "data": "2026-11-21T12:30:34+00:00",
-      "precoDe": 604.52,
-      "parcelas": "7x de R$ 56,27 sem juros",
-      "imagem": "assets/img/ofertas/tg-516.jpg"
-    },
-    {
-      "id": "tg-512",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Expedition Gallatin de 45 mm",
-      "preco": 394.27,
-      "link": "https://link.amazon/B00Z43Oss",
-      "data": "2026-11-21T12:10:24+00:00",
-      "precoDe": 767.49,
-      "parcelas": "7x de R$ 56,35 sem juros",
-      "imagem": "assets/img/ofertas/tg-512.jpg"
-    },
-    {
-      "id": "tg-508",
-      "loja": "amazon",
-      "titulo": "Invicta Relógio masculino Pro Diver, quartzo, prata, 30019, Prata, Relógio de quartzo, mergulhador",
-      "preco": 423.21,
-      "link": "https://link.amazon/B0fFnhmq5",
-      "data": "2026-11-21T11:49:49+00:00",
-      "precoDe": 761.32,
-      "parcelas": "8x de R$ 52,91 sem juros",
-      "imagem": "assets/img/ofertas/tg-508.jpg"
-    },
-    {
-      "id": "tg-507",
-      "loja": "amazon",
-      "titulo": "Invicta Relógio masculino de quartzo de silicone especial",
-      "preco": 264.67,
-      "link": "https://link.amazon/B0dTkT93a",
-      "data": "2026-11-21T11:34:49+00:00",
-      "precoDe": 397.99,
-      "parcelas": "6x de R$ 44,12 sem juros",
-      "imagem": "assets/img/ofertas/tg-507.jpg"
-    },
-    {
-      "id": "tg-503",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Peanuts Weekender Baseball 38 mm - Azul Slip-Thru camada única mostrador",
-      "preco": 496.62,
-      "link": "https://link.amazon/B081pMiEm",
-      "data": "2026-11-20T15:27:23+00:00",
-      "precoDe": 605.21,
-      "parcelas": "9x de R$ 55,18 sem juros",
-      "imagem": "assets/img/ofertas/tg-503.jpg"
-    },
-    {
-      "id": "tg-502",
-      "loja": "amazon",
-      "titulo": "Timex Standard 3-Hand 40mm Men’s Analog Watch | INDIGLO Backlight and Luminous Hands",
-      "preco": 435.9,
-      "link": "https://link.amazon/B0ibJh0Fj",
-      "data": "2026-11-20T15:17:08+00:00",
-      "precoDe": 661.95,
-      "parcelas": "8x de R$ 54,54 sem juros",
-      "imagem": "assets/img/ofertas/tg-502.jpg"
-    },
-    {
-      "id": "tg-501",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Expedition Atlantis de 40 mm",
-      "preco": 323.98,
-      "link": "https://link.amazon/B032vow60",
-      "data": "2026-11-20T15:07:00+00:00",
-      "parcelas": "6x de R$ 54,03 sem juros",
-      "imagem": "assets/img/ofertas/tg-501.jpg"
-    },
-    {
-      "id": "tg-500",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Expedition Gallatin de 45 mm",
-      "preco": 394.27,
-      "link": "https://link.amazon/B0dxwhuX9",
-      "data": "2026-11-20T14:56:28+00:00",
-      "precoDe": 767.49,
-      "parcelas": "7x de R$ 56,35 sem juros",
-      "imagem": "assets/img/ofertas/tg-500.jpg"
-    },
-    {
-      "id": "tg-499",
-      "loja": "amazon",
-      "titulo": "Timex Relógio feminino Easy Reader",
-      "preco": 208.81,
-      "link": "https://link.amazon/B02DjKZyv",
-      "data": "2026-11-20T14:46:34+00:00",
-      "parcelas": "6x de R$ 34,81 sem juros",
-      "imagem": "assets/img/ofertas/tg-499.jpg"
-    },
-    {
-      "id": "tg-498",
-      "loja": "amazon",
-      "titulo": "Relógio Timex Cavatina de Expansão",
-      "preco": 195.07,
-      "link": "https://link.amazon/B0gDGgW94",
-      "data": "2026-11-20T14:36:26+00:00",
-      "parcelas": "6x de R$ 32,52 sem juros",
-      "imagem": "assets/img/ofertas/tg-498.jpg"
-    },
-    {
-      "id": "tg-495",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
-      "preco": 317.9,
-      "link": "https://link.amazon/B08lk6CHA",
-      "data": "2026-11-20T14:25:58+00:00",
-      "precoDe": 482.64,
-      "parcelas": "6x de R$ 53,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-495.jpg"
-    },
-    {
-      "id": "tg-492",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
-      "preco": 288.62,
-      "link": "https://link.amazon/B04TDkKPj",
-      "data": "2026-11-20T14:15:18+00:00",
-      "precoDe": 493.78,
-      "parcelas": "6x de R$ 48,12 sem juros",
-      "imagem": "assets/img/ofertas/tg-492.jpg"
-    },
-    {
-      "id": "tg-489",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
-      "preco": 319.9,
-      "link": "https://link.amazon/B0gaWIzMI",
-      "data": "2026-11-20T14:04:35+00:00",
-      "precoDe": 436.11,
-      "parcelas": "6x de R$ 53,35 sem juros",
-      "imagem": "assets/img/ofertas/tg-489.jpg"
-    },
-    {
-      "id": "tg-473",
-      "loja": "amazon",
-      "titulo": "Bulova Relógio masculino Marine Star 'Series A' cronógrafo de quartzo, marcadores luminosos, mostrador giratório",
-      "preco": 2978.9,
-      "link": "https://link.amazon/B0hqkaMTO",
-      "data": "2026-11-20T13:03:20+00:00",
-      "precoDe": 3358.12,
-      "parcelas": "10x de R$ 297,89 sem juros",
-      "imagem": "assets/img/ofertas/tg-473.jpg"
-    },
-    {
-      "id": "tg-471",
-      "loja": "amazon",
-      "titulo": "Bulova Relógio masculino clássico com pulseira de couro preto de quartzo com 3 ponteiros",
-      "preco": 1817.9,
-      "link": "https://link.amazon/B08owwX2Z",
-      "data": "2026-11-20T12:52:19+00:00",
-      "precoDe": 1918.27,
-      "parcelas": "10x de R$ 181,79 sem juros",
-      "imagem": "assets/img/ofertas/tg-471.jpg"
-    },
-    {
-      "id": "tg-468",
-      "loja": "amazon",
-      "titulo": "Tartaruga marinha",
-      "preco": 2268.01,
-      "link": "https://link.amazon/B0dL0vvhh",
-      "data": "2026-11-20T12:41:36+00:00",
-      "parcelas": "10x de R$ 226,81 sem juros",
-      "imagem": "assets/img/ofertas/tg-468.jpg"
-    },
-    {
-      "id": "tg-466",
-      "loja": "amazon",
-      "titulo": "Bulova Relógio masculino Marine Star 'Series C' cronógrafo de quartzo, marcadores luminosos, mostrador giratório",
-      "preco": 3395.75,
-      "link": "https://link.amazon/B0ho3f36Z",
-      "data": "2026-11-20T12:31:38+00:00",
-      "precoDe": 10052.89,
-      "parcelas": "10x de R$ 339,62 sem juros",
-      "imagem": "assets/img/ofertas/tg-466.jpg"
-    },
-    {
-      "id": "tg-462",
-      "loja": "amazon",
-      "titulo": "Citizen Relógio masculino de quartzo, aço inoxidável, clássico",
-      "preco": 1683.44,
-      "link": "https://link.amazon/B0dX2BU2i",
-      "data": "2026-11-20T12:12:13+00:00",
-      "parcelas": "10x de R$ 168,38 sem juros",
-      "imagem": "assets/img/ofertas/tg-462.jpg"
     }
   ]
 }
