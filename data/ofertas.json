@@ -3,6 +3,395 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-777",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Masculino Orient Solartech Elegance Mbss0022 M1sx Prateado Marrom-claro",
+      "preco": 991.94,
+      "link": "https://meli.la/1ftv5gT",
+      "data": "2026-11-24T14:31:49+00:00",
+      "precoDe": 1497,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 119,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-777.jpg"
+    },
+    {
+      "id": "tg-776",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Timex Marlin Cronógrafo Quartzo Masculino com Mostrador Azul e Pulseira de Aço",
+      "preco": 1646.99,
+      "link": "https://meli.la/2aywQkF",
+      "data": "2026-11-24T14:29:09+00:00",
+      "precoDe": 1998,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 188,00 sem juros",
+      "imagem": "assets/img/ofertas/tg-776.jpg"
+    },
+    {
+      "id": "tg-775",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Seculus Automático 77369g0svnc2 40mm Couro Marrom Prateado",
+      "preco": 947.6,
+      "link": "https://meli.la/2tALa2f",
+      "data": "2026-11-24T14:27:44+00:00",
+      "precoDe": 1197,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 110,29 sem juros",
+      "imagem": "assets/img/ofertas/tg-775.jpg"
+    },
+    {
+      "id": "tg-774",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Masc Automático Ed. 70 Anos Mondaine 32993g0mvna6 Prateado Azul-claro",
+      "preco": 629.1,
+      "link": "https://meli.la/2vYbs5y",
+      "data": "2026-11-24T14:23:36+00:00",
+      "precoDe": 799,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 69,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-774.jpg"
+    },
+    {
+      "id": "tg-773",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Mondaine Masculino 32851g0mvna2 Automático Prateado Prateado Azul",
+      "preco": 728.1,
+      "link": "https://meli.la/12WqZiW",
+      "data": "2026-11-24T14:21:03+00:00",
+      "precoDe": 999,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 80,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-773.jpg"
+    },
+    {
+      "id": "tg-772",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Mondaine Masculino Retrô 1954 Amarelo 32888G0MVNA4 Mostrador Esmaltado Calendário",
+      "preco": 459.9,
+      "link": "https://meli.la/1yJkxET",
+      "data": "2026-11-24T14:17:32+00:00",
+      "precoDe": 599,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 51,10 sem juros",
+      "imagem": "assets/img/ofertas/tg-772.jpg"
+    },
+    {
+      "id": "tg-771",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine Automático 32850gpmvdc1 Edição 70 Anos Dourado",
+      "preco": 763.2,
+      "link": "https://meli.la/2GJK5Zs",
+      "data": "2026-11-24T14:14:58+00:00",
+      "precoDe": 898,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 89,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-771.jpg"
+    },
+    {
+      "id": "tg-770",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine Automático 32993g0mvnc7 Couro Crocodilo Preto Prateado Branco",
+      "preco": 625.62,
+      "link": "https://meli.la/2PBfFpb",
+      "data": "2026-11-24T14:12:08+00:00",
+      "precoDe": 799,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 79,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-770.jpg"
+    },
+    {
+      "id": "tg-769",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine Automático 32850g0mvnc2 Edição 70 Anos Preto Prateado Branco",
+      "preco": 805.5,
+      "link": "https://meli.la/2rweB92",
+      "data": "2026-11-24T14:10:05+00:00",
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 89,50 sem juros",
+      "imagem": "assets/img/ofertas/tg-769.jpg"
+    },
+    {
+      "id": "tg-768",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Heritage Automático Masculino de Aço Prateado com Mostrador Prata",
+      "preco": 1438.2,
+      "link": "https://meli.la/2BrPBkW",
+      "data": "2026-11-24T14:07:19+00:00",
+      "precoDe": 1997,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-768.jpg"
+    },
+    {
+      "id": "tg-767",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Automático Masculino Orient YN6SS014 V1SX Aço Inoxidável Prata Fundo Vermelho",
+      "preco": 1438.2,
+      "link": "https://meli.la/13fMyWc",
+      "data": "2026-11-24T14:05:07+00:00",
+      "precoDe": 2075,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-767.jpg"
+    },
+    {
+      "id": "tg-766",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Masculino Orient Heritage 3 Stars Yn6ss001 N1sx Prateado Marrom-claro",
+      "preco": 1438.2,
+      "link": "https://meli.la/17vVaEf",
+      "data": "2026-11-24T14:02:10+00:00",
+      "precoDe": 1997,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-766.jpg"
+    },
+    {
+      "id": "tg-765",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Masculino Automático Heritage 3 Estrelas Com Fundo Verde",
+      "preco": 1438.2,
+      "link": "https://meli.la/2cz6ZCJ",
+      "data": "2026-11-24T13:58:37+00:00",
+      "precoDe": 1997,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-765.jpg"
+    },
+    {
+      "id": "tg-764",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient 3 Estrelas Heritage Automático Yn6ss004 E1sx Prata Verde",
+      "preco": 1438.2,
+      "link": "https://meli.la/2HZEWyi",
+      "data": "2026-11-24T13:56:46+00:00",
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-764.jpg"
+    },
+    {
+      "id": "tg-763",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Heritage 3 Stars Yn6ss014 D1sx Prateado Azul",
+      "preco": 1438.2,
+      "link": "https://meli.la/11xeKyC",
+      "data": "2026-11-24T13:54:10+00:00",
+      "precoDe": 1997,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-763.jpg"
+    },
+    {
+      "id": "tg-762",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Submariner 39 YN6SS023 P1SX Prateado Preto",
+      "preco": 1618.2,
+      "link": "https://meli.la/28m9Mux",
+      "data": "2026-11-24T13:52:20+00:00",
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 179,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-762.jpg"
+    },
+    {
+      "id": "tg-761",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Submariner Automático 39mm Safira YN6SS023 A1SX",
+      "preco": 1618.2,
+      "link": "https://meli.la/24GEnLa",
+      "data": "2026-11-24T13:49:44+00:00",
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 179,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-761.jpg"
+    },
+    {
+      "id": "tg-760",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Masculino Casio MDV de Mergulho em Aço Inoxidável com Bisel Azul e Vermelho",
+      "preco": 459,
+      "link": "https://meli.la/1Wv2Pr6",
+      "data": "2026-11-24T13:48:24+00:00",
+      "precoDe": 679.58,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 51,00 sem juros",
+      "imagem": "assets/img/ofertas/tg-760.jpg"
+    },
+    {
+      "id": "tg-759",
+      "loja": "mercadolivre",
+      "titulo": "Relogio Orient Automatico Submariner Pepsi Yn6ss023 Dvsx",
+      "preco": 1618.2,
+      "link": "https://meli.la/1ADKXL8",
+      "data": "2026-11-24T13:46:12+00:00",
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 179,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-759.jpg"
+    },
+    {
+      "id": "tg-758",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Bambino Automático Tac00009w0",
+      "preco": 2030.03,
+      "link": "https://meli.la/1HzNSqZ",
+      "data": "2026-11-24T13:44:24+00:00",
+      "precoDe": 3123,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "12x de R$ 214,34",
+      "imagem": "assets/img/ofertas/tg-758.jpg"
+    },
+    {
+      "id": "tg-757",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Masculino Automatic Diver YN6SS042 P1SX Preto Aço Inox 38mm Pulseira Integrada Bisel",
+      "preco": 2548,
+      "link": "https://meli.la/1jvX51d",
+      "data": "2026-11-24T13:42:49+00:00",
+      "precoDe": 3497,
+      "cupom": "QUEROOFFHOJE",
+      "parcelas": "10x de R$ 279,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-757.jpg"
+    },
+    {
+      "id": "tg-756",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Masculino Automático 3 Estrelas Superior YN6SS041 U1SX Roxo Degradê Aço Inox 39mm",
+      "preco": 1654.34,
+      "link": "https://meli.la/2McVDeQ",
+      "data": "2026-11-24T13:40:09+00:00",
+      "precoDe": 2497,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 199,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-756.jpg"
+    },
+    {
+      "id": "tg-755",
+      "loja": "mercadolivre",
+      "titulo": "Relógio De Pulso Technos 2115mxu/0p Preto Prata",
+      "preco": 215.1,
+      "link": "https://meli.la/1UYzBSA",
+      "data": "2026-11-24T13:36:21+00:00",
+      "precoDe": 400,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "12x de R$ 23,66",
+      "imagem": "assets/img/ofertas/tg-755.jpg"
+    },
+    {
+      "id": "tg-754",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Automático Orient Heritage 3 Estrelas YN6SS019 Aço Inoxidável Preto",
+      "preco": 1438.2,
+      "link": "https://meli.la/1s1pJXt",
+      "data": "2026-11-24T13:30:21+00:00",
+      "precoDe": 1997,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-754.jpg"
+    },
+    {
+      "id": "tg-753",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Automatic Masculino Aço Inoxidável Prateado Fundo Verde",
+      "preco": 1438.2,
+      "link": "https://meli.la/2Jpiy2q",
+      "data": "2026-11-24T13:24:33+00:00",
+      "precoDe": 1997,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-753.jpg"
+    },
+    {
+      "id": "tg-752",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Automático Masculino Heritage Prateado com Caixa de Aço Inoxidável YN6SS019 N1SX",
+      "preco": 1438.2,
+      "link": "https://meli.la/1A9CPni",
+      "data": "2026-11-24T13:18:36+00:00",
+      "precoDe": 1997,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 159,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-752.jpg"
+    },
+    {
+      "id": "tg-751",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Mondaine Masculino Automático Explorer 99944gpmvkc2 Marrom Dourado",
+      "preco": 1075.57,
+      "link": "https://meli.la/2gDDsRL",
+      "data": "2026-11-24T13:13:12+00:00",
+      "precoDe": 1798,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 129,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-751.jpg"
+    },
+    {
+      "id": "tg-750",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Masculino Automático Yn6ss011 D1sx",
+      "preco": 1488.74,
+      "link": "https://meli.la/1Wt2gfs",
+      "data": "2026-11-24T13:08:22+00:00",
+      "precoDe": 1798,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 179,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-750.jpg"
+    },
+    {
+      "id": "tg-749",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Sport Sea PRETO Masculino - Yn6ss011 P1sx",
+      "preco": 1618.2,
+      "link": "https://meli.la/2en1jut",
+      "data": "2026-11-24T13:02:29+00:00",
+      "precoDe": 2335,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 179,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-749.jpg"
+    },
+    {
+      "id": "tg-748",
+      "loja": "mercadolivre",
+      "titulo": "Relógio Orient Automático Yn6sc006 S2 - Corda Manual/ Safira Preto Prateado Branco",
+      "preco": 1240.34,
+      "link": "https://meli.la/1UsVSJ6",
+      "data": "2026-11-24T12:57:12+00:00",
+      "precoDe": 2497,
+      "cupom": "DESCONTOSMELI",
+      "parcelas": "10x de R$ 149,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-748.jpg"
+    },
+    {
+      "id": "tg-737",
+      "loja": "amazon",
+      "titulo": "Relógio de campo Bertucci - A-1R Field™ - Mostrador preto, pulseira de nylon verde",
+      "preco": 273.82,
+      "link": "https://link.amazon/B05xF5fFs",
+      "data": "2026-11-23T22:23:46+00:00",
+      "parcelas": "6x de R$ 45,67 sem juros",
+      "imagem": "assets/img/ofertas/tg-737.jpg",
+      "asin": "B0HNXB8KQJ"
+    },
+    {
+      "id": "tg-736",
+      "loja": "amazon",
+      "titulo": "SEIKO Relógio masculino - Coleção Essentials - Estilo diário e artesanato",
+      "preco": 1855.88,
+      "link": "https://link.amazon/B066aUjHG",
+      "data": "2026-11-23T22:03:34+00:00",
+      "parcelas": "10x de R$ 185,66 sem juros",
+      "imagem": "assets/img/ofertas/tg-736.jpg",
+      "asin": "B0CLYXDVFH"
+    },
+    {
+      "id": "tg-735",
+      "loja": "amazon",
+      "titulo": "Citizen Relógio feminino de quartzo, aço inoxidável, clássico",
+      "preco": 1073.9,
+      "link": "https://link.amazon/B01ACyTrD",
+      "data": "2026-11-23T21:23:30+00:00",
+      "precoDe": 1174.28,
+      "parcelas": "10x de R$ 107,39 sem juros",
+      "imagem": "assets/img/ofertas/tg-735.jpg",
+      "asin": "B008FG79Z0"
+    },
+    {
       "id": "tg-728",
       "loja": "amazon",
       "titulo": "Citizen Relógio masculino clássico cronógrafo de quartzo, aço inoxidável",
@@ -11,42 +400,8 @@
       "data": "2026-11-23T21:03:34+00:00",
       "precoDe": 1606.76,
       "parcelas": "10x de R$ 150,59 sem juros",
-      "imagem": "assets/img/ofertas/tg-728.jpg"
-    },
-    {
-      "id": "tg-727",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Submariner Automático 39mm Safira YN6SS023 A1SX",
-      "preco": 1798,
-      "link": "https://meli.la/24GEnLa",
-      "data": "2026-11-23T21:01:11+00:00",
-      "precoDe": 2247,
-      "cupom": "OFERTASEMPREML",
-      "parcelas": "10x de R$ 179,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-727.jpg"
-    },
-    {
-      "id": "tg-726",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Submariner 39 YN6SS023 P1SX Prateado Preto",
-      "preco": 1618.2,
-      "link": "https://meli.la/28m9Mux",
-      "data": "2026-11-23T20:53:10+00:00",
-      "cupom": "OFERTASEMPREML",
-      "parcelas": "10x de R$ 179,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-726.jpg"
-    },
-    {
-      "id": "tg-725",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Submariner 39 Yn6ss023 D1sx Prateado Azul",
-      "preco": 1618.2,
-      "link": "https://meli.la/2MnB1b6",
-      "data": "2026-11-23T20:45:23+00:00",
-      "precoDe": 2247,
-      "cupom": "OFERTASEMPREML",
-      "parcelas": "10x de R$ 179,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-725.jpg"
+      "imagem": "assets/img/ofertas/tg-728.jpg",
+      "asin": "B079MGVL1T"
     },
     {
       "id": "tg-724",
@@ -56,67 +411,8 @@
       "link": "https://link.amazon/B0g98UDPZ",
       "data": "2026-11-23T20:43:31+00:00",
       "parcelas": "10x de R$ 255,49 sem juros",
-      "imagem": "assets/img/ofertas/tg-724.jpg"
-    },
-    {
-      "id": "tg-723",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Solartech Masculino Cronógrafo Azul Preto MBSSC303",
-      "preco": 962.24,
-      "link": "https://meli.la/1mud2vZ",
-      "data": "2026-11-23T20:37:14+00:00",
-      "precoDe": 1598,
-      "cupom": "OFERTASEMPREML",
-      "parcelas": "10x de R$ 106,92 sem juros",
-      "imagem": "assets/img/ofertas/tg-723.jpg"
-    },
-    {
-      "id": "tg-722",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Automático Submariner 3 Stars Yn6ss023 A1sx Prateado Preto Azul",
-      "preco": 1464.99,
-      "link": "https://meli.la/2eP8DBD",
-      "data": "2026-11-23T20:29:19+00:00",
-      "precoDe": 2799,
-      "cupom": "OFERTASEMPREML",
-      "parcelas": "10x de R$ 185,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-722.jpg"
-    },
-    {
-      "id": "tg-721",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Mondaine Automático 32993g0mvnc7 Couro Crocodilo Preto Prateado Branco",
-      "preco": 769,
-      "link": "https://meli.la/2PBfFpb",
-      "data": "2026-11-23T20:21:19+00:00",
-      "precoDe": 799,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "10x de R$ 79,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-721.jpg"
-    },
-    {
-      "id": "tg-720",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Masc Automático Ed. 70 Anos Mondaine 32993g0mvna6 Prateado Azul-claro",
-      "preco": 669,
-      "link": "https://meli.la/2vYbs5y",
-      "data": "2026-11-23T20:13:09+00:00",
-      "precoDe": 799,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "10x de R$ 69,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-720.jpg"
-    },
-    {
-      "id": "tg-719",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio MTP-B190D-1BVCF em aço retrô prateado e preto",
-      "preco": 411,
-      "link": "https://meli.la/24bCf2r",
-      "data": "2026-11-23T20:05:32+00:00",
-      "precoDe": 1149,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "12x de R$ 42,64",
-      "imagem": "assets/img/ofertas/tg-719.jpg"
+      "imagem": "assets/img/ofertas/tg-724.jpg",
+      "asin": "B071FBZLWN"
     },
     {
       "id": "tg-718",
@@ -126,30 +422,8 @@
       "link": "https://link.amazon/B0dQ56wy4",
       "data": "2026-11-23T20:02:31+00:00",
       "parcelas": "6x de R$ 48,17 sem juros",
-      "imagem": "assets/img/ofertas/tg-718.jpg"
-    },
-    {
-      "id": "tg-717",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Technos Masculino Skydiver Professional Wt205fz/2b Preto Prateado Branco",
-      "preco": 405,
-      "link": "https://meli.la/1ZwGKZ3",
-      "data": "2026-11-23T19:57:11+00:00",
-      "precoDe": 1099,
-      "cupom": "OFERTAPARAVOCE",
-      "imagem": "assets/img/ofertas/tg-717.jpg"
-    },
-    {
-      "id": "tg-716",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Masculino Solar Solartech Mbss1492 Azul Aço Correia Prateado Bisel Prateado",
-      "preco": 278,
-      "link": "https://meli.la/1jGswp5",
-      "data": "2026-11-23T19:49:24+00:00",
-      "precoDe": 358,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "6x de R$ 51,33 sem juros",
-      "imagem": "assets/img/ofertas/tg-716.jpg"
+      "imagem": "assets/img/ofertas/tg-718.jpg",
+      "asin": "B0FJSFHRB1"
     },
     {
       "id": "tg-715",
@@ -160,31 +434,8 @@
       "data": "2026-11-23T19:42:30+00:00",
       "precoDe": 395.27,
       "parcelas": "6x de R$ 57,88 sem juros",
-      "imagem": "assets/img/ofertas/tg-715.jpg"
-    },
-    {
-      "id": "tg-714",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Masculino Casio Gshock Gsquad Grande 45 Milímetros Carbono Digital Cinza Resina Funcionalidades Mostrador",
-      "preco": 669,
-      "link": "https://meli.la/1mdZt5h",
-      "data": "2026-11-23T19:41:11+00:00",
-      "precoDe": 1029,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "10x de R$ 69,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-714.jpg"
-    },
-    {
-      "id": "tg-713",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio Masculino Analógico Collection Mtp-b190d-7bvdf Prateado Branco",
-      "preco": 429.96,
-      "link": "https://meli.la/1vv8FCs",
-      "data": "2026-11-23T19:33:11+00:00",
-      "precoDe": 1149,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "9x de R$ 51,11 sem juros",
-      "imagem": "assets/img/ofertas/tg-713.jpg"
+      "imagem": "assets/img/ofertas/tg-715.jpg",
+      "asin": "B0FK2LPF59"
     },
     {
       "id": "tg-712",
@@ -194,7 +445,8 @@
       "link": "https://link.amazon/B01hcTCD9",
       "data": "2026-11-23T19:22:41+00:00",
       "parcelas": "6x de R$ 55,32 sem juros",
-      "imagem": "assets/img/ofertas/tg-712.jpg"
+      "imagem": "assets/img/ofertas/tg-712.jpg",
+      "asin": "B000B545A0"
     },
     {
       "id": "tg-711",
@@ -205,18 +457,8 @@
       "data": "2026-11-23T19:02:10+00:00",
       "precoDe": 329.99,
       "parcelas": "6x de R$ 50,04 sem juros",
-      "imagem": "assets/img/ofertas/tg-711.jpg"
-    },
-    {
-      "id": "tg-710",
-      "loja": "mercadolivre",
-      "titulo": "Caixa Maleta Estojo Porta Relógios Organizadora P/ 6 Lugares Marrom",
-      "preco": 164.49,
-      "link": "https://meli.la/2qTQAgX",
-      "data": "2026-11-23T18:58:12+00:00",
-      "precoDe": 219.9,
-      "parcelas": "5x de R$ 32,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-710.jpg"
+      "imagem": "assets/img/ofertas/tg-711.jpg",
+      "asin": "B07DXKHPVL"
     },
     {
       "id": "tg-709",
@@ -227,17 +469,8 @@
       "data": "2026-11-23T18:42:12+00:00",
       "precoDe": 767.49,
       "parcelas": "7x de R$ 56,35 sem juros",
-      "imagem": "assets/img/ofertas/tg-709.jpg"
-    },
-    {
-      "id": "tg-708",
-      "loja": "mercadolivre",
-      "titulo": "Caixa Maleta Estojo Porta Relógio Organizador 12 Lugares Preto",
-      "preco": 77.95,
-      "link": "https://meli.la/2guyF1R",
-      "data": "2026-11-23T18:28:17+00:00",
-      "precoDe": 149.9,
-      "imagem": "assets/img/ofertas/tg-708.jpg"
+      "imagem": "assets/img/ofertas/tg-709.jpg",
+      "asin": "B07WP5XP8S"
     },
     {
       "id": "tg-707",
@@ -248,7 +481,8 @@
       "data": "2026-11-23T18:22:18+00:00",
       "precoDe": 2824.19,
       "parcelas": "10x de R$ 267,39 sem juros",
-      "imagem": "assets/img/ofertas/tg-707.jpg"
+      "imagem": "assets/img/ofertas/tg-707.jpg",
+      "asin": "B07D99N2NC"
     },
     {
       "id": "tg-706",
@@ -259,17 +493,8 @@
       "data": "2026-11-23T18:01:30+00:00",
       "precoDe": 442.73,
       "parcelas": "7x de R$ 54,27 sem juros",
-      "imagem": "assets/img/ofertas/tg-706.jpg"
-    },
-    {
-      "id": "tg-705",
-      "loja": "mercadolivre",
-      "titulo": "Pulseira Relógio Couro 20mm Com Fecho Deployant Inox",
-      "preco": 74.79,
-      "link": "https://meli.la/1GQfZSa",
-      "data": "2026-11-23T17:57:43+00:00",
-      "precoDe": 78.73,
-      "imagem": "assets/img/ofertas/tg-705.jpg"
+      "imagem": "assets/img/ofertas/tg-706.jpg",
+      "asin": "B0DHFF9X6W"
     },
     {
       "id": "tg-704",
@@ -279,18 +504,8 @@
       "link": "https://link.amazon/B08Xkqds1",
       "data": "2026-11-23T17:41:16+00:00",
       "parcelas": "10x de R$ 51,77 sem juros",
-      "imagem": "assets/img/ofertas/tg-704.jpg"
-    },
-    {
-      "id": "tg-703",
-      "loja": "mercadolivre",
-      "titulo": "Pulseira Relógio Moonswatch Omega X Swatch - Lançamento Capuccino 2 Cm",
-      "preco": 104,
-      "link": "https://meli.la/2Dx4QW6",
-      "data": "2026-11-23T17:27:32+00:00",
-      "precoDe": 200,
-      "parcelas": "4x de R$ 26,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-703.jpg"
+      "imagem": "assets/img/ofertas/tg-704.jpg",
+      "asin": "B071K5ZV2K"
     },
     {
       "id": "tg-702",
@@ -301,66 +516,8 @@
       "data": "2026-11-23T17:21:14+00:00",
       "precoDe": 337,
       "parcelas": "12x de R$ 29,77",
-      "imagem": "assets/img/ofertas/tg-702.jpg"
-    },
-    {
-      "id": "tg-701",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio Masculino Analógico Quartz Mtp-1302pd-7bvef Branco",
-      "preco": 289,
-      "link": "https://meli.la/1mwQpxm",
-      "data": "2026-11-23T17:20:15+00:00",
-      "precoDe": 501.62,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "12x de R$ 29,44",
-      "imagem": "assets/img/ofertas/tg-701.jpg"
-    },
-    {
-      "id": "tg-700",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio Ga-2100wd-1adr",
-      "preco": 365,
-      "link": "https://meli.la/1rwMKvM",
-      "data": "2026-11-23T17:20:08+00:00",
-      "precoDe": 599,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "7x de R$ 56,43 sem juros",
-      "imagem": "assets/img/ofertas/tg-700.jpg"
-    },
-    {
-      "id": "tg-699",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Masculino Casio Analógico Prateado com Fundo Verde",
-      "preco": 282,
-      "link": "https://meli.la/12NqHru",
-      "data": "2026-11-23T17:12:15+00:00",
-      "precoDe": 359.99,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "6x de R$ 52,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-699.jpg"
-    },
-    {
-      "id": "tg-698",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Masculino Automatico Tonneau Yn6ss045 B3sx",
-      "preco": 2348,
-      "link": "https://meli.la/2krMEf5",
-      "data": "2026-11-23T17:10:19+00:00",
-      "precoDe": 3247,
-      "cupom": "OFFSEMPRE",
-      "parcelas": "10x de R$ 259,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-698.jpg"
-    },
-    {
-      "id": "tg-697",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio G-Shock DW-5600UE-1DR Digital, de Resina Preta e Resistente à Água 200m",
-      "preco": 272,
-      "link": "https://meli.la/27Y9JVE",
-      "data": "2026-11-23T17:03:09+00:00",
-      "precoDe": 316,
-      "cupom": "OFERTAPARAVOCE",
-      "imagem": "assets/img/ofertas/tg-697.jpg"
+      "imagem": "assets/img/ofertas/tg-702.jpg",
+      "asin": "B0BNP47Z21"
     },
     {
       "id": "tg-696",
@@ -370,65 +527,8 @@
       "link": "https://link.amazon/B0dF6xnw1",
       "data": "2026-11-23T17:01:09+00:00",
       "parcelas": "10x de R$ 56,52 sem juros",
-      "imagem": "assets/img/ofertas/tg-696.jpg"
-    },
-    {
-      "id": "tg-695",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Special Calibers Automático Yn6ss033 P2sx",
-      "preco": 2348,
-      "link": "https://meli.la/1GDVwFm",
-      "data": "2026-11-23T17:00:13+00:00",
-      "precoDe": 3247,
-      "cupom": "OFFSEMPRE",
-      "parcelas": "10x de R$ 259,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-695.jpg"
-    },
-    {
-      "id": "tg-694",
-      "loja": "mercadolivre",
-      "titulo": "Pulseira Borracha Silicone 18 20 22 24mm C/ Fecho Deployant Cor Azul-escuro Largura 22",
-      "preco": 31.18,
-      "link": "https://meli.la/1KrztUr",
-      "data": "2026-11-23T16:57:22+00:00",
-      "precoDe": 34.64,
-      "imagem": "assets/img/ofertas/tg-694.jpg"
-    },
-    {
-      "id": "tg-693",
-      "loja": "mercadolivre",
-      "titulo": "Relógio G-shock Casio Masculino Resistente Preto Militar Pr Preto Vermelho",
-      "preco": 319,
-      "link": "https://meli.la/15111ZL",
-      "data": "2026-11-23T16:55:12+00:00",
-      "precoDe": 565.55,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "6x de R$ 58,17 sem juros",
-      "imagem": "assets/img/ofertas/tg-693.jpg"
-    },
-    {
-      "id": "tg-692",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Bambino Automático Ra-ac0m02b30b Correia Preto Bisel Prateado Fundo Preto",
-      "preco": 2884.05,
-      "link": "https://meli.la/2Ut1oVG",
-      "data": "2026-11-23T16:50:07+00:00",
-      "precoDe": 3299,
-      "cupom": "OFFSEMPRE",
-      "parcelas": "10x de R$ 313,41 sem juros",
-      "imagem": "assets/img/ofertas/tg-692.jpg"
-    },
-    {
-      "id": "tg-691",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio Ga-2100wd-1adr",
-      "preco": 365,
-      "link": "https://meli.la/1rwMKvM",
-      "data": "2026-11-23T16:47:09+00:00",
-      "precoDe": 599,
-      "cupom": "OFERTAPARAVOCE",
-      "parcelas": "7x de R$ 56,43 sem juros",
-      "imagem": "assets/img/ofertas/tg-691.jpg"
+      "imagem": "assets/img/ofertas/tg-696.jpg",
+      "asin": "B083VMXGR4"
     },
     {
       "id": "tg-690",
@@ -438,53 +538,8 @@
       "link": "https://link.amazon/B0cgPkXV1",
       "data": "2026-11-23T16:41:17+00:00",
       "parcelas": "10x de R$ 88,37 sem juros",
-      "imagem": "assets/img/ofertas/tg-690.jpg"
-    },
-    {
-      "id": "tg-689",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Special Calibers Automático Yn6ss033 S2sx",
-      "preco": 2348,
-      "link": "https://meli.la/2kScURS",
-      "data": "2026-11-23T16:40:13+00:00",
-      "precoDe": 3247,
-      "cupom": "OFFSEMPRE",
-      "parcelas": "10x de R$ 259,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-689.jpg"
-    },
-    {
-      "id": "tg-688",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Bambino Automático Ra-ac0m02b30b Correia Preto Bisel Prateado Fundo Preto",
-      "preco": 2884.05,
-      "link": "https://meli.la/2Ut1oVG",
-      "data": "2026-11-23T16:33:12+00:00",
-      "precoDe": 3299,
-      "cupom": "OFFSEMPRE",
-      "parcelas": "10x de R$ 313,41 sem juros",
-      "imagem": "assets/img/ofertas/tg-688.jpg"
-    },
-    {
-      "id": "tg-687",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Orient Kanno Automático Japonês Estilo Mergulho Auto Prateado Bordô",
-      "preco": 2384.15,
-      "link": "https://meli.la/16UwkXg",
-      "data": "2026-11-23T16:30:13+00:00",
-      "precoDe": 3099,
-      "cupom": "OFFSEMPRE",
-      "parcelas": "10x de R$ 263,42 sem juros",
-      "imagem": "assets/img/ofertas/tg-687.jpg"
-    },
-    {
-      "id": "tg-686",
-      "loja": "mercadolivre",
-      "titulo": "Poolsy pulseira relogio new cor preto 20 mm",
-      "preco": 29.01,
-      "link": "https://meli.la/24RYqBV",
-      "data": "2026-11-23T16:27:11+00:00",
-      "precoDe": 32.24,
-      "imagem": "assets/img/ofertas/tg-686.jpg"
+      "imagem": "assets/img/ofertas/tg-690.jpg",
+      "asin": "B09DKQZ39K"
     },
     {
       "id": "tg-684",
@@ -495,7 +550,8 @@
       "data": "2026-11-23T16:20:42+00:00",
       "precoDe": 259,
       "parcelas": "6x de R$ 38,22 sem juros",
-      "imagem": "assets/img/ofertas/tg-684.jpg"
+      "imagem": "assets/img/ofertas/tg-684.jpg",
+      "asin": "B000LAKYW8"
     },
     {
       "id": "tg-679",
@@ -506,7 +562,8 @@
       "data": "2026-11-23T16:00:38+00:00",
       "precoDe": 820,
       "parcelas": "12x de R$ 61,60 sem juros",
-      "imagem": "assets/img/ofertas/tg-679.jpg"
+      "imagem": "assets/img/ofertas/tg-679.jpg",
+      "asin": "B09XJCM6KZ"
     },
     {
       "id": "tg-671",
@@ -517,7 +574,8 @@
       "data": "2026-11-23T15:39:36+00:00",
       "precoDe": 1048.9,
       "parcelas": "10x de R$ 99,59 sem juros",
-      "imagem": "assets/img/ofertas/tg-671.jpg"
+      "imagem": "assets/img/ofertas/tg-671.jpg",
+      "asin": "B005DKHDPC"
     },
     {
       "id": "tg-665",
@@ -527,7 +585,8 @@
       "link": "https://link.amazon/B0f5eVFVY",
       "data": "2026-11-23T15:19:37+00:00",
       "parcelas": "6x de R$ 57,86 sem juros",
-      "imagem": "assets/img/ofertas/tg-665.jpg"
+      "imagem": "assets/img/ofertas/tg-665.jpg",
+      "asin": "B004AOLA1A"
     },
     {
       "id": "tg-660",
@@ -538,7 +597,8 @@
       "data": "2026-11-23T14:59:11+00:00",
       "precoDe": 256.06,
       "parcelas": "6x de R$ 32,85 sem juros",
-      "imagem": "assets/img/ofertas/tg-660.jpg"
+      "imagem": "assets/img/ofertas/tg-660.jpg",
+      "asin": "B0C4W5R4JR"
     },
     {
       "id": "tg-653",
@@ -548,7 +608,8 @@
       "link": "https://link.amazon/B00F0p96R",
       "data": "2026-11-23T14:39:13+00:00",
       "parcelas": "6x de R$ 49,94 sem juros",
-      "imagem": "assets/img/ofertas/tg-653.jpg"
+      "imagem": "assets/img/ofertas/tg-653.jpg",
+      "asin": "B0C4VSWBHJ"
     },
     {
       "id": "tg-600",
@@ -559,7 +620,8 @@
       "data": "2026-11-22T16:46:42+00:00",
       "precoDe": 1174.28,
       "parcelas": "10x de R$ 107,39 sem juros",
-      "imagem": "assets/img/ofertas/tg-600.jpg"
+      "imagem": "assets/img/ofertas/tg-600.jpg",
+      "asin": "B008FG79Z0"
     },
     {
       "id": "tg-599",
@@ -570,7 +632,8 @@
       "data": "2026-11-22T16:26:31+00:00",
       "precoDe": 223.71,
       "parcelas": "5x de R$ 32,40 sem juros",
-      "imagem": "assets/img/ofertas/tg-599.jpg"
+      "imagem": "assets/img/ofertas/tg-599.jpg",
+      "asin": "B09NDXL5B2"
     },
     {
       "id": "tg-598",
@@ -581,7 +644,8 @@
       "data": "2026-11-22T16:06:33+00:00",
       "precoDe": 209.5,
       "parcelas": "6x de R$ 31,18 sem juros",
-      "imagem": "assets/img/ofertas/tg-598.jpg"
+      "imagem": "assets/img/ofertas/tg-598.jpg",
+      "asin": "B0006J9Q64"
     },
     {
       "id": "tg-595",
@@ -592,7 +656,8 @@
       "data": "2026-11-22T15:46:38+00:00",
       "precoDe": 358.08,
       "parcelas": "6x de R$ 50,06 sem juros",
-      "imagem": "assets/img/ofertas/tg-595.jpg"
+      "imagem": "assets/img/ofertas/tg-595.jpg",
+      "asin": "B0FK2J2C2W"
     },
     {
       "id": "tg-592",
@@ -603,7 +668,8 @@
       "data": "2026-11-22T15:26:49+00:00",
       "precoDe": 301.35,
       "parcelas": "6x de R$ 45,15 sem juros",
-      "imagem": "assets/img/ofertas/tg-592.jpg"
+      "imagem": "assets/img/ofertas/tg-592.jpg",
+      "asin": "B00BS8U88W"
     },
     {
       "id": "tg-591",
@@ -614,7 +680,8 @@
       "data": "2026-11-22T15:06:36+00:00",
       "precoDe": 1196.92,
       "parcelas": "10x de R$ 109,69 sem juros",
-      "imagem": "assets/img/ofertas/tg-591.jpg"
+      "imagem": "assets/img/ofertas/tg-591.jpg",
+      "asin": "B082XXSHMH"
     },
     {
       "id": "tg-590",
@@ -625,7 +692,8 @@
       "data": "2026-11-22T14:25:09+00:00",
       "precoDe": 199.99,
       "parcelas": "5x de R$ 34,23 sem juros",
-      "imagem": "assets/img/ofertas/tg-590.jpg"
+      "imagem": "assets/img/ofertas/tg-590.jpg",
+      "asin": "B088HJ82YL"
     },
     {
       "id": "tg-589",
@@ -636,40 +704,8 @@
       "data": "2026-11-22T14:04:43+00:00",
       "precoDe": 539,
       "parcelas": "8x de R$ 54,44 sem juros",
-      "imagem": "assets/img/ofertas/tg-589.jpg"
-    },
-    {
-      "id": "tg-588",
-      "loja": "amazon",
-      "titulo": "Casio TRT110H Series | Digital Watch | 100M WR | 1/100 SEC Stop Watch",
-      "preco": 263.9,
-      "link": "https://link.amazon/B08Q8tH16",
-      "data": "2026-11-22T13:44:35+00:00",
-      "precoDe": 420.13,
-      "parcelas": "6x de R$ 44,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-588.jpg"
-    },
-    {
-      "id": "tg-587",
-      "loja": "amazon",
-      "titulo": "Relogio Casio Vintage Unssex AQ-230A-9AMQYDF",
-      "preco": 240.03,
-      "link": "https://link.amazon/B0aEKsgHO",
-      "data": "2026-11-22T13:24:31+00:00",
-      "precoDe": 289.89,
-      "parcelas": "6x de R$ 40,03 sem juros",
-      "imagem": "assets/img/ofertas/tg-587.jpg"
-    },
-    {
-      "id": "tg-586",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Ironman Triathlon Endure 30 Shock 42 mm",
-      "preco": 451.9,
-      "link": "https://link.amazon/B0jaavQz7",
-      "data": "2026-11-22T13:04:37+00:00",
-      "precoDe": 580.84,
-      "parcelas": "9x de R$ 50,22 sem juros",
-      "imagem": "assets/img/ofertas/tg-586.jpg"
+      "imagem": "assets/img/ofertas/tg-589.jpg",
+      "asin": "B0FD3M8J5K"
     }
   ]
 }
