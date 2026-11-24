@@ -61,6 +61,20 @@ function ofertasValidas(dados, loja) {
     .sort((a, b) => (a.data < b.data ? 1 : -1));
 }
 
+// Lista mista de /promos e doações: as lojas se intercalam (Amazon, Mercado Livre, Amazon…), cada uma
+// da mais nova para a mais antiga. Assim uma rajada de posts de uma loja não tira a outra da página.
+function misturarLojas(dados, quantas) {
+  const porLoja = {};
+  for (const o of ofertasValidas(dados)) (porLoja[o.loja] ||= []).push(o);
+  const filas = ['amazon', 'mercadolivre', ...Object.keys(porLoja)]
+    .filter((l, i, a) => a.indexOf(l) === i && porLoja[l]).map((l) => porLoja[l]);
+  const lista = [];
+  while (lista.length < quantas && filas.some((f) => f.length)) {
+    for (const f of filas) if (f.length && lista.length < quantas) lista.push(f.shift());
+  }
+  return lista;
+}
+
 // Destino do cartão: Amazon direto na loja (com a tag); Mercado Livre segue para a página da oferta.
 function destinoOferta(o, raiz, extra = '') {
   if (o.loja === 'amazon') return `href="${linkAmazon(o.asin)}" ${REL_AMAZON}`;
@@ -168,7 +182,7 @@ function pagina(c, dados) {
     : '';
   // Página com ofertas recentes: as últimas do canal vão escritas no HTML (lista com rolagem).
   // Com menos de 3, ficam os cartões fixos da campanha.
-  const recentes = c.ofertas ? ofertasValidas(dados).slice(0, Number(c.ofertas)) : [];
+  const recentes = c.ofertas ? misturarLojas(dados, Number(c.ofertas)) : [];
   const usarOfertas = recentes.length >= 3;
   const cartoes = usarOfertas
     ? recentes.map((o) => cartaoOferta(o, raiz)).join('\n')
@@ -325,7 +339,7 @@ for (const p of PAGINAS_A_MAO) {
   const caminho = join(RAIZ, 'doacoes/index.html');
   const html = await readFile(caminho, 'utf8');
   if (!html.includes('<!-- achados -->')) throw new Error('doacoes/index.html sem os marcadores <!-- achados -->');
-  const recentes = ofertasValidas(ofertas).slice(0, 30);
+  const recentes = misturarLojas(ofertas, 30);
   const bloco = recentes.length >= 3
     ? `    <p class="disclaimer aviso-amazon">${AVISO_AMAZON}</p>
     <p class="micro dica" id="dica">${recentes.length} ofertas · role a lista e toque para ver</p>
