@@ -176,6 +176,7 @@ summary:focus-visible,
 /* Ofertas */
 
 .ofertas { padding-left: 0; padding-right: 0; padding-bottom: 44px; }
+.aviso-amazon { padding: 0 var(--margem); margin: -8px 0 16px; color: var(--ref-teal); }
 
 .cabeca {
   display: flex;

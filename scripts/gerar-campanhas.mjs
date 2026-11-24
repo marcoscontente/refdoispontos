@@ -8,6 +8,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { barra, PAGINAS_A_MAO } from './barra.mjs';
+import { linkAmazon } from './amazon.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DOMINIO = 'https://refdoispontos.com';
@@ -19,12 +20,19 @@ const WHATSAPP = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true
 
 const TELEGRAM = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>';
 
+// Aviso obrigatório do Amazon Associados, igual em todas as páginas (não alterar o texto).
+const AVISO_AMAZON = 'Como Associado da Amazon, a REF: ganha com compras qualificadas.';
+const REL_AMAZON = 'target="_blank" rel="sponsored nofollow noopener"';
+
 const e = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 function cartao(item, i, raiz) {
   const anuncios = item.anuncios?.length ? ` data-anuncios="${e(item.anuncios.join(' ').toLowerCase())}"` : '';
   const carga = i === 0 ? 'fetchpriority="high"' : 'loading="lazy"';
-  return `      <article class="card"${anuncios}>
+  // Com "asin" no item, o cartão inteiro vira link direto para a Amazon com a tag da REF:.
+  const abre = item.asin ? `<a class="card" href="${linkAmazon(item.asin)}" ${REL_AMAZON} data-loja="amazon"${anuncios}>` : `<article class="card"${anuncios}>`;
+  const fecha = item.asin ? '</a>' : '</article>';
+  return `      ${abre}
         <div class="shot"><img src="${raiz}${e(item.imagem)}" alt="${e(`${item.marca} ${item.modelo}`)}" data-modelo="${e(item.modelo)}" ${carga}></div>
         <div>
           <div class="micro brand">${e(item.marca)}</div>
@@ -33,10 +41,116 @@ function cartao(item, i, raiz) {
           <span class="tag">APARECEU POR</span>
           <div class="price"><small>R$</small>${e(item.preco)}</div>
         </div>
-      </article>`;
+      ${fecha}`;
 }
 
-function pagina(c) {
+// ---- Ofertas lidas do canal (data/ofertas.json), escritas no HTML ----
+
+const LOJAS = { amazon: 'Amazon', mercadolivre: 'Mercado Livre' };
+const real = (n) => n.toLocaleString('pt-BR', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 });
+const diaMes = (iso) => new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: '2-digit', timeZone: 'America/Sao_Paulo' }).format(new Date(iso));
+// A data vai pronta (23/11); promos.js e app.js trocam por "hoje", "ontem", "há N dias".
+const quando = (o) => `<time datetime="${e(o.data)}">${diaMes(o.data)}</time>`;
+
+// Ofertas que podem entrar no site, da mais nova para a mais antiga.
+// Amazon só com ASIN: sem ele não há como escrever o link com a tag, então o card não entra.
+function ofertasValidas(dados, loja) {
+  return (dados?.ofertas || [])
+    .filter((o) => !o.exemplo && o.imagem && (!loja || o.loja === loja))
+    .filter((o) => o.loja !== 'amazon' || /^[A-Z0-9]{10}$/.test(o.asin || ''))
+    .sort((a, b) => (a.data < b.data ? 1 : -1));
+}
+
+// Destino do cartão: Amazon direto na loja (com a tag); Mercado Livre segue para a página da oferta.
+function destinoOferta(o, raiz, extra = '') {
+  if (o.loja === 'amazon') return `href="${linkAmazon(o.asin)}" ${REL_AMAZON}`;
+  return `href="${raiz}promos/oferta/?id=${encodeURIComponent(o.id)}${extra}"`;
+}
+
+function cartaoOferta(o, raiz) {
+  return `      <a class="card oferta" ${destinoOferta(o, raiz)} data-loja="${e(o.loja)}" data-id="${e(o.id)}">
+        <div class="shot"><img class="fit" src="${raiz}${e(o.imagem)}" alt="" loading="lazy"></div>
+        <div>
+          <div class="micro brand">${LOJAS[o.loja] || e(o.loja)} · ${quando(o)}</div>
+          <div class="model">${e(o.titulo)}</div>${o.precoDe > o.preco ? `
+          <div class="de">de R$ ${real(o.precoDe)}</div>` : ''}
+          <span class="tag">APARECEU POR</span>
+          <div class="price"><small>R$</small>${real(o.preco)}</div>
+        </div>
+      </a>`;
+}
+
+// Bloco "Ofertas recentes da Amazon" da home (index.html, entre <!-- amazon --> e <!-- /amazon -->).
+function blocoAmazonHome(dados) {
+  const brl = (n) => `R$ ${n.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+  const cartoes = ofertasValidas(dados, 'amazon').slice(0, 6).map((o) => {
+    const pct = o.precoDe > o.preco ? Math.round((1 - o.preco / o.precoDe) * 100) : 0;
+    return `          <a class="oferta" ${destinoOferta(o, '')} data-loja="amazon" data-id="${e(o.id)}">
+            <span class="foto"><img src="${e(o.imagem)}" alt="" loading="lazy">${pct > 0 ? `<span class="selo">-${pct}%</span>` : ''}</span>
+            <span class="texto"><span class="micro loja">Amazon · ${quando(o)}</span><span class="titulo">${e(o.titulo)}</span>${o.precoDe > o.preco ? `<span class="preco-de">de ${brl(o.precoDe)}</span>` : ''}<span class="micro por">Apareceu por</span><span class="preco">${brl(o.preco)}</span></span>
+          </a>`;
+  });
+  return `      <section class="ofertas" id="ofertas-amazon" aria-labelledby="amazon-titulo">
+        <div class="cabeca">
+          <h2 class="display-2" id="amazon-titulo">Ofertas recentes<br>da Amazon</h2>
+        </div>
+        <p class="micro aviso-amazon">${AVISO_AMAZON}</p>
+        <div class="trilho">
+${cartoes.join('\n')}${cartoes.length ? '\n' : ''}          <a class="oferta fim" href="promos/">
+            <strong>Ver todos os achados</strong>
+            <span class="micro">Abrir a página REF: PROMOS →</span>
+          </a>
+        </div>
+      </section>`;
+}
+
+// ---- Endereços fixos dos grupos (/g/<slug>/) ----
+// O destino sai escrito no HTML (link visível + meta refresh), lido de data/grupos.json:
+// para trocar o grupo cheio pelo Grupo 2, edite só o grupos.json.
+// redirect.js continua registrando o Pixel e aplicando o rodízio (modo "alternar").
+function escolherGrupo(entrada) {
+  const todos = entrada?.grupos || [];
+  const abertos = todos.filter((g) => g.status !== 'cheio');
+  return abertos[0] || todos[todos.length - 1] || null;
+}
+
+function paginaGrupo(slug, entrada) {
+  const grupo = escolherGrupo(entrada);
+  if (!grupo || !/^https:\/\/(chat\.whatsapp\.com|t\.me)\/[\w-]+/.test(grupo.link)) {
+    throw new Error(`data/grupos.json: "${slug}" sem link válido de chat.whatsapp.com ou t.me`);
+  }
+  const telegram = grupo.link.startsWith('https://t.me/');
+  const link = e(grupo.link);
+  return `<!doctype html>
+<html lang="pt-BR">
+<head>
+  <!-- Arquivo gerado por scripts/gerar-campanhas.mjs a partir de data/grupos.json. Edite o JSON, não este arquivo. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="1;url=${link}">
+  <title>REF: — abrindo o grupo</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/icone/icone-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../assets/img/icone/icone-192.png">
+  <link rel="apple-touch-icon" href="../../assets/img/icone/icone-180.png">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body class="redirect">
+  <main>
+    <p class="logo">REF<span>:</span></p>
+    <p id="msg">${telegram ? 'Abrindo o Telegram…' : 'Abrindo o grupo no WhatsApp…'}</p>
+    <a class="btn btn-vermelho" id="manual" href="${link}">Se não abrir, toque aqui</a>
+  </main>
+  <script src="../../assets/js/pixel.js"></script>
+  <script src="../../assets/js/grupos.js"></script>
+  <script src="../../assets/js/redirect.js" data-slug="${e(slug)}"></script>
+</body>
+</html>
+`;
+}
+
+function pagina(c, dados) {
   const raiz = c.slug ? '../../' : '../';
   const endereco = `${DOMINIO}/promos/${c.slug ? `${c.slug}/` : ''}`;
   const fontes = FONTES[c.categoria] || FONTES.padrao;
@@ -52,6 +166,16 @@ function pagina(c) {
   const noDia = c.noDia
     ? ` data-dia="${e(c.noDia.data)}" data-dia-chamada="${e(c.noDia.chamada || '')}" data-dia-texto="${e(c.noDia.texto || '')}" data-dia-selo="${e((c.noDia.selo || []).join('|'))}"`
     : '';
+  // Página com ofertas recentes: as últimas do canal vão escritas no HTML (lista com rolagem).
+  // Com menos de 3, ficam os cartões fixos da campanha.
+  const recentes = c.ofertas ? ofertasValidas(dados).slice(0, Number(c.ofertas)) : [];
+  const usarOfertas = recentes.length >= 3;
+  const cartoes = usarOfertas
+    ? recentes.map((o) => cartaoOferta(o, raiz)).join('\n')
+    : c.itens.map((it, i) => cartao(it, i, raiz)).join('\n');
+  const dica = usarOfertas
+    ? `<p class="micro dica" id="dica">${recentes.length} ofertas · role a lista e toque para ver</p>`
+    : '<p class="micro dica" id="dica" hidden></p>';
   const selo = c.selo?.length ? `\n    <div class="selo">${c.selo.map(e).join('<br>')}</div>` : '';
 
   return `<!doctype html>
@@ -97,9 +221,10 @@ ${barra(raiz, 'promos')}
   <section id="achados">
     <div class="micro">${c.ofertas ? 'Direto do grupo' : 'Prova, não promessa'}</div>
     <h2>${c.ofertas ? 'Últimos achados<br>do grupo' : 'Achados que já<br>passaram pelo grupo'}</h2>
-    <p class="micro dica" id="dica" hidden></p>
-    <div class="cards" id="cards"${c.ofertas ? ` data-ofertas="${Number(c.ofertas)}"` : ''}>
-${c.itens.map((it, i) => cartao(it, i, raiz)).join('\n')}
+    <p class="disclaimer aviso-amazon">${AVISO_AMAZON}</p>
+    ${dica}
+    <div class="cards${usarOfertas ? ' rolagem' : ''}" id="cards">
+${cartoes}
     </div>
     <p class="disclaimer">Valores de ofertas já publicadas no grupo. Preço, estoque e cupons mudam a qualquer momento.</p>
   </section>
@@ -137,7 +262,7 @@ ${c.itens.map((it, i) => cartao(it, i, raiz)).join('\n')}
   <footer>
     <p><b style="color:var(--paper)">REF: | Watches &amp; Culture</b> — uma referência de cada vez, do primeiro Casio ao grail.</p>
     <p style="margin-top:8px"><a href="https://www.instagram.com/refdoispontos/" target="_blank" rel="noopener">Conheça a REF: no Instagram</a></p>
-    <p style="margin-top:8px">Os links de oferta são links de afiliado. Como Associado da Amazon, a REF: ganha com compras qualificadas. A REF: não tem vínculo com as marcas citadas. Ofertas sujeitas a alteração. #publi</p>
+    <p style="margin-top:8px">Os links de oferta são links de afiliado. ${AVISO_AMAZON} A REF: não tem vínculo com as marcas citadas. Ofertas sujeitas a alteração. #publi</p>
   </footer>
 </div>
 
@@ -154,6 +279,8 @@ ${c.itens.map((it, i) => cartao(it, i, raiz)).join('\n')}
 }
 
 const { campanhas } = JSON.parse(await readFile(join(RAIZ, 'data/campanhas.json'), 'utf8'));
+const ofertas = JSON.parse(await readFile(join(RAIZ, 'data/ofertas.json'), 'utf8'));
+const grupos = JSON.parse(await readFile(join(RAIZ, 'data/grupos.json'), 'utf8'));
 const pasta = join(RAIZ, 'promos');
 await mkdir(pasta, { recursive: true });
 
@@ -169,7 +296,7 @@ for (const c of campanhas) {
   if (!c.itens?.length) throw new Error(`campanha "${c.slug || 'geral'}" sem itens`);
   const destino = c.slug ? join(pasta, c.slug) : pasta;
   await mkdir(destino, { recursive: true });
-  await writeFile(join(destino, 'index.html'), pagina(c));
+  await writeFile(join(destino, 'index.html'), pagina(c, ofertas));
   console.log(`promos/${c.slug ? `${c.slug}/` : ''}index.html`);
 }
 
@@ -181,6 +308,43 @@ for (const p of PAGINAS_A_MAO) {
   if (novo === html && !html.includes('<!-- barra -->')) throw new Error(`${p.arquivo} sem os marcadores <!-- barra -->`);
   if (novo !== html) await writeFile(caminho, novo);
   console.log(`${p.arquivo} (barra)`);
+}
+
+// Home: bloco de ofertas da Amazon entre <!-- amazon --> e <!-- /amazon -->.
+{
+  const caminho = join(RAIZ, 'index.html');
+  const html = await readFile(caminho, 'utf8');
+  if (!html.includes('<!-- amazon -->')) throw new Error('index.html sem os marcadores <!-- amazon -->');
+  const novo = html.replace(/<!-- amazon -->[\s\S]*?<!-- \/amazon -->/, () => `<!-- amazon -->\n${blocoAmazonHome(ofertas)}\n<!-- /amazon -->`);
+  if (novo !== html) await writeFile(caminho, novo);
+  console.log('index.html (ofertas da Amazon)');
+}
+
+// Doações: lista de achados recentes entre <!-- achados --> e <!-- /achados -->.
+{
+  const caminho = join(RAIZ, 'doacoes/index.html');
+  const html = await readFile(caminho, 'utf8');
+  if (!html.includes('<!-- achados -->')) throw new Error('doacoes/index.html sem os marcadores <!-- achados -->');
+  const recentes = ofertasValidas(ofertas).slice(0, 30);
+  const bloco = recentes.length >= 3
+    ? `    <p class="disclaimer aviso-amazon">${AVISO_AMAZON}</p>
+    <p class="micro dica" id="dica">${recentes.length} ofertas · role a lista e toque para ver</p>
+    <div class="cards rolagem" id="cards">
+${recentes.map((o) => cartaoOferta(o, '../')).join('\n')}
+    </div>`
+    : `    <p class="disclaimer aviso-amazon">${AVISO_AMAZON}</p>
+    <p class="micro dica" id="dica" hidden></p>
+    <div class="cards" id="cards"></div>`;
+  const novo = html.replace(/<!-- achados -->[\s\S]*?<!-- \/achados -->/, () => `<!-- achados -->\n${bloco}\n<!-- /achados -->`);
+  if (novo !== html) await writeFile(caminho, novo);
+  console.log('doacoes/index.html (achados)');
+}
+
+// /g/<slug>/index.html para cada entrada de data/grupos.json.
+for (const [slug, entrada] of Object.entries(grupos)) {
+  await mkdir(join(RAIZ, 'g', slug), { recursive: true });
+  await writeFile(join(RAIZ, 'g', slug, 'index.html'), paginaGrupo(slug, entrada));
+  console.log(`g/${slug}/index.html`);
 }
 
 // Versão nos CSS e JS (style.css?v=1a2b3c4d): o número muda quando o arquivo muda, então

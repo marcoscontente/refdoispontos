@@ -36,6 +36,13 @@ jobs:
         continue-on-error: true
         run: node scripts/atualizar-ofertas.mjs
 
+      # Link curto da Amazon (link.amazon/…) → ASIN, para o site escrever
+      # https://www.amazon.com.br/dp/<ASIN>?tag=refdoispont0c-20 direto no HTML.
+      # Oferta da Amazon sem ASIN fica fora do site até a próxima rodada.
+      - name: Resolver links da Amazon
+        continue-on-error: true
+        run: node scripts/resolver-amazon.mjs
+
       # Páginas de campanha: data/campanhas.json → promos/<slug>/index.html
       - name: Gerar páginas de campanha
         run: node scripts/gerar-campanhas.mjs

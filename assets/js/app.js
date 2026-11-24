@@ -189,7 +189,9 @@ function montarOfertas(dados) {
       if (porLoja[o.loja].length < OFERTAS_POR_LOJA) porLoja[o.loja].push(o);
     });
 
-  const lojas = Object.keys(LOJAS).filter((l) => porLoja[l]?.length);
+  // A Amazon tem o próprio bloco, escrito no HTML com o link direto (scripts/gerar-campanhas.mjs):
+  // link da Amazon montado aqui pelo JavaScript não conta para o Amazon Associados.
+  const lojas = Object.keys(LOJAS).filter((l) => l !== 'amazon' && porLoja[l]?.length);
   if (!lojas.length) return;
 
   const trilho = $('trilho');
@@ -229,7 +231,23 @@ function montarOfertas(dados) {
   window.addEventListener('resize', ajustarCaixa);
 }
 
+// Bloco da Amazon (já no HTML): data relativa e registro no Pixel no clique, sem trocar o link.
+function prepararAmazon() {
+  document.querySelectorAll('#ofertas-amazon time[datetime]').forEach((t) => { t.textContent = quando(t.dateTime); });
+  document.querySelectorAll('#ofertas-amazon a[data-loja="amazon"]').forEach((a) => {
+    a.addEventListener('click', () => {
+      if (window.REF && window.REF.evento) {
+        window.REF.evento('ViewContent', {
+          content_category: 'amazon', content_ids: [a.dataset.id],
+          content_name: a.querySelector('.titulo')?.textContent || '',
+        });
+      }
+    });
+  });
+}
+
 async function iniciar() {
+  prepararAmazon();
   // Cada bloco é independente: um JSON com erro não derruba os outros.
   const [site, grupos, acao, ofertas] = await Promise.allSettled(
     ['site', 'grupos', 'acao', 'ofertas'].map(carregar));

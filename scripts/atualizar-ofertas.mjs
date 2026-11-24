@@ -151,7 +151,9 @@ async function main() {
   const porId = new Map(atual.ofertas.filter((o) => o.id && !o.exemplo).map((o) => [o.id, o]));
   for (const { oferta, foto } of novas) {
     const antiga = porId.get(oferta.id);
-    porId.set(oferta.id, { ...oferta, imagem: antiga?.imagem || '', _foto: foto });
+    // O ASIN resolvido antes (scripts/resolver-amazon.mjs) fica, se o link não mudou.
+    const asin = antiga?.link === oferta.link ? antiga.asin : undefined;
+    porId.set(oferta.id, { ...oferta, ...(asin ? { asin } : {}), imagem: antiga?.imagem || '', _foto: foto });
   }
 
   // 3. Ficar só com as mais recentes de cada loja.
