@@ -3,6 +3,41 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-911",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Masculino Prateado Pepsi Fundo Azul Exclusivo Mbss0014d1sx",
+      "preco": 395.92,
+      "link": "https://meli.la/1Y5JLA5",
+      "data": "2026-11-25T18:09:10+00:00",
+      "precoDe": 494.91,
+      "parcelas": "7x de R$ 56,56 sem juros",
+      "imagem": "assets/img/ofertas/tg-911.jpg"
+    },
+    {
+      "id": "tg-910",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Timex Masculino Digital Clássic T78587",
+      "preco": 269.99,
+      "link": "https://meli.la/1Seb55X",
+      "data": "2026-11-25T18:03:08+00:00",
+      "precoDe": 529,
+      "cupom": "MELIAGORA",
+      "parcelas": "12x de R$ 29,35",
+      "imagem": "assets/img/ofertas/tg-910.jpg"
+    },
+    {
+      "id": "tg-909",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relogio Casio Feminino Digital Prateado Vintage A158wem-7df Prateado Cinza Bege",
+      "preco": 322.7,
+      "link": "https://meli.la/1yafTTr",
+      "data": "2026-11-25T17:48:10+00:00",
+      "precoDe": 747,
+      "cupom": "MELIAGORA",
+      "parcelas": "12x de R$ 35,08",
+      "imagem": "assets/img/ofertas/tg-909.jpg"
+    },
+    {
       "id": "tg-908",
       "loja": "amazon",
       "titulo": "REF: Relógio Casio Digital Vintage Unissex F-91W-1DG",
@@ -12,8 +47,8 @@
       "precoDe": 126,
       "cupom": "25PRIMEBF",
       "parcelas": "3x de R$ 36,68 sem juros",
-      "imagem": "",
-      "asin": "B002SG6ZA8"
+      "asin": "B002SG6ZA8",
+      "imagem": ""
     },
     {
       "id": "tg-907",
@@ -23,8 +58,8 @@
       "link": "https://link.amazon/B05D5WFJi",
       "data": "2026-11-25T17:44:01+00:00",
       "parcelas": "10x de R$ 54,58 sem juros",
-      "imagem": "",
-      "asin": "B0DWJV8BML"
+      "asin": "B0DWJV8BML",
+      "imagem": ""
     },
     {
       "id": "tg-906",
@@ -337,40 +372,6 @@
       "cupom": "MELIAGORA",
       "parcelas": "12x de R$ 48,45",
       "imagem": "assets/img/ofertas/tg-879.jpg"
-    },
-    {
-      "id": "tg-878",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio G-Shock DW-6900UMS-1DR Masculino Digital Preto com Cronógrafo",
-      "preco": 372.89,
-      "link": "https://meli.la/13izCxo",
-      "data": "2026-11-25T15:55:24+00:00",
-      "precoDe": 474.05,
-      "cupom": "MELIAGORA",
-      "imagem": "assets/img/ofertas/tg-878.jpg"
-    },
-    {
-      "id": "tg-877",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Masculino Orient de Couro legítimo Preto Small seconds Exclusivo YN6SC039P2PX",
-      "preco": 1618.65,
-      "link": "https://meli.la/2z6Zg48",
-      "data": "2026-11-25T15:53:18+00:00",
-      "precoDe": 2398,
-      "cupom": "MELIAGORA",
-      "parcelas": "10x de R$ 179,85 sem juros",
-      "imagem": "assets/img/ofertas/tg-877.jpg"
-    },
-    {
-      "id": "tg-876",
-      "loja": "mercadolivre",
-      "titulo": "Relógio Casio G-Shock DW-6900UMS-1DR Masculino Digital Preto com Cronógrafo",
-      "preco": 372.89,
-      "link": "https://meli.la/13izCxo",
-      "data": "2026-11-25T15:51:38+00:00",
-      "precoDe": 474.05,
-      "cupom": "MELIAGORA",
-      "imagem": "assets/img/ofertas/tg-876.jpg"
     },
     {
       "id": "tg-857",
