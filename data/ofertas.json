@@ -3,6 +3,84 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-925",
+      "loja": "amazon",
+      "titulo": "REF: Casio Série MWA100H | Relógio analógico masculino | 100 m WR | Bisel",
+      "preco": 240.9,
+      "link": "https://link.amazon/B030HOUPm",
+      "data": "2026-11-25T21:06:16+00:00",
+      "precoDe": 279.9,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 44,35 sem juros",
+      "imagem": "assets/img/ofertas/tg-925.jpg",
+      "asin": "B08FVHJ1ZJ"
+    },
+    {
+      "id": "tg-924",
+      "loja": "amazon",
+      "titulo": "REF: Relógio de Pulso Feminino Casio Prata Vintage Digital A168WA-1WDF",
+      "preco": 197.43,
+      "link": "https://link.amazon/B0bWmaYQB",
+      "data": "2026-11-25T20:50:05+00:00",
+      "precoDe": 295,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 37,08 sem juros",
+      "imagem": "assets/img/ofertas/tg-924.jpg",
+      "asin": "B00JAK1PMI"
+    },
+    {
+      "id": "tg-923",
+      "loja": "amazon",
+      "titulo": "REF: Casio Relógio feminino vintage LA11WB-1 esportivo pulseira de resina preta",
+      "preco": 130.9,
+      "link": "https://link.amazon/B0bwT7QCt",
+      "data": "2026-11-25T20:33:39+00:00",
+      "precoDe": 174.4,
+      "cupom": "25PRIMEBF",
+      "parcelas": "5x de R$ 31,18 sem juros",
+      "imagem": "assets/img/ofertas/tg-923.jpg",
+      "asin": "B01MUIC2SD"
+    },
+    {
+      "id": "tg-922",
+      "loja": "amazon",
+      "titulo": "REF: Casio Relógio unissex F-108WH-1ACF grande quadrado digital quartzo preto",
+      "preco": 134.9,
+      "link": "https://link.amazon/B075WXS0w",
+      "data": "2026-11-25T20:17:36+00:00",
+      "precoDe": 203.56,
+      "cupom": "25PRIMEBF",
+      "parcelas": "5x de R$ 31,98 sem juros",
+      "imagem": "assets/img/ofertas/tg-922.jpg",
+      "asin": "B07H3TK7MN"
+    },
+    {
+      "id": "tg-921",
+      "loja": "amazon",
+      "titulo": "REF: Casio Série AW80 | Relógio analógico-digital masculino | Resistência à água de 50 m",
+      "preco": 239.9,
+      "link": "https://link.amazon/B07QkBIeM",
+      "data": "2026-11-25T19:47:16+00:00",
+      "precoDe": 339.99,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 44,15 sem juros",
+      "imagem": "assets/img/ofertas/tg-921.jpg",
+      "asin": "B000GAYQKO"
+    },
+    {
+      "id": "tg-920",
+      "loja": "amazon",
+      "titulo": "REF: RELOGIO CASIO ANALOGICO PRETO METAL PRATA MTP-B190D-1BV",
+      "preco": 410.24,
+      "link": "https://link.amazon/B0aQr7WPr",
+      "data": "2026-11-25T19:30:22+00:00",
+      "precoDe": 539,
+      "cupom": "25PRIMEBF",
+      "parcelas": "8x de R$ 54,44 sem juros",
+      "imagem": "assets/img/ofertas/tg-920.jpg",
+      "asin": "B0FD3M8J5K"
+    },
+    {
       "id": "tg-918",
       "loja": "mercadolivre",
       "titulo": "REF: Relógio Orient Automático Masculino Aço Inoxidável Preto Prata Resistência Água 100m",
@@ -626,76 +704,6 @@
       "parcelas": "10x de R$ 99,59 sem juros",
       "imagem": "assets/img/ofertas/tg-671.jpg",
       "asin": "B005DKHDPC"
-    },
-    {
-      "id": "tg-665",
-      "loja": "amazon",
-      "titulo": "Casio FT500WC Series | Men's Analog Watch | 100 Meter Water Resistance | LED",
-      "preco": 347.01,
-      "link": "https://link.amazon/B0f5eVFVY",
-      "data": "2026-11-23T15:19:37+00:00",
-      "parcelas": "6x de R$ 57,86 sem juros",
-      "imagem": "assets/img/ofertas/tg-665.jpg",
-      "asin": "B004AOLA1A"
-    },
-    {
-      "id": "tg-660",
-      "loja": "amazon",
-      "titulo": "Casio POP Bio-Based Renewable Band LED Backlight Daily Alarm Digital Watch",
-      "preco": 197.1,
-      "link": "https://link.amazon/B0emNJtMl",
-      "data": "2026-11-23T14:59:11+00:00",
-      "precoDe": 256.06,
-      "parcelas": "6x de R$ 32,85 sem juros",
-      "imagem": "assets/img/ofertas/tg-660.jpg",
-      "asin": "B0C4W5R4JR"
-    },
-    {
-      "id": "tg-653",
-      "loja": "amazon",
-      "titulo": "Casio WS1600H Series | Men’s Watch | Sports Design | Stopwatch | Countdown Timer",
-      "preco": 299.44,
-      "link": "https://link.amazon/B00F0p96R",
-      "data": "2026-11-23T14:39:13+00:00",
-      "parcelas": "6x de R$ 49,94 sem juros",
-      "imagem": "assets/img/ofertas/tg-653.jpg",
-      "asin": "B0C4VSWBHJ"
-    },
-    {
-      "id": "tg-600",
-      "loja": "amazon",
-      "titulo": "Citizen Relógio feminino de quartzo, aço inoxidável, clássico",
-      "preco": 1073.9,
-      "link": "https://link.amazon/B0h55dE5p",
-      "data": "2026-11-22T16:46:42+00:00",
-      "precoDe": 1174.28,
-      "parcelas": "10x de R$ 107,39 sem juros",
-      "imagem": "assets/img/ofertas/tg-600.jpg",
-      "asin": "B008FG79Z0"
-    },
-    {
-      "id": "tg-599",
-      "loja": "amazon",
-      "titulo": "Relógio digital masculino Casio Série W218H 50M WR Cronômetro 1/100 segundo, Cronógrafo 100 SEC",
-      "preco": 162,
-      "link": "https://link.amazon/B04j0sQoA",
-      "data": "2026-11-22T16:26:31+00:00",
-      "precoDe": 223.71,
-      "parcelas": "5x de R$ 32,40 sem juros",
-      "imagem": "assets/img/ofertas/tg-599.jpg",
-      "asin": "B09NDXL5B2"
-    },
-    {
-      "id": "tg-598",
-      "loja": "amazon",
-      "titulo": "Relógio Unissex Anadigi Casio AW-48HE-1AVDF - Preto",
-      "preco": 187.08,
-      "link": "https://link.amazon/B03yJ4zAK",
-      "data": "2026-11-22T16:06:33+00:00",
-      "precoDe": 209.5,
-      "parcelas": "6x de R$ 31,18 sem juros",
-      "imagem": "assets/img/ofertas/tg-598.jpg",
-      "asin": "B0006J9Q64"
     }
   ]
 }
