@@ -3,6 +3,30 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-908",
+      "loja": "amazon",
+      "titulo": "REF: Relógio Casio Digital Vintage Unissex F-91W-1DG",
+      "preco": 85,
+      "link": "https://link.amazon/B0cdirvDR",
+      "data": "2026-11-25T17:44:34+00:00",
+      "precoDe": 126,
+      "cupom": "25PRIMEBF",
+      "parcelas": "3x de R$ 36,68 sem juros",
+      "imagem": "",
+      "asin": "B002SG6ZA8"
+    },
+    {
+      "id": "tg-907",
+      "loja": "amazon",
+      "titulo": "REF: Invicta Mostrador masculino Pro Diver de 37,5 mm, aço inoxidável, preto, quartzo PC32",
+      "preco": 409.35,
+      "link": "https://link.amazon/B05D5WFJi",
+      "data": "2026-11-25T17:44:01+00:00",
+      "parcelas": "10x de R$ 54,58 sem juros",
+      "imagem": "",
+      "asin": "B0DWJV8BML"
+    },
+    {
       "id": "tg-906",
       "loja": "mercadolivre",
       "titulo": "REF: Relogio Masculino Séculus Automatico 77313g0svn Vidro Safira Prateado Azul-aço",
@@ -356,8 +380,8 @@
       "link": "https://link.amazon/B0c1Hij6L",
       "data": "2026-11-25T15:07:24+00:00",
       "parcelas": "7x de R$ 52,37 sem juros",
-      "imagem": "assets/img/ofertas/tg-857.jpg",
-      "asin": "B0F7XDPRRR"
+      "asin": "B0F7XDPRRR",
+      "imagem": "assets/img/ofertas/tg-857.jpg"
     },
     {
       "id": "tg-848",
@@ -368,8 +392,8 @@
       "data": "2026-11-25T14:37:01+00:00",
       "precoDe": 722.97,
       "parcelas": "9x de R$ 53,17 sem juros",
-      "imagem": "assets/img/ofertas/tg-848.jpg",
-      "asin": "B005FN0VMY"
+      "asin": "B005FN0VMY",
+      "imagem": "assets/img/ofertas/tg-848.jpg"
     },
     {
       "id": "tg-831",
@@ -380,8 +404,8 @@
       "data": "2026-11-25T14:06:33+00:00",
       "precoDe": 214.65,
       "parcelas": "5x de R$ 30,04 sem juros",
-      "imagem": "assets/img/ofertas/tg-831.jpg",
-      "asin": "B0721BB2ZX"
+      "asin": "B0721BB2ZX",
+      "imagem": "assets/img/ofertas/tg-831.jpg"
     },
     {
       "id": "tg-737",
@@ -672,30 +696,6 @@
       "parcelas": "6x de R$ 31,18 sem juros",
       "imagem": "assets/img/ofertas/tg-598.jpg",
       "asin": "B0006J9Q64"
-    },
-    {
-      "id": "tg-595",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Mk1 de 36 mm",
-      "preco": 300.16,
-      "link": "https://link.amazon/B008UOZuv",
-      "data": "2026-11-22T15:46:38+00:00",
-      "precoDe": 358.08,
-      "parcelas": "6x de R$ 50,06 sem juros",
-      "imagem": "assets/img/ofertas/tg-595.jpg",
-      "asin": "B0FK2J2C2W"
-    },
-    {
-      "id": "tg-592",
-      "loja": "amazon",
-      "titulo": "Casio W735H Series | Men’s Digital Watch | 1/100 SEC Stopwatch | Countdown Timer",
-      "preco": 270.9,
-      "link": "https://link.amazon/B0aIjS2Ok",
-      "data": "2026-11-22T15:26:49+00:00",
-      "precoDe": 301.35,
-      "parcelas": "6x de R$ 45,15 sem juros",
-      "imagem": "assets/img/ofertas/tg-592.jpg",
-      "asin": "B00BS8U88W"
     }
   ]
 }
