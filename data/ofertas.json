@@ -3,6 +3,109 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-933",
+      "loja": "amazon",
+      "titulo": "REF: Casio MRW200H Series | Men's Analog Watch | Sporty Design | 100 Meter Water",
+      "preco": 197.9,
+      "link": "https://link.amazon/B0ilMEslO",
+      "data": "2026-11-26T11:33:41+00:00",
+      "precoDe": 235.2,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 37,15 sem juros",
+      "imagem": "assets/img/ofertas/tg-933.jpg",
+      "asin": "B08SSJFG93"
+    },
+    {
+      "id": "tg-932",
+      "loja": "amazon",
+      "titulo": "REF: Casio masculina FT500WVB-3BV",
+      "preco": 193.91,
+      "link": "https://link.amazon/B01CtC7zY",
+      "data": "2026-11-25T22:52:10+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 36,51 sem juros",
+      "imagem": "assets/img/ofertas/tg-932.jpg",
+      "asin": "B004EFQZTM"
+    },
+    {
+      "id": "tg-931",
+      "loja": "amazon",
+      "titulo": "REF: G-Shock Men's Grey Sport Watch",
+      "preco": 722.9,
+      "link": "https://link.amazon/B050o1VnB",
+      "data": "2026-11-25T22:37:13+00:00",
+      "precoDe": 883.58,
+      "cupom": "25PRIMEBF",
+      "parcelas": "10x de R$ 74,79 sem juros",
+      "imagem": "assets/img/ofertas/tg-931.jpg",
+      "asin": "B00MAMSGG6"
+    },
+    {
+      "id": "tg-930",
+      "loja": "amazon",
+      "titulo": "REF: Relógio Casio Data Bank Ca-53wf-3bdf",
+      "preco": 145.99,
+      "link": "https://link.amazon/B03G4hjG9",
+      "data": "2026-11-25T22:22:10+00:00",
+      "precoDe": 199.99,
+      "cupom": "25PRIMEBF",
+      "parcelas": "5x de R$ 34,23 sem juros",
+      "imagem": "assets/img/ofertas/tg-930.jpg",
+      "asin": "B088HJ82YL"
+    },
+    {
+      "id": "tg-929",
+      "loja": "amazon",
+      "titulo": "REF: Casio LF20W Série G-Shock | Relógio digital unissex | Preto | WR | Cronômetro",
+      "preco": 174,
+      "link": "https://link.amazon/B00LIgUFW",
+      "data": "2026-11-25T22:06:37+00:00",
+      "precoDe": 217.7,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 33,20 sem juros",
+      "imagem": "assets/img/ofertas/tg-929.jpg",
+      "asin": "B000GB0G2A"
+    },
+    {
+      "id": "tg-928",
+      "loja": "amazon",
+      "titulo": "REF: Casio Série AE1000W | Relógio digital masculino | 100 m WR | Multi Alarmes",
+      "preco": 174.9,
+      "link": "https://link.amazon/B0hENIXhl",
+      "data": "2026-11-25T21:51:27+00:00",
+      "precoDe": 210.5,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 33,35 sem juros",
+      "imagem": "assets/img/ofertas/tg-928.jpg",
+      "asin": "B0039YOHI0"
+    },
+    {
+      "id": "tg-927",
+      "loja": "amazon",
+      "titulo": "REF: Casio Relógio feminino LQ139A-1B3 preto clássico de resina",
+      "preco": 135.9,
+      "link": "https://link.amazon/B00WYN5Tx",
+      "data": "2026-11-25T21:36:13+00:00",
+      "precoDe": 252.32,
+      "cupom": "25PRIMEBF",
+      "parcelas": "5x de R$ 32,18 sem juros",
+      "imagem": "assets/img/ofertas/tg-927.jpg",
+      "asin": "B000GB0G2K"
+    },
+    {
+      "id": "tg-926",
+      "loja": "amazon",
+      "titulo": "REF: Casio TRT110H Series | Digital Watch | 100M WR | 1/100 SEC Stop Watch",
+      "preco": 238.9,
+      "link": "https://link.amazon/B0iCcRX0C",
+      "data": "2026-11-25T21:21:12+00:00",
+      "precoDe": 420.13,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 44,00 sem juros",
+      "imagem": "assets/img/ofertas/tg-926.jpg",
+      "asin": "B087Z9PMNZ"
+    },
+    {
       "id": "tg-925",
       "loja": "amazon",
       "titulo": "REF: Casio Série MWA100H | Relógio analógico masculino | 100 m WR | Bisel",
@@ -12,8 +115,8 @@
       "precoDe": 279.9,
       "cupom": "25PRIMEBF",
       "parcelas": "6x de R$ 44,35 sem juros",
-      "imagem": "assets/img/ofertas/tg-925.jpg",
-      "asin": "B08FVHJ1ZJ"
+      "asin": "B08FVHJ1ZJ",
+      "imagem": "assets/img/ofertas/tg-925.jpg"
     },
     {
       "id": "tg-924",
@@ -25,8 +128,8 @@
       "precoDe": 295,
       "cupom": "25PRIMEBF",
       "parcelas": "6x de R$ 37,08 sem juros",
-      "imagem": "assets/img/ofertas/tg-924.jpg",
-      "asin": "B00JAK1PMI"
+      "asin": "B00JAK1PMI",
+      "imagem": "assets/img/ofertas/tg-924.jpg"
     },
     {
       "id": "tg-923",
@@ -38,8 +141,8 @@
       "precoDe": 174.4,
       "cupom": "25PRIMEBF",
       "parcelas": "5x de R$ 31,18 sem juros",
-      "imagem": "assets/img/ofertas/tg-923.jpg",
-      "asin": "B01MUIC2SD"
+      "asin": "B01MUIC2SD",
+      "imagem": "assets/img/ofertas/tg-923.jpg"
     },
     {
       "id": "tg-922",
@@ -51,8 +154,8 @@
       "precoDe": 203.56,
       "cupom": "25PRIMEBF",
       "parcelas": "5x de R$ 31,98 sem juros",
-      "imagem": "assets/img/ofertas/tg-922.jpg",
-      "asin": "B07H3TK7MN"
+      "asin": "B07H3TK7MN",
+      "imagem": "assets/img/ofertas/tg-922.jpg"
     },
     {
       "id": "tg-921",
@@ -64,8 +167,8 @@
       "precoDe": 339.99,
       "cupom": "25PRIMEBF",
       "parcelas": "6x de R$ 44,15 sem juros",
-      "imagem": "assets/img/ofertas/tg-921.jpg",
-      "asin": "B000GAYQKO"
+      "asin": "B000GAYQKO",
+      "imagem": "assets/img/ofertas/tg-921.jpg"
     },
     {
       "id": "tg-920",
@@ -77,8 +180,8 @@
       "precoDe": 539,
       "cupom": "25PRIMEBF",
       "parcelas": "8x de R$ 54,44 sem juros",
-      "imagem": "assets/img/ofertas/tg-920.jpg",
-      "asin": "B0FD3M8J5K"
+      "asin": "B0FD3M8J5K",
+      "imagem": "assets/img/ofertas/tg-920.jpg"
     },
     {
       "id": "tg-918",
@@ -611,99 +714,6 @@
       "parcelas": "10x de R$ 267,39 sem juros",
       "asin": "B07D99N2NC",
       "imagem": "assets/img/ofertas/tg-707.jpg"
-    },
-    {
-      "id": "tg-706",
-      "loja": "amazon",
-      "titulo": "Timex Relógio unissex Peanuts Snoopy Football de 40 mm - pulseira azul e mostrador",
-      "preco": 379.65,
-      "link": "https://link.amazon/B0d4pWGd2",
-      "data": "2026-11-23T18:01:30+00:00",
-      "precoDe": 442.73,
-      "parcelas": "7x de R$ 54,27 sem juros",
-      "asin": "B0DHFF9X6W",
-      "imagem": "assets/img/ofertas/tg-706.jpg"
-    },
-    {
-      "id": "tg-704",
-      "loja": "amazon",
-      "titulo": "Timex Coleção Peanuts Weekender 38 mm",
-      "preco": 517.07,
-      "link": "https://link.amazon/B08Xkqds1",
-      "data": "2026-11-23T17:41:16+00:00",
-      "parcelas": "10x de R$ 51,77 sem juros",
-      "asin": "B071K5ZV2K",
-      "imagem": "assets/img/ofertas/tg-704.jpg"
-    },
-    {
-      "id": "tg-702",
-      "loja": "amazon",
-      "titulo": "Relógio Casio Masculino Digital World Time AE-1200WHD-1AVDE",
-      "preco": 287.1,
-      "link": "https://link.amazon/B0i35On5o",
-      "data": "2026-11-23T17:21:14+00:00",
-      "precoDe": 337,
-      "parcelas": "12x de R$ 29,77",
-      "asin": "B0BNP47Z21",
-      "imagem": "assets/img/ofertas/tg-702.jpg"
-    },
-    {
-      "id": "tg-696",
-      "loja": "amazon",
-      "titulo": "Casio Série MDV106 | Relógio analógico unissex | 200 m WR | Caixa",
-      "preco": 565.02,
-      "link": "https://link.amazon/B0dF6xnw1",
-      "data": "2026-11-23T17:01:09+00:00",
-      "parcelas": "10x de R$ 56,52 sem juros",
-      "imagem": "assets/img/ofertas/tg-696.jpg",
-      "asin": "B083VMXGR4"
-    },
-    {
-      "id": "tg-690",
-      "loja": "amazon",
-      "titulo": "VOSTOK | Relógio mecânico militar russo Komandirskie Submarine Commander | Série 289 | Moda",
-      "preco": 883.43,
-      "link": "https://link.amazon/B0cgPkXV1",
-      "data": "2026-11-23T16:41:17+00:00",
-      "parcelas": "10x de R$ 88,37 sem juros",
-      "imagem": "assets/img/ofertas/tg-690.jpg",
-      "asin": "B09DKQZ39K"
-    },
-    {
-      "id": "tg-684",
-      "loja": "amazon",
-      "titulo": "Casio Relógio unissex para adultos A168WA",
-      "preco": 229.12,
-      "link": "https://link.amazon/B05Xw6Wkd",
-      "data": "2026-11-23T16:20:42+00:00",
-      "precoDe": 259,
-      "parcelas": "6x de R$ 38,22 sem juros",
-      "imagem": "assets/img/ofertas/tg-684.jpg",
-      "asin": "B000LAKYW8"
-    },
-    {
-      "id": "tg-679",
-      "loja": "amazon",
-      "titulo": "Relógio Technos Masculino Skydiver Bicolor - WT20561/8P",
-      "preco": 737.99,
-      "link": "https://link.amazon/B0ihd2daP",
-      "data": "2026-11-23T16:00:38+00:00",
-      "precoDe": 820,
-      "parcelas": "12x de R$ 61,60 sem juros",
-      "imagem": "assets/img/ofertas/tg-679.jpg",
-      "asin": "B09XJCM6KZ"
-    },
-    {
-      "id": "tg-671",
-      "loja": "amazon",
-      "titulo": "Timex Relógio masculino Intelligent Quartz® Tide Temp Compass 45 mm",
-      "preco": 995.9,
-      "link": "https://link.amazon/B08emBISf",
-      "data": "2026-11-23T15:39:36+00:00",
-      "precoDe": 1048.9,
-      "parcelas": "10x de R$ 99,59 sem juros",
-      "imagem": "assets/img/ofertas/tg-671.jpg",
-      "asin": "B005DKHDPC"
     }
   ]
 }
