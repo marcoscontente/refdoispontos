@@ -3,6 +3,392 @@
   "guardarPorLoja": 30,
   "ofertas": [
     {
+      "id": "tg-1050",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relogio Citizen Promaster Automatico Ny0040-50e Masculino",
+      "preco": 2086.23,
+      "link": "https://meli.la/2adqGPL",
+      "data": "2026-11-26T22:34:08+00:00",
+      "precoDe": 2598,
+      "cupom": "MELHOROFERTA",
+      "parcelas": "12x de R$ 219,74",
+      "imagem": "assets/img/ofertas/tg-1050.jpg"
+    },
+    {
+      "id": "tg-1049",
+      "loja": "amazon",
+      "titulo": "REF: Cadola Relógio masculino de quartzo Giulia Meca de 42 mm com pulseira de couro",
+      "preco": 1247.44,
+      "link": "https://link.amazon/B08SxHxjM",
+      "data": "2026-11-26T22:33:08+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "10x de R$ 127,28 sem juros",
+      "imagem": "assets/img/ofertas/tg-1049.jpg",
+      "asin": "B0BWDHPRD9"
+    },
+    {
+      "id": "tg-1048",
+      "loja": "amazon",
+      "titulo": "REF: Infantry Relógio militar masculino MDC, quartzo japonês, nylon deslizante",
+      "preco": 136.83,
+      "link": "https://link.amazon/B0drPhhJZ",
+      "data": "2026-11-26T22:16:37+00:00",
+      "precoDe": 152.06,
+      "parcelas": "4x de R$ 34,23 sem juros",
+      "imagem": "assets/img/ofertas/tg-1048.jpg",
+      "asin": "B08C7QJJSQ"
+    },
+    {
+      "id": "tg-1047",
+      "loja": "amazon",
+      "titulo": "REF: Cadola Relógio masculino de quartzo Giulia Meca de 42 mm com pulseira de couro",
+      "preco": 1494,
+      "link": "https://link.amazon/B0bwQfr4U",
+      "data": "2026-11-26T22:01:33+00:00",
+      "precoDe": 1815.88,
+      "cupom": "25PRIMEBF",
+      "parcelas": "12x de R$ 126,62 sem juros",
+      "imagem": "assets/img/ofertas/tg-1047.jpg",
+      "asin": "B0BWDDS492"
+    },
+    {
+      "id": "tg-1046",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relogio Seculus Diver S300 Automático Safira 77371g0svnu2 Amarelo Preto",
+      "preco": 1574.1,
+      "link": "https://meli.la/2DKjVHU",
+      "data": "2026-11-26T21:57:10+00:00",
+      "precoDe": 2100,
+      "cupom": "MELHOROFERTA",
+      "parcelas": "10x de R$ 174,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-1046.jpg"
+    },
+    {
+      "id": "tg-1045",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Sun & Moon Automático Ra-ak0801s30b",
+      "preco": 2899,
+      "link": "https://meli.la/1NdEBKn",
+      "data": "2026-11-26T21:54:14+00:00",
+      "precoDe": 3749,
+      "cupom": "PROMOEXTRA",
+      "parcelas": "10x de R$ 319,90 sem juros",
+      "imagem": "assets/img/ofertas/tg-1045.jpg"
+    },
+    {
+      "id": "tg-1044",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Bambino Small Second Ra-ap0101b30b Tam 38mm Preto Prateado",
+      "preco": 2277.42,
+      "link": "https://meli.la/1FR2xdX",
+      "data": "2026-11-26T21:47:12+00:00",
+      "precoDe": 2997,
+      "cupom": "PROMOEXTTA",
+      "parcelas": "10x de R$ 257,74 sem juros",
+      "imagem": "assets/img/ofertas/tg-1044.jpg"
+    },
+    {
+      "id": "tg-1043",
+      "loja": "amazon",
+      "titulo": "REF: Relógio Masculino Cadola Giulia Calendar | CD-1043-22",
+      "preco": 1165,
+      "link": "https://link.amazon/B0fS44nWz",
+      "data": "2026-11-26T21:46:27+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "12x de R$ 99,24 sem juros",
+      "imagem": "assets/img/ofertas/tg-1043.jpg",
+      "asin": "B0D73S6HTW"
+    },
+    {
+      "id": "tg-1042",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Masculino Technos Skydiver Wt2060ab/1v Prata Prateado Preto Verde",
+      "preco": 658.8,
+      "link": "https://meli.la/2s5qoTt",
+      "data": "2026-11-26T21:44:10+00:00",
+      "precoDe": 1200,
+      "cupom": "PROMOAGORA",
+      "parcelas": "10x de R$ 73,20 sem juros",
+      "imagem": "assets/img/ofertas/tg-1042.jpg"
+    },
+    {
+      "id": "tg-1041",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Solartech Elite Land Mbssc319 S2sx",
+      "preco": 1582.2,
+      "link": "https://meli.la/2BTk9Vs",
+      "data": "2026-11-26T21:39:19+00:00",
+      "cupom": "MELHOROFERTA",
+      "parcelas": "10x de R$ 175,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-1041.jpg"
+    },
+    {
+      "id": "tg-1040",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Bulova Masculino Automatico 42mm Surveyor 96b424 Prateado Verde",
+      "preco": 2114.02,
+      "link": "https://meli.la/2pUWU2F",
+      "data": "2026-11-26T21:35:29+00:00",
+      "precoDe": 2807,
+      "cupom": "PROMOEXTRA",
+      "parcelas": "12x de R$ 232,03",
+      "imagem": "assets/img/ofertas/tg-1040.jpg"
+    },
+    {
+      "id": "tg-1039",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Citizen Tsuyosa Automático Masculino de Aço Inoxidável com Mostrador Azul",
+      "preco": 2400,
+      "link": "https://meli.la/1mEQaya",
+      "data": "2026-11-26T21:32:32+00:00",
+      "cupom": "PROMOEXTRA",
+      "parcelas": "10x de R$ 270,00 sem juros",
+      "imagem": "assets/img/ofertas/tg-1039.jpg"
+    },
+    {
+      "id": "tg-1038",
+      "loja": "amazon",
+      "titulo": "REF: DUXOT Relógio masculino de 40 mm Bastia Automatic Noronha edição limitada com pulseira",
+      "preco": 1674,
+      "link": "https://link.amazon/B0ioKzC2l",
+      "data": "2026-11-26T21:31:32+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "12x de R$ 141,62 sem juros",
+      "imagem": "assets/img/ofertas/tg-1038.jpg",
+      "asin": "B0DCBZK52X"
+    },
+    {
+      "id": "tg-1037",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Casio Edifice Efk-110d-7acr Automatico Branco Snow Prateado Steel Branco",
+      "preco": 2040.03,
+      "link": "https://meli.la/2w82Mes",
+      "data": "2026-11-26T21:26:17+00:00",
+      "precoDe": 3099,
+      "cupom": "PROMOAGORA",
+      "parcelas": "10x de R$ 201,44 sem juros",
+      "imagem": "assets/img/ofertas/tg-1037.jpg"
+    },
+    {
+      "id": "tg-1036",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Feminino Fgss0068 S2kx Dourado Mini Cor do fundo Prata",
+      "preco": 484.2,
+      "link": "https://meli.la/2BNfpLs",
+      "data": "2026-11-26T21:19:29+00:00",
+      "precoDe": 739.9,
+      "cupom": "PROMOAGORA",
+      "parcelas": "10x de R$ 55,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-1036.jpg"
+    },
+    {
+      "id": "tg-1035",
+      "loja": "amazon",
+      "titulo": "REF: Infantry Relógio militar masculino MDC, quartzo japonês, nylon deslizante",
+      "preco": 136.83,
+      "link": "https://link.amazon/B05g8zkQV",
+      "data": "2026-11-26T21:16:38+00:00",
+      "precoDe": 152.06,
+      "parcelas": "4x de R$ 34,23 sem juros",
+      "imagem": "assets/img/ofertas/tg-1035.jpg",
+      "asin": "B08C7QJJSQ"
+    },
+    {
+      "id": "tg-1034",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Bambino Automático Tac00009w0",
+      "preco": 1999,
+      "link": "https://meli.la/1HzNSqZ",
+      "data": "2026-11-26T21:16:25+00:00",
+      "precoDe": 3123,
+      "cupom": "PROMOEXTRA",
+      "parcelas": "12x de R$ 220,97",
+      "imagem": "assets/img/ofertas/tg-1034.jpg"
+    },
+    {
+      "id": "tg-1033",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Masculino Solartech Mbss1493 P1sx",
+      "preco": 698,
+      "link": "https://meli.la/2QdSQZq",
+      "data": "2026-11-26T21:12:43+00:00",
+      "precoDe": 872.5,
+      "parcelas": "10x de R$ 69,80 sem juros",
+      "imagem": "assets/img/ofertas/tg-1033.jpg"
+    },
+    {
+      "id": "tg-1032",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Orient Masculino Analógico de Aço Inoxidável com Fundo Preto",
+      "preco": 239.95,
+      "link": "https://meli.la/1hiVmW2",
+      "data": "2026-11-26T21:09:10+00:00",
+      "precoDe": 302.97,
+      "cupom": "HOJETEM",
+      "parcelas": "12x de R$ 26,08",
+      "imagem": "assets/img/ofertas/tg-1032.jpg"
+    },
+    {
+      "id": "tg-1031",
+      "loja": "amazon",
+      "titulo": "REF: AVI-8 Relógio masculino 43,5 mm Hawker Hurricane Carey Dual Time de quartzo japonês",
+      "preco": 1191.69,
+      "link": "https://link.amazon/B0i7Cx7Kb",
+      "data": "2026-11-26T21:01:37+00:00",
+      "precoDe": 1529.15,
+      "cupom": "25PRIMEBF",
+      "parcelas": "10x de R$ 121,75 sem juros",
+      "imagem": "assets/img/ofertas/tg-1031.jpg",
+      "asin": "B09DD1QLNY"
+    },
+    {
+      "id": "tg-1030",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Casio Ga-2100wd-1adr",
+      "preco": 337.72,
+      "link": "https://meli.la/1rwMKvM",
+      "data": "2026-11-26T20:49:08+00:00",
+      "precoDe": 599,
+      "cupom": "PROMOAGORA",
+      "parcelas": "7x de R$ 56,43 sem juros",
+      "imagem": "assets/img/ofertas/tg-1030.jpg"
+    },
+    {
+      "id": "tg-1029",
+      "loja": "amazon",
+      "titulo": "REF: Timex Relógio masculino Expedition Gallatin de 45 mm",
+      "preco": 369.27,
+      "link": "https://link.amazon/B01tXJmJo",
+      "data": "2026-11-26T20:46:33+00:00",
+      "precoDe": 767.49,
+      "cupom": "25PRIMEBF",
+      "parcelas": "7x de R$ 56,35 sem juros",
+      "imagem": "assets/img/ofertas/tg-1029.jpg",
+      "asin": "B07WP5XP8S"
+    },
+    {
+      "id": "tg-1028",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Technos Masculino Golf Prata - 2115ubs/0x Correia Verde Bisel Bege",
+      "preco": 456,
+      "link": "https://meli.la/2K4Cxva",
+      "data": "2026-11-26T20:37:10+00:00",
+      "precoDe": 569,
+      "parcelas": "9x de R$ 50,67 sem juros",
+      "imagem": "assets/img/ofertas/tg-1028.jpg"
+    },
+    {
+      "id": "tg-1027",
+      "loja": "amazon",
+      "titulo": "REF: Spinnaker Fleuss Relógio de mergulho automático masculino – movimento Miyota 8215, Caixa de 43",
+      "preco": 1867.26,
+      "link": "https://link.amazon/B0bDAVygl",
+      "data": "2026-11-26T20:31:30+00:00",
+      "precoDe": 2281.26,
+      "cupom": "25PRIMEBF",
+      "parcelas": "10x de R$ 189,28 sem juros",
+      "imagem": "assets/img/ofertas/tg-1027.jpg",
+      "asin": "B09XV83YTH"
+    },
+    {
+      "id": "tg-1026",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Technos Masculino Quartzo Grafite 42mm Aço Resistente à Água",
+      "preco": 264.88,
+      "link": "https://meli.la/2PWMJgv",
+      "data": "2026-11-26T20:26:50+00:00",
+      "precoDe": 499,
+      "cupom": "PROMOAGORA",
+      "parcelas": "6x de R$ 53,32 sem juros",
+      "imagem": "assets/img/ofertas/tg-1026.jpg"
+    },
+    {
+      "id": "tg-1025",
+      "loja": "mercadolivre",
+      "titulo": "REF: Relógio Technos Masculino Steel Preto Grafite - 2115txg/0a",
+      "preco": 264.88,
+      "link": "https://meli.la/1k4rJXv",
+      "data": "2026-11-26T20:22:08+00:00",
+      "precoDe": 599,
+      "cupom": "PROMOAGORA",
+      "parcelas": "6x de R$ 53,32 sem juros",
+      "imagem": "assets/img/ofertas/tg-1025.jpg"
+    },
+    {
+      "id": "tg-1024",
+      "loja": "amazon",
+      "titulo": "REF: Spinnaker Fleuss Relógio de mergulho automático masculino – movimento Miyota 8215, Caixa de 43",
+      "preco": 2142.38,
+      "link": "https://link.amazon/B02rizeLs",
+      "data": "2026-11-26T20:16:34+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "10x de R$ 216,81 sem juros",
+      "imagem": "assets/img/ofertas/tg-1024.jpg",
+      "asin": "B0D6Z1X2SR"
+    },
+    {
+      "id": "tg-1023",
+      "loja": "amazon",
+      "titulo": "REF: Spinnaker Hull Relógio Cronógrafo Masculino – Movimento Meca-Quartz, Caixa em Aço Inoxidável com formato",
+      "preco": 1512.13,
+      "link": "https://link.amazon/B0eOGiPX3",
+      "data": "2026-11-26T20:01:43+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "10x de R$ 153,74 sem juros",
+      "imagem": "assets/img/ofertas/tg-1023.jpg",
+      "asin": "B07XSHG3XT"
+    },
+    {
+      "id": "tg-1022",
+      "loja": "amazon",
+      "titulo": "REF: Casio WS1600H Series | Men’s Watch | Sports Design | Stopwatch | Countdown Timer",
+      "preco": 268.17,
+      "link": "https://link.amazon/B0iT3oZWo",
+      "data": "2026-11-26T19:46:29+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 48,87 sem juros",
+      "imagem": "assets/img/ofertas/tg-1022.jpg",
+      "asin": "B0C4VSWBHJ"
+    },
+    {
+      "id": "tg-1021",
+      "loja": "amazon",
+      "titulo": "REF: Relógio Feminino Analógico Casio LTP-V007G-9EUDF - Dourado",
+      "preco": 336.75,
+      "link": "https://link.amazon/B08QLNdwP",
+      "data": "2026-11-26T19:31:31+00:00",
+      "cupom": "25PRIMEBF",
+      "parcelas": "7x de R$ 51,73 sem juros",
+      "imagem": "assets/img/ofertas/tg-1021.jpg",
+      "asin": "B015ZXPNTO"
+    },
+    {
+      "id": "tg-1020",
+      "loja": "amazon",
+      "titulo": "REF: Invicta Relógio automático masculino Pro Diver Collection Coin-Edge",
+      "preco": 619.36,
+      "link": "https://link.amazon/B0ipeReNM",
+      "data": "2026-11-26T19:16:29+00:00",
+      "precoDe": 772.09,
+      "cupom": "25PRIMEBF",
+      "parcelas": "10x de R$ 64,49 sem juros",
+      "imagem": "assets/img/ofertas/tg-1020.jpg",
+      "asin": "B000JQFX1G"
+    },
+    {
+      "id": "tg-1019",
+      "loja": "amazon",
+      "titulo": "REF: Timex Relógio masculino Expedition Scout de 40 mm – caixa preta e mostrador",
+      "preco": 260.76,
+      "link": "https://link.amazon/B03g7IZ0Q",
+      "data": "2026-11-26T19:01:27+00:00",
+      "precoDe": 493.78,
+      "cupom": "25PRIMEBF",
+      "parcelas": "6x de R$ 47,66 sem juros",
+      "imagem": "assets/img/ofertas/tg-1019.jpg",
+      "asin": "B07FFBHM7F"
+    },
+    {
       "id": "tg-1018",
       "loja": "amazon",
       "titulo": "REF: Timex Relógio masculino Expedition Scout, 40 mm, para atividades ao ar",
@@ -12,8 +398,8 @@
       "precoDe": 504.11,
       "cupom": "25PRIMEBF",
       "parcelas": "7x de R$ 51,68 sem juros",
-      "imagem": "assets/img/ofertas/tg-1018.jpg",
-      "asin": "B09RTQGH4W"
+      "asin": "B09RTQGH4W",
+      "imagem": "assets/img/ofertas/tg-1018.jpg"
     },
     {
       "id": "tg-1017",
@@ -24,8 +410,8 @@
       "data": "2026-11-26T18:31:25+00:00",
       "cupom": "25PRIMEBF",
       "parcelas": "8x de R$ 52,09 sem juros",
-      "imagem": "assets/img/ofertas/tg-1017.jpg",
-      "asin": "B0GH335QSW"
+      "asin": "B0GH335QSW",
+      "imagem": "assets/img/ofertas/tg-1017.jpg"
     },
     {
       "id": "tg-1016",
@@ -37,8 +423,8 @@
       "precoDe": 670.26,
       "cupom": "25PRIMEBF",
       "parcelas": "6x de R$ 50,08 sem juros",
-      "imagem": "assets/img/ofertas/tg-1016.jpg",
-      "asin": "B07RLL3NBS"
+      "asin": "B07RLL3NBS",
+      "imagem": "assets/img/ofertas/tg-1016.jpg"
     },
     {
       "id": "tg-1015",
@@ -49,8 +435,8 @@
       "data": "2026-11-26T18:01:20+00:00",
       "cupom": "25PRIMEBF",
       "parcelas": "9x de R$ 51,23 sem juros",
-      "imagem": "assets/img/ofertas/tg-1015.jpg",
-      "asin": "B014MN9RCM"
+      "asin": "B014MN9RCM",
+      "imagem": "assets/img/ofertas/tg-1015.jpg"
     },
     {
       "id": "tg-1014",
@@ -62,8 +448,8 @@
       "precoDe": 292.73,
       "cupom": "25PRIMEBF",
       "parcelas": "6x de R$ 36,15 sem juros",
-      "imagem": "assets/img/ofertas/tg-1014.jpg",
-      "asin": "B00IYUYAFY"
+      "asin": "B00IYUYAFY",
+      "imagem": "assets/img/ofertas/tg-1014.jpg"
     },
     {
       "id": "tg-1013",
@@ -74,8 +460,8 @@
       "data": "2026-11-26T17:16:12+00:00",
       "cupom": "25PRIMEBF",
       "parcelas": "7x de R$ 52,37 sem juros",
-      "imagem": "assets/img/ofertas/tg-1013.jpg",
-      "asin": "B0F7XDPRRR"
+      "asin": "B0F7XDPRRR",
+      "imagem": "assets/img/ofertas/tg-1013.jpg"
     },
     {
       "id": "tg-1012",
@@ -121,8 +507,8 @@
       "link": "https://amzn.to/4AVxnZK",
       "data": "2026-11-26T17:01:19+00:00",
       "precoDe": 39.9,
-      "imagem": "assets/img/ofertas/tg-1009.jpg",
-      "asin": "B0D1QC8B9Y"
+      "asin": "B0D1QC8B9Y",
+      "imagem": "assets/img/ofertas/tg-1009.jpg"
     },
     {
       "id": "tg-1008",
@@ -180,8 +566,8 @@
       "data": "2026-11-26T16:46:11+00:00",
       "cupom": "25PRIMEBF",
       "parcelas": "6x de R$ 47,71 sem juros",
-      "imagem": "assets/img/ofertas/tg-1003.jpg",
-      "asin": "B0CVYLGVPP"
+      "asin": "B0CVYLGVPP",
+      "imagem": "assets/img/ofertas/tg-1003.jpg"
     },
     {
       "id": "tg-1002",
@@ -214,8 +600,8 @@
       "link": "https://amzn.to/3WRXgLo",
       "data": "2026-11-26T16:28:27+00:00",
       "parcelas": "12x de R$ 191,49 sem juros",
-      "imagem": "assets/img/ofertas/tg-1000.jpg",
-      "asin": "B0C788664V"
+      "asin": "B0C788664V",
+      "imagem": "assets/img/ofertas/tg-1000.jpg"
     },
     {
       "id": "tg-999",
@@ -236,8 +622,8 @@
       "link": "https://link.amazon/B0bX5bDgf",
       "data": "2026-11-26T16:08:28+00:00",
       "parcelas": "8x de R$ 51,87 sem juros",
-      "imagem": "assets/img/ofertas/tg-998.jpg",
-      "asin": "B0B6WXSW2H"
+      "asin": "B0B6WXSW2H",
+      "imagem": "assets/img/ofertas/tg-998.jpg"
     },
     {
       "id": "tg-997",
@@ -259,8 +645,8 @@
       "link": "https://link.amazon/B07YpUQky",
       "data": "2026-11-26T15:48:35+00:00",
       "parcelas": "7x de R$ 55,56 sem juros",
-      "imagem": "assets/img/ofertas/tg-996.jpg",
-      "asin": "B0C9KPZTQG"
+      "asin": "B0C9KPZTQG",
+      "imagem": "assets/img/ofertas/tg-996.jpg"
     },
     {
       "id": "tg-995",
@@ -287,75 +673,6 @@
       "imagem": "assets/img/ofertas/tg-994.jpg"
     },
     {
-      "id": "tg-993",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio De Pulso Digital Casio Com Pulseira De Resina Cor Preto - Fundo Display",
-      "preco": 223.99,
-      "link": "https://meli.la/2S6esMM",
-      "data": "2026-11-26T15:43:19+00:00",
-      "precoDe": 510.9,
-      "parcelas": "6x de R$ 37,33 sem juros",
-      "imagem": "assets/img/ofertas/tg-993.jpg"
-    },
-    {
-      "id": "tg-992",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Casio Duro Aço Preto Mdv-107d-1a1 Diver 200m Prateado Preto Prateado",
-      "preco": 491.78,
-      "link": "https://meli.la/2MhqDvv",
-      "data": "2026-11-26T15:40:56+00:00",
-      "precoDe": 899.9,
-      "cupom": "PROMOAGORA",
-      "imagem": "assets/img/ofertas/tg-992.jpg"
-    },
-    {
-      "id": "tg-991",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Casio Duro Batman Aço Mdv-107d-1a2 Diver 200m Prateado Azul Preto Prateado",
-      "preco": 521.99,
-      "link": "https://meli.la/2Ain8gL",
-      "data": "2026-11-26T15:37:32+00:00",
-      "precoDe": 899.9,
-      "cupom": "PROMOAGORA",
-      "parcelas": "12x de R$ 56,09",
-      "imagem": "assets/img/ofertas/tg-991.jpg"
-    },
-    {
-      "id": "tg-990",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Masculino Casio Gshock Gsquad Grande 45 Milímetros Carbono Digital Cinza Resina Funcionalidades Mostrador",
-      "preco": 631.76,
-      "link": "https://meli.la/1mdZt5h",
-      "data": "2026-11-26T15:35:45+00:00",
-      "precoDe": 1416,
-      "cupom": "PROMOAGORA",
-      "imagem": "assets/img/ofertas/tg-990.jpg"
-    },
-    {
-      "id": "tg-989",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Casio G-shock G-squad Masculino Gbd-200-1dr Preto",
-      "preco": 593.99,
-      "link": "https://meli.la/33rLrJ1",
-      "data": "2026-11-26T15:32:59+00:00",
-      "precoDe": 1399,
-      "cupom": "PROMOAGORA",
-      "parcelas": "10x de R$ 66,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-989.jpg"
-    },
-    {
-      "id": "tg-988",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Mondaine M1 Cronógrafo 33055g0mvna1 Edição 1954 Prateado Preto",
-      "preco": 874.4,
-      "link": "https://meli.la/1izH6Rj",
-      "data": "2026-11-26T15:29:40+00:00",
-      "precoDe": 1059,
-      "cupom": "PROMOAGORA",
-      "parcelas": "10x de R$ 96,60 sem juros",
-      "imagem": "assets/img/ofertas/tg-988.jpg"
-    },
-    {
       "id": "tg-987",
       "loja": "amazon",
       "titulo": "REF: BERTUCCI A-2T Original Classic - Mostrador branco/nylon florestal, Branco, Relógio de campo",
@@ -363,44 +680,8 @@
       "link": "https://link.amazon/B02StnxHU",
       "data": "2026-11-26T15:28:27+00:00",
       "parcelas": "10x de R$ 129,27 sem juros",
-      "imagem": "assets/img/ofertas/tg-987.jpg",
-      "asin": "B003M63WT0"
-    },
-    {
-      "id": "tg-986",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio de pulso digital Casio DW-5600UBB-1D com corria de resina",
-      "preco": 225,
-      "link": "https://meli.la/1bUXwHs",
-      "data": "2026-11-26T15:28:16+00:00",
-      "precoDe": 320,
-      "cupom": "SUPEROFERTA",
-      "parcelas": "6x de R$ 46,67 sem juros",
-      "imagem": "assets/img/ofertas/tg-986.jpg"
-    },
-    {
-      "id": "tg-984",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Casio G-Shock Masculino Carbon GA-2100-1A1DR Preto",
-      "preco": 304.45,
-      "link": "https://meli.la/1HAdqAC",
-      "data": "2026-11-26T15:20:18+00:00",
-      "precoDe": 899,
-      "cupom": "SUPEROFERTA",
-      "parcelas": "12x de R$ 35,61",
-      "imagem": "assets/img/ofertas/tg-984.jpg"
-    },
-    {
-      "id": "tg-983",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Seculus Masculino Couro 77308g0svnc1 Preto Prateado",
-      "preco": 524.92,
-      "link": "https://meli.la/1EEgWH4",
-      "data": "2026-11-26T15:12:20+00:00",
-      "precoDe": 961.86,
-      "cupom": "SUPEROFERTA",
-      "parcelas": "10x de R$ 57,99 sem juros",
-      "imagem": "assets/img/ofertas/tg-983.jpg"
+      "asin": "B003M63WT0",
+      "imagem": "assets/img/ofertas/tg-987.jpg"
     },
     {
       "id": "tg-982",
@@ -410,43 +691,8 @@
       "link": "https://link.amazon/B00cIxWZX",
       "data": "2026-11-26T15:07:27+00:00",
       "parcelas": "10x de R$ 54,85 sem juros",
-      "imagem": "assets/img/ofertas/tg-982.jpg",
-      "asin": "B08ZSMMS9J"
-    },
-    {
-      "id": "tg-981",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Seculus Cronógrafo Masculino Azul Couro Marrom",
-      "preco": 408.5,
-      "link": "https://meli.la/2AAMR9E",
-      "data": "2026-11-26T15:04:57+00:00",
-      "precoDe": 819,
-      "cupom": "SUPEROFERTA",
-      "imagem": "assets/img/ofertas/tg-981.jpg"
-    },
-    {
-      "id": "tg-980",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Casio G-shock Carbon Core Guard Ga-b2100-1adr",
-      "preco": 611.06,
-      "link": "https://meli.la/2VqoRDQ",
-      "data": "2026-11-26T14:57:15+00:00",
-      "precoDe": 899,
-      "cupom": "PROMOAGORA",
-      "parcelas": "10x de R$ 87,80 sem juros",
-      "imagem": "assets/img/ofertas/tg-980.jpg"
-    },
-    {
-      "id": "tg-979",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Orient SolarTech Sapphire Masculino Aço Inox Safira 40mm 10ATM",
-      "preco": 1098,
-      "link": "https://meli.la/2wvniFP",
-      "data": "2026-11-26T14:49:17+00:00",
-      "precoDe": 2335,
-      "cupom": "PROMOAGORA",
-      "parcelas": "10x de R$ 129,40 sem juros",
-      "imagem": "assets/img/ofertas/tg-979.jpg"
+      "asin": "B08ZSMMS9J",
+      "imagem": "assets/img/ofertas/tg-982.jpg"
     },
     {
       "id": "tg-978",
@@ -456,30 +702,8 @@
       "link": "https://link.amazon/B05XvPR0K",
       "data": "2026-11-26T14:46:41+00:00",
       "parcelas": "6x de R$ 53,64 sem juros",
-      "imagem": "assets/img/ofertas/tg-978.jpg",
-      "asin": "B07WSQMBSC"
-    },
-    {
-      "id": "tg-977",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Casio Masculino Mtp-e735d-1av",
-      "preco": 550.11,
-      "link": "https://meli.la/1uEnhYG",
-      "data": "2026-11-26T14:42:10+00:00",
-      "cupom": "PROMOAGORA",
-      "imagem": "assets/img/ofertas/tg-977.jpg"
-    },
-    {
-      "id": "tg-976",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Masc Automático Ed. 70 Anos Mondaine 32993g0mvna6 Prateado Azul-claro",
-      "preco": 629.1,
-      "link": "https://meli.la/2vYbs5y",
-      "data": "2026-11-26T14:34:49+00:00",
-      "precoDe": 799,
-      "cupom": "PROMOAGORA",
-      "parcelas": "10x de R$ 69,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-976.jpg"
+      "asin": "B07WSQMBSC",
+      "imagem": "assets/img/ofertas/tg-978.jpg"
     },
     {
       "id": "tg-975",
@@ -489,226 +713,8 @@
       "link": "https://link.amazon/B0gtj4tiK",
       "data": "2026-11-26T14:26:41+00:00",
       "parcelas": "9x de R$ 50,29 sem juros",
-      "imagem": "assets/img/ofertas/tg-975.jpg",
-      "asin": "B0CGXKZ86D"
-    },
-    {
-      "id": "tg-974",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Mondaine Automático 32993g0mvnc7 Couro Crocodilo Preto Prateado Branco",
-      "preco": 625.62,
-      "link": "https://meli.la/2PBfFpb",
-      "data": "2026-11-26T14:26:14+00:00",
-      "precoDe": 799,
-      "cupom": "PROMOAGORA",
-      "parcelas": "10x de R$ 79,90 sem juros",
-      "imagem": "assets/img/ofertas/tg-974.jpg"
-    },
-    {
-      "id": "tg-973",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Seculus Cronógrafo 77307g0svna6 40mm",
-      "preco": 651.65,
-      "link": "https://meli.la/2Tt2rUF",
-      "data": "2026-11-26T14:19:10+00:00",
-      "precoDe": 798,
-      "cupom": "PROMOAGORA",
-      "parcelas": "10x de R$ 77,41 sem juros",
-      "imagem": "assets/img/ofertas/tg-973.jpg"
-    },
-    {
-      "id": "tg-972",
-      "loja": "mercadolivre",
-      "titulo": "REF: Relógio Technos Quadrado Executive Pulseira Couro Legitimo Marrom-escuro Azul 35mm",
-      "preco": 391,
-      "link": "https://meli.la/2bGHhKs",
-      "data": "2026-11-26T14:18:40+00:00",
-      "precoDe": 619,
-      "parcelas": "7x de R$ 55,86 sem juros",
-      "imagem": "assets/img/ofertas/tg-972.jpg"
-    },
-    {
-      "id": "tg-969",
-      "loja": "amazon",
-      "titulo": "REF: Bertucci Relógio Dx3 Plus",
-      "preco": 391.78,
-      "link": "https://link.amazon/B0d68pLfL",
-      "data": "2026-11-26T14:06:14+00:00",
-      "parcelas": "7x de R$ 56,02 sem juros",
-      "imagem": "assets/img/ofertas/tg-969.jpg",
-      "asin": "B015UPM246"
-    },
-    {
-      "id": "tg-963",
-      "loja": "amazon",
-      "titulo": "REF: Relógio masculino Casio #MTP-V002D-7B padrão analógico de aço inoxidável data mostrador prata",
-      "preco": 242.01,
-      "link": "https://link.amazon/B0e9KENHr",
-      "data": "2026-11-26T13:49:09+00:00",
-      "precoDe": 277.56,
-      "parcelas": "6x de R$ 40,36 sem juros",
-      "imagem": "assets/img/ofertas/tg-963.jpg",
-      "asin": "B007V2ZYJW"
-    },
-    {
-      "id": "tg-954",
-      "loja": "amazon",
-      "titulo": "REF: Casio Relógio masculino MTP-1381D-7AVDF analógico de quartzo clássico de aço inoxidável, Prata, 46.6×39.9×8.9mm, Movimento",
-      "preco": 458.65,
-      "link": "https://link.amazon/B0gHIH5q8",
-      "data": "2026-11-26T13:33:42+00:00",
-      "parcelas": "9x de R$ 50,97 sem juros",
-      "imagem": "assets/img/ofertas/tg-954.jpg",
-      "asin": "B00J23ZAEW"
-    },
-    {
-      "id": "tg-947",
-      "loja": "amazon",
-      "titulo": "REF: Relógio Casio Original Masculino Prateado MTP V005D 1BUDF",
-      "preco": 202.42,
-      "link": "https://link.amazon/B074idETK",
-      "data": "2026-11-26T13:18:38+00:00",
-      "parcelas": "6x de R$ 33,77 sem juros",
-      "imagem": "assets/img/ofertas/tg-947.jpg",
-      "asin": "B078Y8DKMV"
-    },
-    {
-      "id": "tg-940",
-      "loja": "amazon",
-      "titulo": "REF: Relógio Masculino Casio Mtp-V004GL-9AUDF - Dourado",
-      "preco": 455.55,
-      "link": "https://link.amazon/B01fWxkoY",
-      "data": "2026-11-26T13:03:38+00:00",
-      "parcelas": "9x de R$ 50,67 sem juros",
-      "imagem": "assets/img/ofertas/tg-940.jpg",
-      "asin": "B00X4U32SU"
-    },
-    {
-      "id": "tg-939",
-      "loja": "amazon",
-      "titulo": "REF: Casio Relógio clássico, preto, pulseira, Preto, correia",
-      "preco": 631.83,
-      "link": "https://link.amazon/B0bCnkp4A",
-      "data": "2026-11-26T12:48:39+00:00",
-      "parcelas": "10x de R$ 63,21 sem juros",
-      "imagem": "assets/img/ofertas/tg-939.jpg",
-      "asin": "B00IX3DOVI"
-    },
-    {
-      "id": "tg-933",
-      "loja": "amazon",
-      "titulo": "REF: Casio MRW200H Series | Men's Analog Watch | Sporty Design | 100 Meter Water",
-      "preco": 197.9,
-      "link": "https://link.amazon/B0ilMEslO",
-      "data": "2026-11-26T11:33:41+00:00",
-      "precoDe": 235.2,
-      "cupom": "25PRIMEBF",
-      "parcelas": "6x de R$ 37,15 sem juros",
-      "imagem": "assets/img/ofertas/tg-933.jpg",
-      "asin": "B08SSJFG93"
-    },
-    {
-      "id": "tg-932",
-      "loja": "amazon",
-      "titulo": "REF: Casio masculina FT500WVB-3BV",
-      "preco": 193.91,
-      "link": "https://link.amazon/B01CtC7zY",
-      "data": "2026-11-25T22:52:10+00:00",
-      "cupom": "25PRIMEBF",
-      "parcelas": "6x de R$ 36,51 sem juros",
-      "imagem": "assets/img/ofertas/tg-932.jpg",
-      "asin": "B004EFQZTM"
-    },
-    {
-      "id": "tg-931",
-      "loja": "amazon",
-      "titulo": "REF: G-Shock Men's Grey Sport Watch",
-      "preco": 722.9,
-      "link": "https://link.amazon/B050o1VnB",
-      "data": "2026-11-25T22:37:13+00:00",
-      "precoDe": 883.58,
-      "cupom": "25PRIMEBF",
-      "parcelas": "10x de R$ 74,79 sem juros",
-      "imagem": "assets/img/ofertas/tg-931.jpg",
-      "asin": "B00MAMSGG6"
-    },
-    {
-      "id": "tg-930",
-      "loja": "amazon",
-      "titulo": "REF: Relógio Casio Data Bank Ca-53wf-3bdf",
-      "preco": 145.99,
-      "link": "https://link.amazon/B03G4hjG9",
-      "data": "2026-11-25T22:22:10+00:00",
-      "precoDe": 199.99,
-      "cupom": "25PRIMEBF",
-      "parcelas": "5x de R$ 34,23 sem juros",
-      "imagem": "assets/img/ofertas/tg-930.jpg",
-      "asin": "B088HJ82YL"
-    },
-    {
-      "id": "tg-929",
-      "loja": "amazon",
-      "titulo": "REF: Casio LF20W Série G-Shock | Relógio digital unissex | Preto | WR | Cronômetro",
-      "preco": 174,
-      "link": "https://link.amazon/B00LIgUFW",
-      "data": "2026-11-25T22:06:37+00:00",
-      "precoDe": 217.7,
-      "cupom": "25PRIMEBF",
-      "parcelas": "6x de R$ 33,20 sem juros",
-      "imagem": "assets/img/ofertas/tg-929.jpg",
-      "asin": "B000GB0G2A"
-    },
-    {
-      "id": "tg-928",
-      "loja": "amazon",
-      "titulo": "REF: Casio Série AE1000W | Relógio digital masculino | 100 m WR | Multi Alarmes",
-      "preco": 174.9,
-      "link": "https://link.amazon/B0hENIXhl",
-      "data": "2026-11-25T21:51:27+00:00",
-      "precoDe": 210.5,
-      "cupom": "25PRIMEBF",
-      "parcelas": "6x de R$ 33,35 sem juros",
-      "imagem": "assets/img/ofertas/tg-928.jpg",
-      "asin": "B0039YOHI0"
-    },
-    {
-      "id": "tg-927",
-      "loja": "amazon",
-      "titulo": "REF: Casio Relógio feminino LQ139A-1B3 preto clássico de resina",
-      "preco": 135.9,
-      "link": "https://link.amazon/B00WYN5Tx",
-      "data": "2026-11-25T21:36:13+00:00",
-      "precoDe": 252.32,
-      "cupom": "25PRIMEBF",
-      "parcelas": "5x de R$ 32,18 sem juros",
-      "imagem": "assets/img/ofertas/tg-927.jpg",
-      "asin": "B000GB0G2K"
-    },
-    {
-      "id": "tg-926",
-      "loja": "amazon",
-      "titulo": "REF: Casio TRT110H Series | Digital Watch | 100M WR | 1/100 SEC Stop Watch",
-      "preco": 238.9,
-      "link": "https://link.amazon/B0iCcRX0C",
-      "data": "2026-11-25T21:21:12+00:00",
-      "precoDe": 420.13,
-      "cupom": "25PRIMEBF",
-      "parcelas": "6x de R$ 44,00 sem juros",
-      "imagem": "assets/img/ofertas/tg-926.jpg",
-      "asin": "B087Z9PMNZ"
-    },
-    {
-      "id": "tg-925",
-      "loja": "amazon",
-      "titulo": "REF: Casio Série MWA100H | Relógio analógico masculino | 100 m WR | Bisel",
-      "preco": 240.9,
-      "link": "https://link.amazon/B030HOUPm",
-      "data": "2026-11-25T21:06:16+00:00",
-      "precoDe": 279.9,
-      "cupom": "25PRIMEBF",
-      "parcelas": "6x de R$ 44,35 sem juros",
-      "asin": "B08FVHJ1ZJ",
-      "imagem": "assets/img/ofertas/tg-925.jpg"
+      "asin": "B0CGXKZ86D",
+      "imagem": "assets/img/ofertas/tg-975.jpg"
     }
   ]
 }
