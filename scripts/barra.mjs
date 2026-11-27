@@ -15,13 +15,14 @@ const REDES = [
   { nome: "TikTok", icone: "tiktok", link: "https://www.tiktok.com/@refdoispontos" },
 ];
 
-// raiz: caminho até a pasta do site ("", "../", "../../"). ativo: "home" | "promos" | "doacoes".
+// raiz: caminho até a pasta do site ("", "../", "../../"). ativo: "home" | "promos" | "doacoes" | "quero".
 export function barra(raiz, ativo) {
   const inicio = raiz || "./";
   const secoes = [
     ["home", inicio, "Home"],
     ["promos", `${raiz}promos/`, "Promos"],
     ["doacoes", `${raiz}doacoes/`, "Sugerir doação"],
+    ["quero", `${raiz}quero/`, "Quero esse relógio"],
   ];
   const links = secoes.map(([id, href, rotulo]) =>
     `<a href="${href}"${id === ativo ? " aria-current=\"page\"" : ""}>${rotulo}</a>`).join("");
@@ -41,4 +42,5 @@ export const PAGINAS_A_MAO = [
   { arquivo: "index.html", raiz: "", ativo: "home" },
   { arquivo: "promos/oferta/index.html", raiz: "../../", ativo: "promos" },
   { arquivo: "doacoes/index.html", raiz: "../", ativo: "doacoes" },
+  { arquivo: "quero/index.html", raiz: "../", ativo: "quero" },
 ];

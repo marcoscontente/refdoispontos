@@ -4,3 +4,4 @@ node_modules/
 
 # Envios do formulário de doações (fallback dentro do site, nunca no Git)
 doacoes/dados/
+quero/dados/
