@@ -81,7 +81,7 @@ if ($digitos !== '' && (strlen($digitos) < 10 || strlen($digitos) > 13)) {
 [$pasta, $onde] = pasta_dos_dados();
 $arquivo = $pasta . '/quero.csv';
 
-// Limite: no máximo 5 envios por hora do mesmo endereço (guardado só como código, não o IP).
+// Limite: no máximo 10 envios por hora do mesmo endereço (guardado só como código, não o IP).
 $ip = hash('sha256', ($_SERVER['REMOTE_ADDR'] ?? '') . '|ref-quero');
 $limite = $pasta . '/limite.json';
 $agora = time();
@@ -90,7 +90,7 @@ foreach ($registro as $k => $vezes) {
   $registro[$k] = array_values(array_filter($vezes, fn($x) => $x > $agora - 3600));
   if (!$registro[$k]) unset($registro[$k]);
 }
-if (count($registro[$ip] ?? []) >= 5) {
+if (count($registro[$ip] ?? []) >= 10) {
   responder(429, ['ok' => false, 'erro' => 'Muitos envios seguidos.']);
 }
 $registro[$ip][] = $agora;
