@@ -7,6 +7,12 @@
       {
         "nome": "REF:PROMOS",
         "link": "https://chat.whatsapp.com/GRIteFG2K497E6kuvxLQqR",
+        "status": "cheio",
+        "peso": 1
+      },
+      {
+        "nome": "REF:PROMOS 2",
+        "link": "https://chat.whatsapp.com/FDFbMz4nVaN2O3iC2m7rFn",
         "status": "aberto",
         "peso": 1
       }
