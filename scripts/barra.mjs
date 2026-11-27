@@ -21,7 +21,7 @@ export function barra(raiz, ativo) {
   const secoes = [
     ["home", inicio, "Home"],
     ["promos", `${raiz}promos/`, "Promos"],
-    ["doacoes", `${raiz}doacoes/`, "Sugerir doação"],
+    ["doacoes", `${raiz}doacoes/`, "Indique uma ONG"],
     ["quero", `${raiz}quero/`, "Quero esse relógio"],
   ];
   const links = secoes.map(([id, href, rotulo]) =>
